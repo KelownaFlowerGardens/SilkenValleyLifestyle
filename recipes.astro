@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft && data.category === 'recipes'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="Recipes | Silken Valley Lifestyle" description="Simple meals, seasonal cooking, and kitchen tips.">
+  <h1>Recipes</h1>
+  <p>Simple meals, seasonal cooking, and practical kitchen tips.</p>
+  {posts.length ? (
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
+          <div class="meta">{post.data.pubDate.toLocaleDateString('en-CA')}</div>
+          <div>{post.data.description}</div>
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No posts yet.</p>
+  )}
+</BaseLayout>

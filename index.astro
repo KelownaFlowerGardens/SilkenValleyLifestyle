@@ -5,7 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const categories = [
   { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
   { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
-  { href: '/animal-care/', title: 'Animal Care', text: 'Care guides for pets and everyday animal wellbeing.' },
+  { href: '/animal-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
   { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
   { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
 ];
@@ -18,7 +18,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
   <section class="hero">
     <p class="eyebrow">Home & Lifestyle</p>
     <h1>Ideas for a well-run home and a healthy routine</h1>
-    <p>Explore recipes, fitness, animal care, gardening, and good housekeeping.</p>
+    <p>Explore recipes, fitness, cat care, gardening, and good housekeeping.</p>
   </section>
 
   <section aria-labelledby="categories-heading">

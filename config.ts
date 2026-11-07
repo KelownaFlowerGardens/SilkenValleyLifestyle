@@ -6,7 +6,7 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    category: z.enum(['recipes', 'fitness', 'animal-care', 'gardening', 'housekeeping']),
+    category: z.enum(['recipes', 'fitness', 'cat-care', 'gardening', 'housekeeping']),
     draft: z.boolean().default(false),
   }),
 });

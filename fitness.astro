@@ -7,7 +7,8 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft && data.ca
 ---
 <BaseLayout title="Fitness | Silken Valley Lifestyle" description="Movement routines, recovery, and healthy habits.">
   <h1>Fitness</h1>
-  <p>Movement routines, recovery ideas, and sustainable healthy habits.</p>
+  <p>Movement routines, recovery ideas, and sustainable healthy habits. 
+I keep track of my steps in a spreadsheet and monitor my macronutrient intake. In recent years, I've followed carefully what I put in my body as my diet and excersize schedules have varied throughout my 20's and into my 30's between work, university, and home life. I've learned to make adjustements to accomodate any changes and to find the best meal plans to balance and maintain a concsistantly well managed lifestyle. </p>
   {posts.length ? (
     <ul class="post-list">
       {posts.map((post) => (

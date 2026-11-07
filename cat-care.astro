@@ -5,9 +5,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const posts = (await getCollection('posts', ({ data }) => !data.draft && data.category === 'animal-care'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
-<BaseLayout title="Animal Care | Silken Valley Lifestyle" description="Care guides for pets and everyday animal wellbeing.">
-  <h1>Animal Care</h1>
-  <p>Practical care guides for pets and everyday animal wellbeing.</p>
+<BaseLayout title="Cat Care | Silken Valley Lifestyle" description="Care guides for pets and everyday wellbeing.">
+  <h1>Cat Care</h1>
+  <p>Practical care guides for pets and everyday wellbeing.</p>
   {posts.length ? (
     <ul class="post-list">
       {posts.map((post) => (

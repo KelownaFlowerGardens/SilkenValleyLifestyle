@@ -1,3 +1,11 @@
+---
+title: "The Best Cinnamon Rolls You'll Ever Eat"
+description: "The Best Cinnamon Rolls You'll Ever Eat"
+pubDate: 2026-11-05
+category: Recipes
+---
+
+
 # The Best Cinnamon Rolls You'll Ever Eat
 
 **Recipe by:** Monique Volz, Ambitious Kitchen

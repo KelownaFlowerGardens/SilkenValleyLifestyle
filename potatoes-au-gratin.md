@@ -1,3 +1,11 @@
+---
+title: "Potatoes au Gratin (Dauphinoise)"
+description: "Potatoes au Gratin (Dauphinoise)"
+pubDate: 2026-11-05
+category: Recipes
+---
+
+
 # Potatoes au Gratin (Dauphinoise)
 
 **Recipe by:** Nagi Maehashi, RecipeTin Eats

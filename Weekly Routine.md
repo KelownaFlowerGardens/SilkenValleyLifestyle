@@ -11,24 +11,6 @@ category: House Keeping
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Weekly Routine</title>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-html{background:#fff}
-*{box-sizing:border-box}
-body{margin:0;background:#fff;color:#c2547a;font-family:'Caveat','Segoe Script','Bradley Hand','Brush Script MT',cursive;font-size:24px;line-height:1.3}
-.page{max-width:900px;margin:0 auto;padding:40px 32px 56px}
-h1{font-size:64px;font-weight:700;text-align:center;margin:0 0 8px;letter-spacing:1px}
-h2{font-size:40px;font-weight:700;margin:40px 0 12px;text-align:center}
-.rule{width:120px;height:3px;background:#c2547a;margin:0 auto 24px;border-radius:2px;opacity:.5}
-.day{margin:0 0 18px}
-.day b{font-size:32px;font-weight:700;display:block}
-.day p{margin:0}
-ul{margin:0;padding-left:28px}
-li{margin:4px 0}
-@media(max-width:600px){body{font-size:21px}h1{font-size:46px}h2{font-size:34px}.day b{font-size:28px}}
-</style>
 </head>
 <body>
 <div class="page">

@@ -52,7 +52,7 @@
 34. Baby breath
 50. Regular lily
 
-## Herbs
+## Greenhouse Herbs
 
 35. Mint
 36. Parsley
@@ -73,11 +73,4 @@
 60. White flowers
 61. Red geranium
 
-## Repeated Items
 
-20. Delphinium
-21. Larkspur
-25. Roses
-27. Lavendar
-31. Casa Blanca Lily
-50. Regular lily

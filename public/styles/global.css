@@ -5,8 +5,6 @@
   --text: #1f2937;
   --muted: #5b6472;
   --border: #eadde1;
-
-  /* Rose and blush colour palette */
   --accent: #c76b85;
   --accent-light: #dfa1b2;
   --accent-dark: #a94f6b;
@@ -41,8 +39,8 @@ a {
   margin: 0 auto;
 }
 
-
 /* HEADER */
+
 .site-header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -51,6 +49,7 @@ a {
 .hero-banner {
   position: relative;
   width: 100%;
+  min-height: 145px;
   padding: 1.5rem 1rem;
   background: var(--surface);
   display: flex;
@@ -100,7 +99,8 @@ a {
   margin: .5rem 0;
 }
 
-/* PROFILE PHOTO IN HEADER */
+/* PROFILE PHOTO */
+
 .profile-link {
   position: absolute;
   top: 50%;
@@ -127,31 +127,6 @@ a {
 .profile-link:hover .profile-photo {
   transform: scale(1.08);
 }
-
-/* MOBILE HEADER */
-@media (max-width: 700px) {
-  .hero-banner {
-    padding: 1rem .5rem;
-  }
-
-  .header-text {
-    padding: 55px 10px 10px;
-  }
-
-  .profile-link {
-    top: 12px;
-    right: 12px;
-    transform: none;
-    width: 46px;
-    height: 46px;
-  }
-
-  .profile-photo {
-    width: 46px;
-    height: 46px;
-  }
-}
-
 
 /* NAVIGATION */
 
@@ -370,7 +345,8 @@ button:hover,
 
 @media (max-width: 700px) {
   .hero-banner {
-    padding: 1.25rem .5rem;
+    min-height: 145px;
+    padding: 1rem .5rem;
   }
 
   .header-text {
@@ -380,6 +356,9 @@ button:hover,
   .profile-link {
     top: 10px;
     right: 12px;
+    transform: none;
+    width: 46px;
+    height: 46px;
   }
 
   .profile-photo {
@@ -401,3 +380,4 @@ button:hover,
     grid-template-columns: 1fr;
   }
 }
+

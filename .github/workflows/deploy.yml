@@ -34,7 +34,7 @@ jobs:
       - name: Build Astro
         run: npm run build
         
-              - name: Verify generated homepage
+                - name: Verify generated homepage
         run: |
           echo "Checking generated website files:"
           ls -la dist

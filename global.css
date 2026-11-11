@@ -33,4 +33,102 @@ h1, h2, h3 { line-height: 1.2; }
 .post-content { margin-top: 1rem; }
 .latest { margin-top: 2rem; }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); padding: 1rem 0 2rem; }
+/* Circular profile photo in the header */
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.profile-photo {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid var(--accent-light);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.profile-link:hover .profile-photo {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(169, 79, 107, 0.25);
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: 46px;
+    height: 46px;
+  }
+}
+/* Centre page headings and introductory text */
+.hero {
+  text-align: center;
+}
+
+main h1,
+main h2,
+main h3 {
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+
+/* Keep article and post content comfortable to read */
+.post-content,
+.post-list {
+  text-align: left;
+}
+/* Centre the navigation links in the header */
+.header-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-inner nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 0 auto;
+}
+
+/* Position profile photo at the far right */
+.profile-link {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Keep header content clear of profile photo */
+.header-inner nav {
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+@media (max-width: 700px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-link {
+    position: static;
+    transform: none;
+    align-self: flex-end;
+  }
+
+  .header-inner nav {
+    padding: 0;
+  }
+}
 

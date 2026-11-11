@@ -41,8 +41,8 @@ a {
   margin: 0 auto;
 }
 
-/* HEADER */
 
+/* HEADER */
 .site-header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -50,15 +50,20 @@ a {
 
 .hero-banner {
   position: relative;
+  width: 100%;
   padding: 1.5rem 1rem;
   background: var(--surface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-text {
-  text-align: center;
+  width: 100%;
   max-width: 1000px;
+  text-align: center;
   margin: 0 auto;
-  padding: 0 75px;
+  padding: 0 90px;
 }
 
 .brand-row {
@@ -82,7 +87,6 @@ a {
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid var(--border);
-  background: var(--bg);
 }
 
 .header-text h1 {
@@ -96,14 +100,16 @@ a {
   margin: .5rem 0;
 }
 
-/* PROFILE PHOTO */
-
+/* PROFILE PHOTO IN HEADER */
 .profile-link {
   position: absolute;
-  top: 18px;
-  right: 20px;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
   display: block;
-  z-index: 5;
+  width: 60px;
+  height: 60px;
+  z-index: 10;
 }
 
 .profile-photo {
@@ -115,13 +121,37 @@ a {
   object-position: center;
   border: 2px solid var(--accent-light);
   box-shadow: 0 3px 10px rgba(0, 0, 0, .12);
-  transition: transform .25s ease, box-shadow .25s ease;
+  transition: transform .25s ease;
 }
 
 .profile-link:hover .profile-photo {
   transform: scale(1.08);
-  box-shadow: 0 4px 12px rgba(169, 79, 107, .25);
 }
+
+/* MOBILE HEADER */
+@media (max-width: 700px) {
+  .hero-banner {
+    padding: 1rem .5rem;
+  }
+
+  .header-text {
+    padding: 55px 10px 10px;
+  }
+
+  .profile-link {
+    top: 12px;
+    right: 12px;
+    transform: none;
+    width: 46px;
+    height: 46px;
+  }
+
+  .profile-photo {
+    width: 46px;
+    height: 46px;
+  }
+}
+
 
 /* NAVIGATION */
 

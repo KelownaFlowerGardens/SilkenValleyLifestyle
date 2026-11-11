@@ -276,3 +276,34 @@ button:hover,
     grid-template-columns: 1fr;
   }
 }
+/* Circular profile photo in the header */
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.profile-photo {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid var(--accent-light);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.profile-link:hover .profile-photo {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(169, 79, 107, 0.25);
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: 46px;
+    height: 46px;
+  }
+}

@@ -1,0 +1,81 @@
+---
+const {
+  title = 'Silken Valley Lifestyle',
+  description = 'Recipes, fitness, animal care, gardening, and good housekeeping from Silken Valley Lifestyle.',
+  heroTitle = 'Silken Valley Lifestyle',
+  heroText = 'Recipes, fitness, animal care, gardening, and good housekeeping.',
+  heroCompact = false,
+} = Astro.props;
+const pathname = Astro.url.pathname;
+const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT || '';
+const adthrivePublisher = import.meta.env.PUBLIC_ADTHRIVE_PUBLISHER_ID || '';
+const adthriveNetwork = import.meta.env.PUBLIC_ADTHRIVE_NETWORK_ID || '';
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/posts/', label: 'Posts' },
+  { href: '/recipes/', label: 'Recipes' },
+  { href: '/fitness/', label: 'Fitness' },
+  { href: '/animal-care/', label: 'Animal Care' },
+  { href: '/gardening/', label: 'Gardening' },
+  { href: '/housekeeping/', label: 'Housekeeping' },
+  { href: '/resources/', label: 'Resources' },
+  { href: '/about/', label: 'About' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+<!doctype html>
+<link rel="stylesheet" href="/styles/global.css" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/SilkenR.jpeg" />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    {adsenseClient && (
+      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`} crossorigin="anonymous"></script>
+    )}
+    {(adthrivePublisher && adthriveNetwork) && (
+      <script async src={`https://ads.adthrive.com/ads/${adthriveNetwork}/${adthrivePublisher}.js`} crossorigin="anonymous"></script>
+    )}
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header">
+        <div class={`hero-banner${heroCompact ? ' compact' : ''}`}>
+          <div class="header-text">
+            <div class="brand-row">
+              <img class="brand-photo" src="/SilkenR.jpeg" alt="Silken Valley Lifestyle" width="44" height="44" onerror="this.style.display='none'" />
+              <a class="brand-link" href="/">Silken Valley Lifestyle</a>
+            </div>
+            <h1>{heroTitle}</h1>
+            <p>{heroText}</p>
+          </div>
+        </div>
+        <div class="topnav-shell">
+          <nav class="container topnav" aria-label="Main">
+            {nav.map((item) => (
+              <a href={item.href} class={pathname === item.href ? 'active' : undefined}>{item.label}</a>
+            ))}
+          </nav>
+        </div>
+      </header>
+
+      <main class="container">
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p><strong>Silken Valley Lifestyle</strong></p>
+          <p class="muted">Practical ideas for home, health, and everyday living.</p>
+          <p><a href="/privacy/">Privacy &amp; Ads</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

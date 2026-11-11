@@ -303,6 +303,27 @@ button:hover,
 
 @media (max-width: 600px) {
   .profile-photo {
+
+    /* Centre page headings and introductory text */
+.hero {
+  text-align: center;
+}
+
+main h1,
+main h2,
+main h3 {
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+
+/* Keep article and post content comfortable to read */
+.post-content,
+.post-list {
+  text-align: left;
+}
     width: 46px;
     height: 46px;
   }

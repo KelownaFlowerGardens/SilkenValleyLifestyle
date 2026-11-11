@@ -1,52 +1,65 @@
----
-import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
 
-const categories = [
-  { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
-  { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
-  { href: '/animal-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
-  { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
-  { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
-];
-
-const posts = (await getCollection('posts', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
 ---
-<BaseLayout title="Silken Valley Lifestyle | Home">
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About | Silken Valley Lifestyle"
+  heroTitle="About Us"
+  heroText="Inspiration for a beautiful, balanced, and well-managed lifestyle."
+  heroCompact={true}
+>
   <section class="hero">
-    <p class="eyebrow">Home & Lifestyle</p>
-    <h1>Ideas for a well-run home and routines for consistent success.</h1>
-    <p>Explore recipes, fitness, cat care, gardening, and good housekeeping.</p>
+    <p class="eyebrow">Our Story</p>
+    <h1>Welcome to Silken Valley Lifestyle</h1>
+
+    <p>
+      Silken Valley Lifestyle is a place to explore ideas,
+      inspiration, and practical knowledge for everyday living.
+      Our goal is to bring together useful information that
+      encourages creativity, confidence, and a more fulfilling
+      approach to home and lifestyle.
+    </p>
   </section>
 
-  <section aria-labelledby="categories-heading">
-    <h2 id="categories-heading">Categories</h2>
+  <section>
+    <h2>What We Explore</h2>
+
     <div class="grid">
-      {categories.map((c) => (
-        <a class="card" href={c.href}>
-          <h3>{c.title}</h3>
-          <p>{c.text}</p>
-        </a>
-      ))}
+      <div class="card">
+        <h3>Recipes</h3>
+        <p>Cooking inspiration, seasonal ingredients, and delicious ideas.</p>
+      </div>
+
+      <div class="card">
+        <h3>Fitness & Wellness</h3>
+        <p>Healthy routines, movement, and everyday wellbeing.</p>
+      </div>
+
+      <div class="card">
+        <h3>Animal Care</h3>
+        <p>Helpful information for responsible and thoughtful pet care.</p>
+      </div>
+
+      <div class="card">
+        <h3>Gardening</h3>
+        <p>Garden design, horticulture, flowers, and outdoor living.</p>
+      </div>
+
+      <div class="card">
+        <h3>Good Housekeeping</h3>
+        <p>Home organization, cleaning, and practical household management.</p>
+      </div>
     </div>
   </section>
 
-  <section aria-labelledby="latest-heading" class="latest">
-    <h2 id="latest-heading">Latest Posts</h2>
-    {posts.length ? (
-      <ul class="post-list">
-        {posts.map((post) => (
-          <li>
-            <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
-            <div class="meta">{post.data.category.replace('-', ' ')} · {post.data.pubDate.toLocaleDateString('en-CA')}</div>
-            <div>{post.data.description}</div>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>No posts yet.</p>
-    )}
+  <section class="latest">
+    <h2>Our Philosophy</h2>
+    <p>
+      We believe that a well-rounded lifestyle is built through
+      curiosity, thoughtful choices, practical knowledge, and
+      an appreciation for the everyday details that make a house
+      a home.
+    </p>
   </section>
 </BaseLayout>

@@ -1,52 +1,43 @@
----
-import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
 
-const categories = [
-  { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
-  { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
-  { href: '/animal-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
-  { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
-  { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
-];
-
-const posts = (await getCollection('posts', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
 ---
-<BaseLayout title="Silken Valley Lifestyle | Home">
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Gardening | Silken Valley Lifestyle"
+  heroTitle="Gardening"
+  heroText="Garden inspiration, plant care, and beautiful outdoor living."
+  heroCompact={true}
+>
   <section class="hero">
-    <p class="eyebrow">Home & Lifestyle</p>
-    <h1>Ideas for a well-run home and routines for consistent success.</h1>
-    <p>Explore recipes, fitness, cat care, gardening, and good housekeeping.</p>
+    <p class="eyebrow">Garden & Outdoor Living</p>
+    <h1>Gardening & Landscape Inspiration</h1>
+    <p>
+      Discover gardening techniques, seasonal planting ideas,
+      garden design inspiration, and practical advice for
+      creating beautiful outdoor spaces.
+    </p>
   </section>
 
-  <section aria-labelledby="categories-heading">
-    <h2 id="categories-heading">Categories</h2>
-    <div class="grid">
-      {categories.map((c) => (
-        <a class="card" href={c.href}>
-          <h3>{c.title}</h3>
-          <p>{c.text}</p>
-        </a>
-      ))}
-    </div>
-  </section>
+  <section class="grid">
+    <a class="card" href="/gardening/garden-design/">
+      <h3>Garden Design</h3>
+      <p>Historic gardens, landscape styles, and garden planning.</p>
+    </a>
 
-  <section aria-labelledby="latest-heading" class="latest">
-    <h2 id="latest-heading">Latest Posts</h2>
-    {posts.length ? (
-      <ul class="post-list">
-        {posts.map((post) => (
-          <li>
-            <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
-            <div class="meta">{post.data.category.replace('-', ' ')} · {post.data.pubDate.toLocaleDateString('en-CA')}</div>
-            <div>{post.data.description}</div>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>No posts yet.</p>
-    )}
+    <a class="card" href="/gardening/flowers/">
+      <h3>Flowers & Perennials</h3>
+      <p>Flower varieties, planting combinations, and seasonal colour.</p>
+    </a>
+
+    <a class="card" href="/gardening/trees-shrubs/">
+      <h3>Trees & Shrubs</h3>
+      <p>Choosing, planting, and maintaining trees and shrubs.</p>
+    </a>
+
+    <a class="card" href="/gardening/garden-care/">
+      <h3>Garden Care</h3>
+      <p>Soil, watering, pruning, and seasonal maintenance.</p>
+    </a>
   </section>
 </BaseLayout>

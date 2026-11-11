@@ -1,52 +1,43 @@
----
-import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/BaseLayout.astro';
 
-const categories = [
-  { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
-  { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
-  { href: '/animal-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
-  { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
-  { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
-];
-
-const posts = (await getCollection('posts', ({ data }) => !data.draft))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
 ---
-<BaseLayout title="Silken Valley Lifestyle | Home">
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Resources | Silken Valley Lifestyle"
+  heroTitle="Resources"
+  heroText="Helpful guides, useful information, and practical everyday references."
+  heroCompact={true}
+>
   <section class="hero">
-    <p class="eyebrow">Home & Lifestyle</p>
-    <h1>Ideas for a well-run home and routines for consistent success.</h1>
-    <p>Explore recipes, fitness, cat care, gardening, and good housekeeping.</p>
+    <p class="eyebrow">Knowledge & Inspiration</p>
+    <h1>Resources & Helpful Guides</h1>
+    <p>
+      Explore a collection of useful information, practical
+      references, educational guides, and ideas to help make
+      everyday living more enjoyable and productive.
+    </p>
   </section>
 
-  <section aria-labelledby="categories-heading">
-    <h2 id="categories-heading">Categories</h2>
-    <div class="grid">
-      {categories.map((c) => (
-        <a class="card" href={c.href}>
-          <h3>{c.title}</h3>
-          <p>{c.text}</p>
-        </a>
-      ))}
-    </div>
-  </section>
+  <section class="grid">
+    <a class="card" href="/resources/gardening-guides/">
+      <h3>Gardening Guides</h3>
+      <p>Plant references, garden planning, and horticultural information.</p>
+    </a>
 
-  <section aria-labelledby="latest-heading" class="latest">
-    <h2 id="latest-heading">Latest Posts</h2>
-    {posts.length ? (
-      <ul class="post-list">
-        {posts.map((post) => (
-          <li>
-            <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
-            <div class="meta">{post.data.category.replace('-', ' ')} · {post.data.pubDate.toLocaleDateString('en-CA')}</div>
-            <div>{post.data.description}</div>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>No posts yet.</p>
-    )}
+    <a class="card" href="/resources/recipe-guides/">
+      <h3>Recipe Guides</h3>
+      <p>Cooking references, ingredient information, and kitchen tips.</p>
+    </a>
+
+    <a class="card" href="/resources/home-guides/">
+      <h3>Home Guides</h3>
+      <p>Household references, organization, and practical advice.</p>
+    </a>
+
+    <a class="card" href="/resources/wellness-guides/">
+      <h3>Wellness Guides</h3>
+      <p>Fitness, healthy habits, and everyday wellbeing resources.</p>
+    </a>
   </section>
 </BaseLayout>

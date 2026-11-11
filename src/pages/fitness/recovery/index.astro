@@ -1,0 +1,66 @@
+
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const categories = [
+  {
+    href: '/fitness/recovery/rest-days/',
+    title: 'Rest & Rest Days',
+    text: 'Understand the importance of rest and giving your body time to recover.'
+  },
+  {
+    href: '/fitness/recovery/muscle-recovery/',
+    title: 'Muscle Recovery',
+    text: 'Explore gentle recovery practices after physical activity.'
+  },
+  {
+    href: '/fitness/recovery/foam-rolling/',
+    title: 'Foam Rolling & Self-Massage',
+    text: 'Learn about techniques that may help relieve muscle tightness.'
+  },
+  {
+    href: '/fitness/recovery/sleep/',
+    title: 'Sleep & Recovery',
+    text: 'Discover how consistent, restorative sleep supports an active lifestyle.'
+  },
+  {
+    href: '/fitness/recovery/relaxation/',
+    title: 'Relaxation & Stress Relief',
+    text: 'Make time for calming activities and everyday relaxation.'
+  },
+  {
+    href: '/fitness/recovery/active-recovery/',
+    title: 'Active Recovery',
+    text: 'Explore gentle movement such as walking, stretching, and light activity.'
+  }
+];
+---
+
+<BaseLayout
+  title="Recovery | Silken Valley Lifestyle"
+  heroTitle="Rest & Recovery"
+  heroText="Support an active lifestyle through rest, relaxation, restorative movement, and healthy recovery habits."
+  heroCompact={true}
+>
+  <section>
+    <h2>Explore Rest & Recovery</h2>
+    <p>
+      Recovery is an important part of maintaining a balanced fitness routine.
+      Discover practical ways to give your body time to rest, restore energy,
+      and prepare for your next activity.
+    </p>
+
+    <div class="grid">
+      {categories.map((category) => (
+        <a class="card" href={category.href}>
+          <h3>{category.title}</h3>
+          <p>{category.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <p>
+    <a href="/fitness/">← Return to Fitness</a>
+  </p>
+</BaseLayout>

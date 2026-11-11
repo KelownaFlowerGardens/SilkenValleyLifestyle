@@ -328,3 +328,51 @@ main p {
     height: 46px;
   }
 }
+
+/* Centre the navigation links in the header */
+.header-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-inner nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 0 auto;
+}
+
+/* Position profile photo at the far right */
+.profile-link {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Keep header content clear of profile photo */
+.header-inner nav {
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+@media (max-width: 700px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-link {
+    position: static;
+    transform: none;
+    align-self: flex-end;
+  }
+
+  .header-inner nav {
+    padding: 0;
+  }
+}

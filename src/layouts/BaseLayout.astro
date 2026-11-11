@@ -1,3 +1,4 @@
+
 ---
 const {
   title = 'Silken Valley Lifestyle',
@@ -6,10 +7,12 @@ const {
   heroText = 'Recipes, fitness, animal care, gardening, and good housekeeping.',
   heroCompact = false,
 } = Astro.props;
+
 const pathname = Astro.url.pathname;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT || '';
 const adthrivePublisher = import.meta.env.PUBLIC_ADTHRIVE_PUBLISHER_ID || '';
 const adthriveNetwork = import.meta.env.PUBLIC_ADTHRIVE_NETWORK_ID || '';
+
 const nav = [
   { href: '/', label: 'Home' },
   { href: '/posts/', label: 'Posts' },
@@ -23,8 +26,8 @@ const nav = [
   { href: '/contact/', label: 'Contact' },
 ];
 ---
+
 <!doctype html>
-<link rel="stylesheet" href="/styles/global.css" />
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -36,100 +39,76 @@ const nav = [
     <meta property="og:image" content="/SilkenR.jpeg" />
     <title>{title}</title>
     <link rel="stylesheet" href="/styles/global.css" />
+
     {adsenseClient && (
-      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`} crossorigin="anonymous"></script>
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+        crossorigin="anonymous"
+      ></script>
     )}
-    {(adthrivePublisher && adthriveNetwork) && (
-      <script async src={`https://ads.adthrive.com/ads/${adthriveNetwork}/${adthrivePublisher}.js`} crossorigin="anonymous"></script>
+
+    {adthrivePublisher && adthriveNetwork && (
+      <script
+        async
+        src={`https://ads.adthrive.com/ads/${adthriveNetwork}/${adthrivePublisher}.js`}
+        crossorigin="anonymous"
+      ></script>
     )}
   </head>
+
   <body>
     <div class="wrap">
       <header class="site-header">
+
         <div class={`hero-banner${heroCompact ? ' compact' : ''}`}>
+
           <div class="header-text">
             <div class="brand-row">
-              <img class="brand-photo" src="/SilkenR.jpeg" alt="Silken Valley Lifestyle" width="44" height="44" onerror="this.style.display='none'" />
+              <img
+                class="brand-photo"
+                src="/SilkenR.jpeg"
+                alt="Silken Valley Lifestyle"
+                width="44"
+                height="44"
+                onerror="this.style.display='none'"
+              />
               <a class="brand-link" href="/">Silken Valley Lifestyle</a>
             </div>
+
             <h1>{heroTitle}</h1>
             <p>{heroText}</p>
           </div>
+
+          <a
+            href="/about/"
+            class="profile-link"
+            aria-label="About me"
+          >
+            <img
+              src="/images/profile.jpg"
+              alt="Profile photograph"
+              class="profile-photo"
+              width="60"
+              height="60"
+            />
+          </a>
+
         </div>
+
         <div class="topnav-shell">
-          <nav class="container topnav" aria-label="Main">
+          <nav class="container topnav" aria-label="Main navigation">
             {nav.map((item) => (
-              <a href={item.href} class={pathname === item.href ? 'active' : undefined}>{item.label}</a>
+              <a
+                href={item.href}
+                class={pathname === item.href ? 'active' : undefined}
+              >
+                {item.label}
+              </a>
             ))}
-/* Centre page headings and introductory text */
-.hero {
-  text-align: center;
-}
-
-main h1,
-main h2,
-main h3 {
-  text-align: center;
-}
-
-main p {
-  text-align: center;
-}
-
-/* Keep article and post content comfortable to read */
-.post-content,
-.post-list {
-  text-align: left;
-}
-/* Centre the navigation links in the header */
-.header-inner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-inner nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.2rem;
-  margin: 0 auto;
-}
-
-/* Position profile photo at the far right */
-.profile-link {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Keep header content clear of profile photo */
-.header-inner nav {
-  padding-right: 75px;
-  padding-left: 75px;
-}
-
-@media (max-width: 700px) {
-  .header-inner {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .profile-link {
-    position: static;
-    transform: none;
-    align-self: flex-end;
-  }
-
-  .header-inner nav {
-    padding: 0;
-  }
-}
           </nav>
         </div>
+
       </header>
 
       <main class="container">
@@ -139,7 +118,9 @@ main p {
       <footer class="site-footer">
         <div class="container footer-inner">
           <p><strong>Silken Valley Lifestyle</strong></p>
-          <p class="muted">Practical ideas for home, health, and everyday living.</p>
+          <p class="muted">
+            Practical ideas for home, health, and everyday living.
+          </p>
           <p><a href="/privacy/">Privacy &amp; Ads</a></p>
         </div>
       </footer>

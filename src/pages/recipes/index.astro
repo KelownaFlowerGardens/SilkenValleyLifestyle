@@ -13,30 +13,69 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <p class="eyebrow">The Kitchen</p>
     <h1>Recipes & Seasonal Cooking</h1>
     <p>
-      Discover delicious recipes, practical kitchen ideas, seasonal
-      ingredients, and inspiration for everyday meals.
+      Discover delicious recipes, practical kitchen ideas,
+      seasonal ingredients, and inspiration for everyday meals.
+      Explore everything from simple family meals to special
+      occasion cooking and homemade treats.
     </p>
   </section>
 
-  <section class="grid">
-    <a class="card" href="/recipes/breakfast/">
-      <h3>Breakfast</h3>
-      <p>Start the day with nourishing and delicious ideas.</p>
-    </a>
+  <section aria-labelledby="recipe-categories">
+    <h2 id="recipe-categories">Explore Our Recipes</h2>
 
-    <a class="card" href="/recipes/lunch/">
-      <h3>Lunch</h3>
-      <p>Fresh, simple meals for midday inspiration.</p>
-    </a>
+    <div class="grid">
+      <a class="card" href="/recipes/breakfast/">
+        <h3>Breakfast</h3>
+        <p>
+          Start the day with nourishing breakfasts, fresh ingredients,
+          and delicious morning favourites.
+        </p>
+      </a>
 
-    <a class="card" href="/recipes/dinner/">
-      <h3>Dinner</h3>
-      <p>Everyday meals and seasonal dinner inspiration.</p>
-    </a>
+      <a class="card" href="/recipes/lunch/">
+        <h3>Lunch</h3>
+        <p>
+          Fresh salads, light meals, soups, and satisfying midday ideas.
+        </p>
+      </a>
 
-    <a class="card" href="/recipes/desserts/">
-      <h3>Desserts</h3>
-      <p>Sweet treats, baking, and special occasions.</p>
-    </a>
+      <a class="card" href="/recipes/dinner/">
+        <h3>Dinner</h3>
+        <p>
+          Everyday family meals, seasonal dishes, and dinner inspiration.
+        </p>
+      </a>
+
+      <a class="card" href="/recipes/desserts/">
+        <h3>Desserts & Baking</h3>
+        <p>
+          Homemade desserts, cakes, pastries, and sweet treats.
+        </p>
+      </a>
+
+      <a class="card" href="/recipes/seasonal/">
+        <h3>Seasonal Cooking</h3>
+        <p>
+          Celebrate seasonal produce and ingredients throughout the year.
+        </p>
+      </a>
+
+      <a class="card" href="/recipes/kitchen-tips/">
+        <h3>Kitchen Tips</h3>
+        <p>
+          Cooking techniques, ingredient guides, and useful kitchen advice.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <section class="latest">
+    <h2>Cooking Inspiration</h2>
+    <p>
+      Good food brings people together. Our recipe collection
+      is designed to encourage creativity in the kitchen,
+      make everyday cooking enjoyable, and inspire new
+      flavours and experiences.
+    </p>
   </section>
 </BaseLayout>

@@ -1,0 +1,61 @@
+
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+
+const categories = [
+  {
+    href: '/fitness/stretching/daily-stretching/',
+    title: 'Daily Stretching',
+    text: 'Simple stretches to help you move comfortably throughout the day.'
+  },
+  {
+    href: '/fitness/stretching/morning-stretches/',
+    title: 'Morning Stretches',
+    text: 'Gentle movements to wake up your body and start the day.'
+  },
+  {
+    href: '/fitness/stretching/evening-stretches/',
+    title: 'Evening Stretches',
+    text: 'Relaxing stretches to unwind and release everyday tension.'
+  },
+  {
+    href: '/fitness/stretching/yoga/',
+    title: 'Yoga & Mobility',
+    text: 'Explore movement practices that encourage balance and flexibility.'
+  },
+  {
+    href: '/fitness/stretching/advanced-flexibility/',
+    title: 'Advanced Flexibility',
+    text: 'Progressive stretching routines for improving range of motion.'
+  }
+];
+---
+
+<BaseLayout
+  title="Stretching & Flexibility | Silken Valley Lifestyle"
+  heroTitle="Stretching & Flexibility"
+  heroText="Improve mobility, encourage better movement, and make time for gentle stretching in your daily routine."
+  heroCompact={true}
+>
+  <section>
+    <h2>Explore Stretching & Flexibility</h2>
+    <p>
+      Discover practical stretching routines for different times of day
+      and activity levels. Build flexibility gradually and move at a pace
+      that feels comfortable for your body.
+    </p>
+
+    <div class="grid">
+      {categories.map((category) => (
+        <a class="card" href={category.href}>
+          <h3>{category.title}</h3>
+          <p>{category.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <p>
+    <a href="/fitness/">← Return to Fitness</a>
+  </p>
+</BaseLayout>

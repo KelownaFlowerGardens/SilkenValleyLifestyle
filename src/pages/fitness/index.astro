@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const categories = [
+  { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
+  { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
+  { href: '/animal-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
+  { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
+  { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
+];
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+<BaseLayout title="Silken Valley Lifestyle | Home">
+  <section class="hero">
+    <p class="eyebrow">Home & Lifestyle</p>
+    <h1>Ideas for a well-run home and routines for consistent success.</h1>
+    <p>Explore recipes, fitness, cat care, gardening, and good housekeeping.</p>
+  </section>
+
+  <section aria-labelledby="categories-heading">
+    <h2 id="categories-heading">Categories</h2>
+    <div class="grid">
+      {categories.map((c) => (
+        <a class="card" href={c.href}>
+          <h3>{c.title}</h3>
+          <p>{c.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section aria-labelledby="latest-heading" class="latest">
+    <h2 id="latest-heading">Latest Posts</h2>
+    {posts.length ? (
+      <ul class="post-list">
+        {posts.map((post) => (
+          <li>
+            <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
+            <div class="meta">{post.data.category.replace('-', ' ')} · {post.data.pubDate.toLocaleDateString('en-CA')}</div>
+            <div>{post.data.description}</div>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No posts yet.</p>
+    )}
+  </section>
+</BaseLayout>

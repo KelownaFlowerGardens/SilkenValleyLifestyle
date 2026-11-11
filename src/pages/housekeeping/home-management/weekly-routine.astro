@@ -1,42 +1,119 @@
+
 ---
-title: "Weekly Routine"
-description: "Weekly Routine"
-pubDate: 2026-11-05
-category: House Keeping
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const title = "Weekly Routine";
+const description = "A practical weekly housekeeping routine.";
 ---
 
+<BaseLayout
+  title={title}
+  description={description}
+  heroTitle="Weekly Routine"
+  heroText="A simple rhythm for keeping your home fresh, organized, and welcoming."
+  heroCompact={true}
+>
+  <div class="routine-page">
+    <h1>Weekly Routine</h1>
+    <div class="rule"></div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-</head>
-<body>
-<div class="page">
-<h1>Weekly Routine</h1>
-<div class="rule"></div>
+    <div class="day">
+      <h3>Sunday: Deep Clean</h3>
+      <p>Start the week off with everything fresh, because you deserve the peace of mind to start your week off right.</p>
+    </div>
 
-<div class="day"><b>Sunday: Deep Clean</b><p>Start the week off with everything fresh, because you deserve the peace of mind to start your week off right.</p></div>
-<div class="day"><b>Monday: Clean Bedrooms</b><p>Vacuum, sheets, windows, surfaces.</p></div>
-<div class="day"><b>Tuesday: Laundry*</b><p>Wash colours, blacks. Also clean all the bathrooms.</p></div>
-<div class="day"><b>Wednesday: Kitchen Reset</b><p>Clean toaster crumbs, empty fridge leftovers, clean stovetop, wash sink stoppers in dishwasher, clean out compost bin, clean out garbage/recycling bin and add new bags, wipe down surfaces, fill up soap containers (dish/hand), refill cleaning wipe containers and paper towels.</p></div>
-<div class="day"><b>Thursday: Laundry*</b><p>Wash whites, throw blankets, towels, house robe, dish clothes, hand clothes and face cloths.</p></div>
-<div class="day"><b>Friday</b><p>Wash sheets, pillow cases, throw blankets.</p></div>
+    <div class="day">
+      <h3>Monday: Clean Bedrooms</h3>
+      <p>Vacuum, change sheets, clean windows and wipe down surfaces.</p>
+    </div>
 
-<h2>Everyday Reminders</h2>
-<div class="rule"></div>
-<ul>
-<li>Go to bed with a clean kitchen, no dishes left out or in the sink</li>
-<li>Dishwasher on</li>
-<li>Laundry/dryer on</li>
-<li>Check/refill of toilet paper roll holders</li>
-<li>Switch out dish cloths</li>
-<li>Refill tissue paper holders</li>
-<li>Grind coffee</li>
-<li>Refill water coolers in gym</li>
-<li>Fold throw blankets/fluff pillows daily</li>
-</ul>
-</div>
-</body>
-</html>
+    <div class="day">
+      <h3>Tuesday: Laundry</h3>
+      <p>Wash colours and blacks. Also clean all the bathrooms.</p>
+    </div>
+
+    <div class="day">
+      <h3>Wednesday: Kitchen Reset</h3>
+      <p>Clean toaster crumbs, empty leftover food from the fridge, clean the stovetop, and wash sink stoppers in the dishwasher. Clean out the compost bin and garbage and recycling bins, and add new bags. Wipe down surfaces, refill dish and hand soap containers, and refill cleaning wipes and paper towels.</p>
+    </div>
+
+    <div class="day">
+      <h3>Thursday: Laundry</h3>
+      <p>Wash whites, throw blankets, towels, house robe, dishcloths, hand towels and facecloths.</p>
+    </div>
+
+    <div class="day">
+      <h3>Friday: Bedding</h3>
+      <p>Wash sheets, pillowcases and throw blankets.</p>
+    </div>
+
+    <h2>Everyday Reminders</h2>
+    <div class="rule"></div>
+
+    <ul class="reminders">
+      <li>Go to bed with a clean kitchen, with no dishes left out or in the sink.</li>
+      <li>Run the dishwasher.</li>
+      <li>Keep laundry and the dryer moving as needed.</li>
+      <li>Check and refill toilet paper roll holders.</li>
+      <li>Switch out dishcloths.</li>
+      <li>Refill tissue holders.</li>
+      <li>Grind coffee.</li>
+      <li>Refill water coolers in the gym.</li>
+      <li>Fold throw blankets and fluff pillows daily.</li>
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .routine-page {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .routine-page h1,
+  .routine-page h2 {
+    text-align: center;
+    color: var(--accent-dark);
+  }
+
+  .rule {
+    height: 2px;
+    background: var(--border);
+    margin: 1rem auto 1.5rem;
+    max-width: 180px;
+  }
+
+  .day {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .day h3 {
+    color: var(--accent-dark);
+    margin: 0 0 0.4rem;
+    text-align: left;
+  }
+
+  .day p {
+    margin: 0;
+    color: var(--text);
+  }
+
+  .routine-page h2 {
+    margin-top: 2.5rem;
+  }
+
+  .reminders {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
+  }
+
+  .reminders li {
+    padding: 0.35rem 0;
+  }
+</style>

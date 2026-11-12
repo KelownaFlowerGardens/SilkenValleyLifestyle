@@ -1,60 +1,48 @@
 
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-
-const categories = [
-  {
-    href: '/fitness/walking/beginner-walking/',
-    title: 'Beginner Walking',
-    text: 'Build a comfortable walking routine and develop consistency.'
-  },
-  {
-    href: '/fitness/walking/power-walking/',
-    title: 'Power Walking',
-    text: 'Improve endurance, pace, and cardiovascular fitness.'
-  },
-  {
-    href: '/fitness/walking/cardio-exercises/',
-    title: 'Cardio Exercises',
-    text: 'Explore activities that support heart health and stamina.'
-  },
-  {
-    href: '/fitness/walking/indoor-cardio/',
-    title: 'Indoor Cardio',
-    text: 'Stay active with practical indoor movement routines.'
-  },
-  {
-    href: '/fitness/walking/outdoor-activities/',
-    title: 'Outdoor Activities',
-    text: 'Enjoy fresh air through outdoor fitness and recreation.'
-  }
-];
+import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Walking & Cardio | Silken Valley Lifestyle"
-  heroTitle="Walking & Cardio"
-  heroText="Discover enjoyable ways to stay active, improve endurance, and make movement part of everyday life."
+  title="Fitness | Silken Valley Lifestyle"
+  heroTitle="Fitness"
+  heroText="Movement, wellness, recovery, and healthy everyday habits."
   heroCompact={true}
 >
-  <section>
-    <h2>Explore Walking & Cardio</h2>
+  <section class="hero">
+    <p class="eyebrow">Health & Wellness</p>
+    <h1>Fitness & Active Living</h1>
     <p>
-      From gentle daily walks to more energetic cardiovascular activities,
-      find practical inspiration for building an active lifestyle.
+      Explore practical fitness routines, exercise inspiration,
+      healthy habits, and ways to build strength, flexibility,
+      and balance into everyday life.
     </p>
-
-    <div class="grid">
-      {categories.map((category) => (
-        <a class="card" href={category.href}>
-          <h3>{category.title}</h3>
-          <p>{category.text}</p>
-        </a>
-      ))}
-    </div>
   </section>
 
-  <p>
-    <a href="/fitness/">← Return to Fitness</a>
-  </p>
+  <section class="grid">
+    <a class="card" href="/fitness/workouts/">
+      <h3>Workouts</h3>
+      <p>Exercise routines for strength, endurance, and fitness.</p>
+    </a>
+
+    <a class="card" href="/fitness/walking/">
+      <h3>Walking & Cardio</h3>
+      <p>Simple ways to stay active and improve endurance.</p>
+    </a>
+
+    <a class="card" href="/fitness/stretching/">
+      <h3>Stretching & Flexibility</h3>
+      <p>Movement, mobility, and flexibility exercises.</p>
+    </a>
+
+    <a class="card" href="/fitness/recovery/">
+      <h3>Recovery</h3>
+      <p>Rest, recovery, and maintaining healthy routines.</p>
+    </a>
+
+    <a class="card" href="/fitness/running/">
+      <h3>Running</h3>
+      <p>Running trainning logs, 10kms, 1/2 Marathons, Full Marathon</p>
+    </a>
+  </section>
 </BaseLayout>

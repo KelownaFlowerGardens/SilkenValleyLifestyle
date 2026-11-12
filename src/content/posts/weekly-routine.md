@@ -2,7 +2,7 @@
 title: "Weekly Routine"
 description: "Weekly Routine"
 pubDate: 2026-11-05
-category: House Keeping
+category: housekeeping
 ---
 
 

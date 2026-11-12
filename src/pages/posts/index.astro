@@ -29,7 +29,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
       <ul class="post-list">
         {posts.map((post) => (
           <li>
-            <a href={`/posts/${post.slug}/`}>
+            <a href={`/posts/${post.id}/`}>
               <strong>{post.data.title}</strong>
             </a>
 

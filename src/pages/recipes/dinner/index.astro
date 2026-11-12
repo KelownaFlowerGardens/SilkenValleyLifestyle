@@ -1,6 +1,13 @@
 
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const dinnerPosts = (await getCollection('posts', ({ data }) =>
+  !data.draft && data.category.toLowerCase() === 'dinner'
+)).sort((a, b) =>
+  b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 
 <BaseLayout
@@ -20,7 +27,23 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 
   <section class="latest">
     <h2>Dinner Inspiration</h2>
-    <p>Our dinner recipe collection is coming soon.</p>
+
+    {dinnerPosts.length > 0 ? (
+      <div class="grid">
+        {dinnerPosts.map((post) => (
+          <a class="card" href={`/posts/${post.slug}/`}>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+            <p class="meta">
+              {post.data.pubDate.toLocaleDateString('en-CA')}
+            </p>
+            <span>View Recipe →</span>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <p>New dinner recipes are coming soon. Please check back!</p>
+    )}
   </section>
 
   <p><a href="/recipes/">← Return to Recipes</a></p>

@@ -39,7 +39,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
       <ul class="post-list">
         {posts.map((post) => (
           <li>
-            <a href={`/posts/${post.slug}/`}><strong>{post.data.title}</strong></a>
+            <a href={`/posts/${post.id}/`}><strong>{post.data.title}</strong></a>
             <div class="meta">{post.data.category.replace('-', ' ')} · {post.data.pubDate.toLocaleDateString('en-CA')}</div>
             <div>{post.data.description}</div>
           </li>

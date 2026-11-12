@@ -34,7 +34,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
   </section>
 
   <section aria-labelledby="latest-heading" class="latest">
-    <h2 id="latest-heading">Latest Posts</h2>
+    <h2 id="latest-heading">Recent Posts</h2>
     {posts.length ? (
       <ul class="post-list">
         {posts.map((post) => (
@@ -46,7 +46,8 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
         ))}
       </ul>
     ) : (
-      <p>No posts yet.</p>
+      <p> <a class="card" href="src/pages/housekeeping/home-management/weekly-routine.astro"> </a>
+</p>
     )}
   </section>
 </BaseLayout>

@@ -1,48 +1,320 @@
 
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const title = "Running | Silken Valley Lifestyle";
+const description = "Running inspiration, training logs, 10K training, half marathons, full marathons and endurance running.";
 ---
 
 <BaseLayout
-  title="Fitness | Silken Valley Lifestyle"
-  heroTitle="Fitness"
-  heroText="Movement, wellness, recovery, and healthy everyday habits."
+  title={title}
+  description={description}
+  heroTitle="Running"
+  heroText="Building endurance, strength, confidence, and a love of running."
   heroCompact={true}
 >
-  <section class="hero">
-    <p class="eyebrow">Wellness Routines</p>
-    <h1>Fitness & Active Living</h1>
+  <section class="running-hero">
+    <p class="eyebrow">Fitness & Active Living</p>
+    <h1>The Joy of Running</h1>
     <p>
-      Explore practical fitness routines, exercise inspiration,
-      healthy habits, and ways to build strength, flexibility,
-      and balance into everyday life.
+      Whether you are beginning your running journey, preparing for
+      your first 10K, or working towards a marathon, running is an
+      opportunity to challenge yourself, build endurance, and discover
+      what your body can accomplish.
+    </p>
+    <p>
+      Explore training inspiration, running routines, race preparation,
+      and personal progress logs.
     </p>
   </section>
 
-  <section class="grid">
-    <a class="card" href="/fitness/workouts/">
-      <h3>Workouts</h3>
-      <p>Exercise routines for strength, endurance, and fitness.</p>
-    </a>
+  <section class="running-section">
+    <h2>Running & Race Training</h2>
+    <div class="rule"></div>
 
-    <a class="card" href="/fitness/walking/">
-      <h3>Walking & Cardio</h3>
-      <p>Simple ways to stay active and improve endurance.</p>
-    </a>
+    <div class="grid">
+      <a class="card" href="#beginner">
+        <h3>Beginner Running</h3>
+        <p>
+          Getting started, building consistency, and gradually
+          developing endurance.
+        </p>
+      </a>
 
-    <a class="card" href="/fitness/stretching/">
-      <h3>Stretching & Flexibility</h3>
-      <p>Movement, mobility, and flexibility exercises.</p>
-    </a>
+      <a class="card" href="#10k">
+        <h3>10K Running</h3>
+        <p>
+          Training inspiration, distance progression, pacing,
+          and preparing for your first 10-kilometre race.
+        </p>
+      </a>
 
-    <a class="card" href="/fitness/recovery/">
-      <h3>Recovery</h3>
-      <p>Rest, recovery, and maintaining healthy routines.</p>
-    </a>
+      <a class="card" href="#half-marathon">
+        <h3>Half Marathon</h3>
+        <p>
+          Developing endurance and preparing for the
+          21.1-kilometre distance.
+        </p>
+      </a>
 
-    <a class="card" href="/fitness/running/">
-      <h3>Running</h3>
-      <p>Running trainning logs, 10kms, 1/2 Marathons, Full Marathon</p>
-    </a>
+      <a class="card" href="#marathon">
+        <h3>Full Marathon</h3>
+        <p>
+          Long-distance training, endurance development,
+          race preparation, and the 42.2-kilometre challenge.
+        </p>
+      </a>
+
+      <a class="card" href="#training-logs">
+        <h3>Running Training Logs</h3>
+        <p>
+          Document running distances, times, progress,
+          personal milestones, and achievements.
+        </p>
+      </a>
+
+      <a class="card" href="#recovery">
+        <h3>Recovery & Rest</h3>
+        <p>
+          Rest days, stretching, mobility, and supporting
+          your body between running sessions.
+        </p>
+      </a>
+    </div>
   </section>
+
+  <section class="running-section">
+    <h2>Explore Running</h2>
+    <div class="rule"></div>
+
+    <div class="feature" id="beginner">
+      <h3>Beginning Your Running Journey</h3>
+      <p>
+        Establishing a running routine starts with patience and
+        consistency. A gradual combination of walking and running
+        can help build confidence and endurance over time.
+      </p>
+    </div>
+
+    <div class="feature" id="10k">
+      <h3>Training for a 10K</h3>
+      <p>
+        The 10K is an excellent milestone for runners developing
+        their endurance. Training can incorporate comfortable
+        distance runs, shorter sessions, recovery, and gradual
+        progression.
+      </p>
+    </div>
+
+    <div class="feature" id="half-marathon">
+      <h3>Half Marathon Training</h3>
+      <p>
+        Preparing for 21.1 kilometres involves building a
+        consistent running base, gradually extending longer runs,
+        and allowing adequate time for recovery.
+      </p>
+    </div>
+
+    <div class="feature" id="marathon">
+      <h3>Full Marathon Training</h3>
+      <p>
+        The marathon distance of 42.2 kilometres requires
+        dedication, preparation, endurance, and a carefully
+        structured training schedule.
+      </p>
+    </div>
+
+    <div class="feature" id="training-logs">
+      <h3>Running Training Logs & Progress</h3>
+      <p>
+        Keeping a training log is a wonderful way to follow your
+        progress. Record your distance, running time, route,
+        conditions, and how you felt during each session.
+      </p>
+
+      <div class="log-table">
+        <div class="log-row log-heading">
+          <span>Date</span>
+          <span>Distance</span>
+          <span>Time</span>
+          <span>Notes</span>
+        </div>
+        <div class="log-row">
+          <span>Record date</span>
+          <span>KM</span>
+          <span>Time</span>
+          <span>Training notes</span>
+        </div>
+        <div class="log-row">
+          <span>Record date</span>
+          <span>KM</span>
+          <span>Time</span>
+          <span>Training notes</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature" id="recovery">
+      <h3>Recovery & Rest Days</h3>
+      <p>
+        Recovery is an important part of a sustainable running
+        routine. Include rest, appropriate nutrition, hydration,
+        and gentle mobility work as part of your training.
+      </p>
+    </div>
+  </section>
+
+  <section class="running-note">
+    <h2>Every Distance Is an Achievement</h2>
+    <p>
+      Running is a personal journey. Celebrate the small milestones,
+      appreciate the progress, and enjoy every step along the way.
+    </p>
+  </section>
+
 </BaseLayout>
+
+<style>
+  .running-hero {
+    max-width: 850px;
+    margin: 0 auto 3rem;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .eyebrow {
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .running-hero h1,
+  .running-section h2,
+  .running-note h2 {
+    color: var(--accent-dark);
+  }
+
+  .running-hero h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+  }
+
+  .running-hero p {
+    line-height: 1.8;
+  }
+
+  .running-section {
+    margin: 3rem 0;
+  }
+
+  .running-section h2,
+  .running-note h2 {
+    text-align: center;
+  }
+
+  .rule {
+    height: 2px;
+    max-width: 150px;
+    background: var(--border);
+    margin: 1rem auto 2rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .card {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  }
+
+  .card h3 {
+    color: var(--accent-dark);
+    margin-top: 0;
+  }
+
+  .card p {
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+
+  .feature {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    scroll-margin-top: 2rem;
+  }
+
+  .feature h3 {
+    color: var(--accent-dark);
+    margin-top: 0;
+  }
+
+  .feature p {
+    line-height: 1.8;
+    margin-bottom: 0;
+  }
+
+  .log-table {
+    margin-top: 1.25rem;
+    overflow-x: auto;
+  }
+
+  .log-row {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 0.7fr 1.5fr;
+    gap: 0.75rem;
+    min-width: 480px;
+    padding: 0.85rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+
+  .log-heading {
+    font-weight: 700;
+    color: var(--accent-dark);
+    background: var(--bg);
+  }
+
+  .running-note {
+    text-align: center;
+    background: var(--bg);
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 3rem 0;
+  }
+
+  .running-note p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  @media (max-width: 700px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .running-hero {
+      padding: 1rem 0.5rem;
+    }
+  }
+</style>
+

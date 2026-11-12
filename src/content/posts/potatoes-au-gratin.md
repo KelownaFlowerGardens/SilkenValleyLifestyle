@@ -1,9 +1,11 @@
 ---
 title: "Potatoes au Gratin (Dauphinoise)"
-description: "Potatoes au Gratin (Dauphinoise)"
+description: "Layers of tender potatoes baked with cream, garlic, thyme and Gruyère cheese."
 pubDate: 2026-11-05
-category: Recipes
+category: dinner
+draft: false
 ---
+
 
 
 # Potatoes au Gratin (Dauphinoise)

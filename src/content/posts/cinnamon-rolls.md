@@ -1,4 +1,10 @@
 ---
+title: "Cinnamon Rolls"
+description: "Delicious homemade cinnamon rolls."
+pubDate: 2026-11-05
+category: recipes
+draft: false
+------
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 

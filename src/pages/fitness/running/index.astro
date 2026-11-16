@@ -2,11 +2,15 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
-import strava2018 from '../../../images/Strava-11-2018.png';
-import strava2020 from '../../../images/Strava-10-6-2020.png';
-import stravaHalf from '../../../images/trava-11-25-2018.png';
-import strava2023 from '../../../images/Strava-3-18-2023.png';
-import strava2023 from '../../../images/Strava-5-7-2023.png';
+import beginnerRunning from '../../../images/Strava-11-2019.png';
+import tenKRunning from '../../../images/Strava-3-12-2022.png';
+import halfMarathon from '../../../images/Strava-11-25-2018.png';
+import fullMarathon from '../../../images/FullMarathon.png';
+import vancouverMarathon from '../../../images/Strava_5-7-2023.png';
+
+const title = "Running | Silken Valley Lifestyle";
+const description = "Running inspiration, training logs, 10K training, half marathons, full marathons and endurance running.";
+---
 
 const title = "Running | Silken Valley Lifestyle";
 const description = "Running inspiration, training logs, 10K training, half marathons, full marathons and endurance running.";
@@ -99,8 +103,8 @@ const description = "Running inspiration, training logs, 10K training, half mara
         consistency. A gradual combination of walking and running
         can help build confidence and endurance over time.
       </p>
-<img src={strava2018.src} alt="Running training history" width="420">
-<img src="Strava-11-2018.png" alt="" width="420">
+<img src={beginnerRunning.src} alt="Beginner running progress" width="420">
+
     </div>
 
     <div class="feature" id="10k">
@@ -111,7 +115,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         distance runs, shorter sessions, recovery, and gradual
         progression.
       </p>
-<img src={strava2020.src} alt="Running training history" width="420">
+<img src={tenKRunning.src} alt="10K running progress" width="420">
     </div>
 
     <div class="feature" id="half-marathon">
@@ -121,7 +125,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         consistent running base, gradually extending longer runs,
         and allowing adequate time for recovery.
       </p>
-<img src={strava2018.src} alt="Running training history" width="420">
+<img src={halfMarathon.src} alt="Half marathon running progress" width="420">
     </div>
 
     <div class="feature" id="marathon">
@@ -131,7 +135,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         dedication, preparation, endurance, and a carefully
         structured training schedule.
       </p>
-<img src={strava2023.src} alt="Running training history" width="420">
+<img src={fullMarathon.src} alt="Full marathon running achievement" width="420">
     </div>
 
     <div class="feature" id="training-logs">
@@ -141,6 +145,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         progress. Record your distance, running time, route,
         conditions, and how you felt during each session.
       </p>
+<img src={vancouverMarathon.src} alt="BMO Vancouver Marathon running achievement" width="420">
 
       <div class="log-table">
         <div class="log-row log-heading">

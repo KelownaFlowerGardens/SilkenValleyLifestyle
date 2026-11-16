@@ -2,10 +2,15 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
+import strava2018 from '../../../images/Strava-11-2018.png';
+import strava2020 from '../../../images/Strava-10-6-2020.png';
+import stravaHalf from '../../../images/trava-11-25-2018.png';
+import strava2023 from '../../../images/Strava-3-18-2023.png';
+import strava2023 from '../../../images/Strava-5-7-2023.png';
+
 const title = "Running | Silken Valley Lifestyle";
 const description = "Running inspiration, training logs, 10K training, half marathons, full marathons and endurance running.";
 ---
-
 <BaseLayout
   title={title}
   description={description}
@@ -94,6 +99,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         consistency. A gradual combination of walking and running
         can help build confidence and endurance over time.
       </p>
+<img src={strava2018.src} alt="Running training history" width="420">
 <img src="Strava-11-2018.png" alt="" width="420">
     </div>
 
@@ -105,7 +111,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         distance runs, shorter sessions, recovery, and gradual
         progression.
       </p>
-<img src="Strava-10-6-2020.png" alt="" width="420">
+<img src={strava2020.src} alt="Running training history" width="420">
     </div>
 
     <div class="feature" id="half-marathon">
@@ -115,7 +121,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         consistent running base, gradually extending longer runs,
         and allowing adequate time for recovery.
       </p>
-<img src="trava-11-25-2018.png" alt="" width="420">
+<img src={strava2018.src} alt="Running training history" width="420">
     </div>
 
     <div class="feature" id="marathon">
@@ -125,7 +131,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         dedication, preparation, endurance, and a carefully
         structured training schedule.
       </p>
-<img src="Strava-5-7-2023.png" alt="" width="420">
+<img src={strava2023.src} alt="Running training history" width="420">
     </div>
 
     <div class="feature" id="training-logs">
@@ -189,7 +195,7 @@ const description = "Running inspiration, training logs, 10K training, half mara
         GPX route file to view the course, follow the route,
         or use it with a compatible GPS running application.
       </p>
-<img src="KFGL.jpg" alt="Kelowna Flower Gardens Logo" width="420">
+<img src={strava2023.src} alt="Running training history" width="420">
 
 <a
   class="card"

@@ -1,5 +1,6 @@
 
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 const dessertPosts = (await getCollection('posts', ({ data }) =>
@@ -22,18 +23,34 @@ const dessertPosts = (await getCollection('posts', ({ data }) =>
       Explore cakes, pastries, homemade desserts,
       seasonal baking, and sweet treats for every occasion.
     </p>
-
-   <a class="card" href="/recipes/desserts/cinnamon-rolls/">
-  <h3>The Best Cinnamon Buns You Will Ever Eat</h3>
-  <p>Discover our homemade cinnamon rolls recipe.</p>
-</a>
-   
-    </a>
   </section>
 
   <section class="latest">
     <h2>Sweet Inspiration</h2>
-    <p>Our dessert and baking collection is coming soon.</p>
+
+    {dessertPosts.length > 0 ? (
+      <ul class="post-list">
+        {dessertPosts.map((post) => (
+          <li>
+            <a href={`/posts/${post.id}/`}>
+              <strong>{post.data.title}</strong>
+            </a>
+
+            <div class="meta">
+              {post.data.pubDate.toLocaleDateString('en-CA', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
+            </div>
+
+            <p>{post.data.description}</p>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>New dessert and baking recipes are coming soon.</p>
+    )}
   </section>
 
   <p><a href="/recipes/">← Return to Recipes</a></p>

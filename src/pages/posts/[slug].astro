@@ -19,13 +19,28 @@ const categoryLinks = {
   recipes: '/recipes/',
   dinner: '/recipes/dinner/',
   desserts: '/recipes/desserts/',
+  breakfast: '/recipes/breakfast/',
+  lunch: '/recipes/lunch/',
+  baking: '/recipes/baking/',
   fitness: '/fitness/',
+  workouts: '/fitness/workouts/',
+  walking: '/fitness/walking/',
   'cat-care': '/cat-care/',
+  'cat-nutrition': '/cat-care/cat-nutrition/',
+  health: '/cat-care/health/',
+  behaviour: '/cat-care/behaviour/',
   gardening: '/gardening/',
+  'garden-design': '/gardening/garden-design/',
+  flowers: '/gardening/flowers/',
+  'trees-shrubs': '/gardening/trees-shrubs/',
+  'garden-care': '/gardening/garden-care/',
   housekeeping: '/housekeeping/',
+  cleaning: '/housekeeping/cleaning/',
+  organization: '/housekeeping/organization/',
+  laundry: '/housekeeping/laundry/',
+  'home-management': '/housekeeping/home-management/',
 };
 
-const categoryUrl = categoryLinks[post.data.category] || '/';
 ---
 
 <BaseLayout
@@ -34,9 +49,14 @@ const categoryUrl = categoryLinks[post.data.category] || '/';
 >
   <article>
     <p class="eyebrow">
-      <a href={categoryUrl}>
-        {post.data.category.replace('-', ' ')}
-      </a>
+      {post.data.category.map((category) => (
+        <a
+          href={categoryLinks[category] || '/'}
+          style="margin-right: 12px;"
+        >
+          {category.replaceAll('-', ' ')}
+        </a>
+      ))}
     </p>
 
     <h1>{post.data.title}</h1>

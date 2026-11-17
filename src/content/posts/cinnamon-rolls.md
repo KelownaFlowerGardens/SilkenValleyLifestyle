@@ -2,7 +2,7 @@
 title: "Cinnamon Rolls"
 description: "Delicious homemade cinnamon rolls."
 pubDate: 2026-11-05
-category: recipes
+category: desserts
 draft: false
 ---
 

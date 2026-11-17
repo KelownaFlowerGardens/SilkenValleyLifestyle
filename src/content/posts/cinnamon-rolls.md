@@ -1,13 +1,14 @@
+
 ---
-title: "Cinnamon Rolls"
-description: "Delicious homemade cinnamon rolls."
-pubDate: 2026-11-05
-category:   
-- recipes
+title: Cinnamon Rolls
+description: Soft, fluffy homemade cinnamon rolls with cream cheese frosting.
+pubDate: 2026-11-17
+category:
+  - recipes
   - desserts
-  - posts
 draft: false
 ---
+
 
 
 # The Best Cinnamon Rolls You'll Ever Eat

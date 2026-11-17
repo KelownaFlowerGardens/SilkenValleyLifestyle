@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 
 const dinnerPosts = (await getCollection('posts', ({ data }) =>
-  !data.draft && data.category.toLowerCase() === 'recipes'
+  !data.draft && data.category.toLowerCase() === 'dinner'
 )).sort((a, b) =>
   b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );

@@ -7,13 +7,25 @@ export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
 
   return posts.map((post) => ({
-    params: { slug: post.id },
+    params: { slug: post.slug },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+const categoryLinks = {
+  recipes: '/recipes/',
+  dinner: '/recipes/dinner/',
+  desserts: '/recipes/desserts/',
+  fitness: '/fitness/',
+  'cat-care': '/cat-care/',
+  gardening: '/gardening/',
+  housekeeping: '/housekeeping/',
+};
+
+const categoryUrl = categoryLinks[post.data.category] || '/';
 ---
 
 <BaseLayout
@@ -22,7 +34,7 @@ const { Content } = await post.render();
 >
   <article>
     <p class="eyebrow">
-      <a href={`/${post.data.category}/`}>
+      <a href={categoryUrl}>
         {post.data.category.replace('-', ' ')}
       </a>
     </p>

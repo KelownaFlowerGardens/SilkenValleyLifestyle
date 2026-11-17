@@ -34,7 +34,9 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
             </a>
 
             <div class="meta">
-              {post.data.category.replace('-', ' ')}
+              {post.data.category
+                .map((category) => category.replaceAll('-', ' '))
+                .join(' · ')}
               ·
               {post.data.pubDate.toLocaleDateString('en-CA')}
             </div>
@@ -44,7 +46,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
         ))}
       </ul>
     ) : (
-      <p>  </p>
+      <p>No posts are available yet.</p>
     )}
   </section>
 </BaseLayout>

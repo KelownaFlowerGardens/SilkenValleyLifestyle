@@ -1,8 +1,15 @@
+
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-
-category: desserts
 ---
+
+<BaseLayout
+  title="The Best Cinnamon Rolls You'll Ever Eat | Silken Valley Lifestyle"
+  heroTitle="Cinnamon Rolls"
+  heroText="Big, fluffy homemade cinnamon rolls with brown sugar, cinnamon and cream cheese frosting."
+  heroCompact={true}
+>
+  <article class="recipe">
 
 
 # The Best Cinnamon Rolls You'll Ever Eat

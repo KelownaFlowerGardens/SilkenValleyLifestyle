@@ -3,7 +3,7 @@
 title: "Siena-Style Ribollita"
 description: "A comforting Tuscan-inspired soup made with cannellini beans, vegetables, Tuscan kale, Parmesan, and rustic bread, finished with a golden caramelized onion crust."
 pubDate: 2026-11-17
-category: "dinner", "posts",
+category: dinner, posts
 draft: false
 ---
 

@@ -1,6 +1,12 @@
 
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const dessertPosts = (await getCollection('posts', ({ data }) =>
+  !data.draft && data.category.includes('desserts')
+)).sort((a, b) =>
+  b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 
 <BaseLayout

@@ -1,3 +1,4 @@
+
 import { defineCollection, z } from 'astro:content';
 
 const posts = defineCollection({
@@ -6,9 +7,19 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    category: z.enum(['recipes', 'fitness', 'cat-care', 'gardening', 'housekeeping']),
+category: z.enum([
+  'recipes',
+  'dinner',
+  'desserts',
+  'fitness',
+  'cat-care',
+  'gardening',
+  'housekeeping'
+]),
     draft: z.boolean().default(false),
   }),
 });
 
-export const collections = { posts };
+export const collections = {
+  posts,
+};

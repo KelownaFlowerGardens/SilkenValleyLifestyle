@@ -473,6 +473,7 @@ button:hover,
 .hero-banner:has(.header-banner-image) {
   min-height: auto;
   padding: .5rem 1rem;
+  background-color: #f5f0e6;
 }
 
 .hero-banner:has(.header-banner-image) .header-text {

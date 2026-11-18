@@ -45,8 +45,19 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 
 ---
 
-   
-   \<div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
+<div class="affiliate-recommendation">
+  <h3>Recommendation</h3>
+  <p>
+    Prep your potatoes with this
+    <a href="https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref_=as_li_ss_tl"
+       target="_blank"
+       rel="sponsored nofollow noopener">
+      recommended kitchen tool on Amazon
+    </a>.
+  </p>
+
+</div>
+---
 
 ## Notes
 

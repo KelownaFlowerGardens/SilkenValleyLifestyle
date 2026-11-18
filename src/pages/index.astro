@@ -16,7 +16,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
 ---
 <BaseLayout
   title="Silken Valley Lifestyle | Home"
-  headerImage="/Banner.png"
+  headerImage={bannerImage.src}
 >
   <section class="hero">
     <p class="eyebrow">Home & Lifestyle</p>

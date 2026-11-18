@@ -14,7 +14,10 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 5);
 ---
-<BaseLayout title="Silken Valley Lifestyle | Home">
+<BaseLayout
+  title="Silken Valley Lifestyle | Home"
+  headerImage="/Banner.png"
+>
   <section class="hero">
     <p class="eyebrow">Home & Lifestyle</p>
     <h1>Ideas for a well-run home and routines for consistent success.</h1>

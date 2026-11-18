@@ -1,6 +1,6 @@
 
 ---
-title: "Siena-Style Ribollita"
+title: "Siena Ribollita"
 description: "A comforting Tuscan-inspired soup made with cannellini beans, vegetables, Tuscan kale, Parmesan, and rustic bread, finished with a golden caramelized onion crust and served with marinated pork and brown rice."
 pubDate: 2026-11-17
 category:
@@ -9,7 +9,7 @@ category:
 draft: false
 ---
 
-# Siena-Style Ribollita
+# Siena Ribollita
 
 There is nothing quite like a hearty bowl of soup on a cold winter day. This rustic Tuscan soup brings together tender beans, seasonal vegetables, and Parmesan, slowly simmered until rich and velvety. Pieces of rustic bread melt into the broth, creating a wonderfully thick, comforting texture that warms you from the inside out.
 
@@ -62,7 +62,7 @@ In Siena, the soup is traditionally finished with a golden crust of caramelized 
 
 ### 1. Prepare the Pork Marinade
 
-Thaw the pork if necessary. In a separate bowl, combine the soy sauce, brown sugar, garlic, ginger, and sesame oil. Add the pork and turn to coat all surfaces.
+Thaw the pork if necessary. In a separate bowl, combine the olive oil, red wine vinegar, fresh basil, oregano, thyme, garlic ,red pepper flakes. Add the pork and turn to coat all surfaces.
 
 Cover and refrigerate for at least 30 minutes.
 

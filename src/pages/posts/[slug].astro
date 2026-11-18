@@ -41,6 +41,9 @@ const categoryLinks = {
   'home-management': '/housekeeping/home-management/',
 };
 
+const { post } = Astro.props;
+const { Content } = await post.render();
+
 const recipeCategories = [
   'recipes',
   'dinner',
@@ -53,6 +56,8 @@ const recipeCategories = [
 const isRecipe = post.data.category.some((category) =>
   recipeCategories.includes(category)
 );
+
+const categoryLinks = {
 ---
 
 <BaseLayout

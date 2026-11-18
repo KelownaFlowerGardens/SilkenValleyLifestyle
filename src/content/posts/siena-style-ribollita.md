@@ -50,12 +50,13 @@ In Siena, the soup is traditionally finished with a golden crust of caramelized 
 
 ### For the Pork Marinade
 
-- ½ lb pork
-- ⅓ cup soy sauce
-- 2 tablespoons brown sugar
-- 3 cloves garlic, minced
-- 1 thumb-sized piece fresh ginger, grated
-- 1–2 teaspoons sesame oil
+-1 cup olive oil
+-½ cup red wine vinegar
+-1 tablespoon minced fresh basil
+-½ teaspoon dried oregano
+-½ teaspoon dried thyme
+-1 tablespoon minced garlic
+-⅛ teaspoon red pepper flakes
 
 ## Instructions
 

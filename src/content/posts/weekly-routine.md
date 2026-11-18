@@ -23,7 +23,22 @@ category: housekeeping
 <div class="day"><b>Wednesday: Kitchen Reset</b><p>Clean toaster crumbs, empty fridge leftovers, clean stovetop, wash sink stoppers in dishwasher, clean out compost bin, clean out garbage/recycling bin and add new bags, wipe down surfaces, fill up soap containers (dish/hand), refill cleaning wipe containers and paper towels.</p></div>
 <div class="day"><b>Thursday: Laundry*</b><p>Wash whites, throw blankets, towels, house robe, dish clothes, hand clothes and face cloths.</p></div>
 <div class="day"><b>Friday</b><p>Wash sheets, pillow cases, throw blankets.</p></div>
-
+<div class="affiliate-recommendation">
+  <h3>Bedding Recommendation</h3>
+  <p>
+    Looking to refresh your bedding? Explore these
+    <a
+      href="https://www.amazon.ca/King-Size-Bed-Sheets-Breathable/dp/B0946MVWGD?tag=silkenvalleyl-20"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      King Size Bed Sheets on Amazon
+    </a>.
+  </p>
+  <p class="affiliate-disclosure">
+    As an Amazon Associate, I earn from qualifying purchases.
+  </p>
+</div>
 <h2>Everyday Reminders</h2>
 <div class="rule"></div>
 <ul>

@@ -72,6 +72,25 @@ In a Dutch oven, heat 2 tablespoons of olive oil over medium-low heat. Add the y
 
 Sauté until softened, about 6 minutes.
 
+
+<div class="affiliate-recommendation">
+  <h3>Kitchen Tool Recommendation</h3>
+  <p>
+    Make vegetable preparation easier with this
+    <a
+      href="https://www.amazon.ca/Fullstar-Essential-Vegetable-Chopper-Mandoline/dp/B0GWG9T7K5?tag=silkenvalleyl-20"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      Fullstar Vegetable Chopper on Amazon
+    </a>.
+  </p>
+  <p class="affiliate-disclosure">
+    As an Amazon Associate, I earn from qualifying purchases.
+  </p>
+</div>
+
+
 ### 3. Cook the Beans and Kale
 
 Add half the beans to the pot and use a potato masher to crush them into a rough purée.

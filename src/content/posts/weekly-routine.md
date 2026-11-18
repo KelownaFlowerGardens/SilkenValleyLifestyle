@@ -24,6 +24,7 @@ category: housekeeping
 <div class="day"><b>Thursday: Laundry*</b><p>Wash whites, throw blankets, towels, house robe, dish clothes, hand clothes and face cloths.</p></div>
 <div class="day"><b>Friday</b><p>Wash sheets, pillow cases, throw blankets.</p></div>
 <div class="affiliate-recommendation">
+
   <h3>Bedding Recommendation</h3>
   <p>
     Looking to refresh your bedding? Explore these

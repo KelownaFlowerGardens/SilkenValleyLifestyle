@@ -381,6 +381,7 @@ button:hover,
   }
 }
 
+
 /* RECIPE ARTICLE STYLING */
 
 .recipe-article {
@@ -388,27 +389,56 @@ button:hover,
   margin: 2rem auto;
   padding: 2.5rem;
   background: var(--surface);
+  color: var(--text);
+  font-family: inherit;
   border: 1px solid var(--border);
   border-radius: 16px;
   box-shadow: 0 4px 18px rgba(90, 50, 65, .05);
 }
 
-.recipe-article > h1 {
+.recipe-article .eyebrow {
+  text-align: center;
+  color: var(--accent-dark);
+  font-size: .9rem;
+  text-transform: capitalize;
+}
+
+.recipe-article .eyebrow a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.recipe-article .eyebrow a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.recipe-article h1 {
   color: var(--accent-dark);
   text-align: center;
+  font-family: inherit;
+  line-height: 1.2;
   margin-bottom: 1rem;
+}
+
+.recipe-article .meta {
+  color: var(--muted);
+  text-align: center;
+  font-size: .9rem;
 }
 
 .recipe-article .recipe-description {
   color: var(--muted);
   text-align: center;
   font-size: 1.05rem;
-  margin-bottom: 2rem;
+  line-height: 1.8;
+  margin: 1.5rem auto 2rem;
 }
 
 .recipe-article h2 {
   color: var(--accent-dark);
   text-align: left;
+  font-family: inherit;
   border-bottom: 2px solid var(--blush);
   padding-bottom: .6rem;
   margin-top: 2.5rem;
@@ -417,11 +447,14 @@ button:hover,
 .recipe-article h3 {
   color: var(--accent);
   text-align: left;
+  font-family: inherit;
   margin-top: 1.8rem;
 }
 
 .recipe-article p,
 .recipe-article li {
+  color: var(--text);
+  font-family: inherit;
   line-height: 1.8;
 }
 
@@ -432,6 +465,14 @@ button:hover,
 
 .recipe-article li {
   margin-bottom: .55rem;
+}
+
+.recipe-article a {
+  color: var(--accent-dark);
+}
+
+.recipe-article a:hover {
+  color: var(--accent);
 }
 
 .recipe-article .recipe-details {
@@ -458,6 +499,7 @@ button:hover,
     padding: 1.25rem;
   }
 }
+
 
 /* HOMEPAGE LOGO BANNER */
 

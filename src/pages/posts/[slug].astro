@@ -59,7 +59,7 @@ const isRecipe = post.data.category.some((category) =>
   title={`${post.data.title} | Silken Valley Lifestyle`}
   description={post.data.description}
 >
-<article class={post.slug === 'siena-style-ribollita' ? 'recipe-article siena-ribollita' : ''}>
+<article class={isRecipe ? 'recipe-article' : ''}>
     <p class="eyebrow">
       {post.data.category.map((category) => (
         <a

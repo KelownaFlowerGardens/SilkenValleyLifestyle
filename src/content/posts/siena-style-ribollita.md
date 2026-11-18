@@ -73,7 +73,7 @@ In a Dutch oven, heat 2 tablespoons of olive oil over medium-low heat. Add the y
 Sauté until softened, about 6 minutes.
 
 <div class="affiliate-recommendation">
-  <h3>Kitchen Tool Recommendation</h3>
+  <h3>Recommendation</h3>
   <p>
     Make vegetable preparation easier with this
     <a

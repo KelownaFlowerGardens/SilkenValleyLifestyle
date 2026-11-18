@@ -41,13 +41,25 @@ const categoryLinks = {
   'home-management': '/housekeeping/home-management/',
 };
 
+const recipeCategories = [
+  'recipes',
+  'dinner',
+  'desserts',
+  'breakfast',
+  'lunch',
+  'baking',
+];
+
+const isRecipe = post.data.category.some((category) =>
+  recipeCategories.includes(category)
+);
 ---
 
 <BaseLayout
   title={`${post.data.title} | Silken Valley Lifestyle`}
   description={post.data.description}
 >
-  <article>
+  <article class={isRecipe ? 'recipe-article' : ''}>
     <p class="eyebrow">
       {post.data.category.map((category) => (
         <a
@@ -61,18 +73,23 @@ const categoryLinks = {
 
     <h1>{post.data.title}</h1>
 
-    <p class="meta">
-      {post.data.pubDate.toLocaleDateString('en-CA', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-      })}
-    </p>
+    <div class="recipe-details">
+      <p class="meta">
+        Published: {post.data.pubDate.toLocaleDateString('en-CA', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        })}
+      </p>
+    </div>
 
-    <p>{post.data.description}</p>
+    <p class={isRecipe ? 'recipe-description' : ''}>
+      {post.data.description}
+    </p>
 
     <div class="post-content">
       <Content />
     </div>
   </article>
 </BaseLayout>
+

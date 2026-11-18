@@ -609,9 +609,8 @@ button:hover,
   color: var(--muted);
   margin-bottom: 0;
 }
-
-/* Weekly Routine Button */
-.weekly-routine-button {
+/* Affiliate Link Button */
+.affiliate-button {
   display: inline-block;
   background: var(--accent);
   color: #ffffff !important;
@@ -622,16 +621,15 @@ button:hover,
   text-decoration: none !important;
   border: 1px solid var(--accent);
   transition: all 0.25s ease;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
 }
 
-.weekly-routine-button:hover {
+.affiliate-button:hover {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
   color: #ffffff !important;
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(169, 79, 107, 0.2);
 }
-
 
 

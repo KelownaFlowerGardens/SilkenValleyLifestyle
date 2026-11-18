@@ -84,9 +84,7 @@ Sauté until softened, about 6 minutes.
       Fullstar Vegetable Chopper on Amazon
     </a>.
   </p>
-  <p class="affiliate-disclosure">
-    As an Amazon Associate, I earn from qualifying purchases.
-  </p>
+
 </div>
 
 

@@ -532,5 +532,21 @@ button:hover,
     padding: .5rem;
   }
 }
+<div class="affiliate-recommendation">
+  <h3>Bedding Recommendation</h3>
+  <p>
+    Looking to refresh your bedding? Explore these
+    <a
+      href="https://www.amazon.ca/King-Size-Bed-Sheets-Breathable/dp/B0946MVWGD?tag=silkenvalleyl-20"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      King Size Bed Sheets on Amazon
+    </a>.
+  </p>
+  <p class="affiliate-disclosure">
+    As an Amazon Associate, I earn from qualifying purchases.
+  </p>
+</div>
 
 

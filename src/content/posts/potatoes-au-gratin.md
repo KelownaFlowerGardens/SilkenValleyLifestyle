@@ -1,31 +1,20 @@
 ---
-title: "Potatoes au Gratin (Dauphinoise)"
-description: "Layers of tender potatoes baked with cream, garlic, thyme and Gruyère cheese."
-pubDate: 2026-11-05
-category: dinner
-draft: false
----
-
-
 
 # Potatoes au Gratin (Dauphinoise)
 
 **Recipe by:** Nagi Maehashi, RecipeTin Eats
-**Source:** https://www.recipetineats.com/potatoes-au-gratin/
+**Source:** [https://www.recipetineats.com/potatoes-au-gratin/](https://www.recipetineats.com/potatoes-au-gratin/)
 
-| | |
-|---|---|
-| **Prep time** | 15 minutes |
-| **Cook time** | 1 hour 30 minutes |
-| **Total time** | 1 hour 45 minutes |
-| **Serves** | 8–10 |
+|                      |                    |
+| -------------------- | ------------------ |
+| **Prep time**        | 15 minutes         |
+| **Cook time**        | 1 hour 30 minutes  |
+| **Total time**       | 1 hour 45 minutes  |
+| **Serves**           | 8–10               |
 | **Course / Cuisine** | Side dish / French |
 
 Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese. Adapted from a Julia Child recipe, and an excellent make-ahead side.
 
-> **Authenticity note:** traditional Dauphinoise in France doesn't contain cheese, but the cheese is what makes this version.
-
----
 
 ## Ingredients
 
@@ -45,10 +34,12 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 1. **Make the cream mixture.** Combine the melted butter, cream, and garlic in a jug.
 2. **Preheat** the oven to 180°C / 350°F (fan or standard).
 3. **Slice the potatoes.** Peel and slice them ⅛ inch / 3 mm thick. A mandoline or slicer works well.
-4. **Layer 1.** Spread ⅓ of the potatoes in a baking dish (Note 4). Pour over ⅓ of the cream mixture, scatter with ⅓ of the salt, pepper, and thyme, then sprinkle with ¾ cup cheese.
-5. **Layers 2 and 3.** Repeat twice more, but **don't put cheese on the top layer** yet.
-6. **Cover and bake.** Cover with a lid or foil and bake 1 hour 15 minutes, or until the potatoes in the middle are soft when tested with a knife. It may take up to 1½ hours (Note 5).
-7. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
+   <div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
+
+5. **Layer 1.** Spread ⅓ of the potatoes in a baking dish (Note 4). Pour over ⅓ of the cream mixture, scatter with ⅓ of the salt, pepper, and thyme, then sprinkle with ¾ cup cheese.
+6. **Layers 2 and 3.** Repeat twice more, but **don't put cheese on the top layer** yet.
+7. **Cover and bake.** Cover with a lid or foil and bake 1 hour 15 minutes, or until the potatoes in the middle are soft when tested with a knife. It may take up to 1½ hours (Note 5).
+8. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
 
 ---
 
@@ -63,6 +54,7 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 7. **Source:** Adapted from Julia Child's Dauphinoise Potatoes. Hers uses diced butter between layers, only rubs garlic on the dish, and uses less cheese.
 
 ### Nutrition (per serving, assuming 10 servings)
+
 About 167 calories, 14 g carbs, 6 g protein, 10 g fat (6 g saturated), 281 mg sodium.
 
 ---

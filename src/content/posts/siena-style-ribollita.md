@@ -53,8 +53,8 @@ In Siena, the soup is traditionally finished with a golden crust of caramelized 
 -1 cup olive oil
 -½ cup red wine vinegar
 -1 tablespoon minced fresh basil
--½ teaspoon dried oregano
--½ teaspoon dried thyme
+-½ teaspoon oregano
+-½ teaspoon thyme
 -1 tablespoon minced garlic
 -⅛ teaspoon red pepper flakes
 
@@ -62,7 +62,7 @@ In Siena, the soup is traditionally finished with a golden crust of caramelized 
 
 ### 1. Prepare the Pork Marinade
 
-Thaw the pork if necessary. In a separate bowl, combine the soy sauce, brown sugar, garlic, ginger, and sesame oil. Add the pork and turn to coat all surfaces.
+Thaw the pork if necessary. In a separate bowl, combine the olive oil, red wine vinegar, fresh basil, oregano, thyme, garlic ,red pepper flakes. Add the pork and turn to coat all surfaces.
 
 Cover and refrigerate for at least 30 minutes.
 
@@ -71,6 +71,24 @@ Cover and refrigerate for at least 30 minutes.
 In a Dutch oven, heat 2 tablespoons of olive oil over medium-low heat. Add the yellow onions, fennel, carrots, garlic, and salt and pepper to taste.
 
 Sauté until softened, about 6 minutes.
+
+<div class="affiliate-recommendation">
+  <h3>Kitchen Tool Recommendation</h3>
+  <p>
+    Make vegetable preparation easier with this
+    <a
+      href="https://www.amazon.ca/Fullstar-Essential-Vegetable-Chopper-Mandoline/dp/B0GWG9T7K5?tag=silkenvalleyl-20"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      Fullstar Vegetable Chopper on Amazon
+    </a>.
+  </p>
+  <p class="affiliate-disclosure">
+    As an Amazon Associate, I earn from qualifying purchases.
+  </p>
+</div>
+
 
 ### 3. Cook the Beans and Kale
 

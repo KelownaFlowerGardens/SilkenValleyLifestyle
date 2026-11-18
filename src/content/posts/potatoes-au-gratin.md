@@ -2,9 +2,6 @@
 
 # Potatoes au Gratin (Dauphinoise)
 
-**Recipe by:** Nagi Maehashi, RecipeTin Eats
-**Source:** [https://www.recipetineats.com/potatoes-au-gratin/](https://www.recipetineats.com/potatoes-au-gratin/)
-
 |                      |                    |
 | -------------------- | ------------------ |
 | **Prep time**        | 15 minutes         |
@@ -32,12 +29,12 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 ## Instructions
 
 1. **Make the cream mixture.** Combine the melted butter, cream, and garlic in a jug.
-2. **Preheat** the oven to 180°C / 350°F (fan or standard).
+2. **Preheat** oven to 180°C / 350°F.
 3. **Slice the potatoes.** Peel and slice them ⅛ inch / 3 mm thick. A mandoline or slicer works well.
-   <div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
+   \<div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
 
 5. **Layer 1.** Spread ⅓ of the potatoes in a baking dish (Note 4). Pour over ⅓ of the cream mixture, scatter with ⅓ of the salt, pepper, and thyme, then sprinkle with ¾ cup cheese.
-6. **Layers 2 and 3.** Repeat twice more, but **don't put cheese on the top layer** yet.
+6. **Layers 2 and 3.** Repeat twice more, but **wait to add cheese on the top layer**.
 7. **Cover and bake.** Cover with a lid or foil and bake 1 hour 15 minutes, or until the potatoes in the middle are soft when tested with a knife. It may take up to 1½ hours (Note 5).
 8. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
 
@@ -45,18 +42,15 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 
 ## Notes
 
-1. **Cream:** Any full-fat cream works (heavy, thickened, or full-fat pouring cream). For a lighter version, use light cream, half and half, or half cream and half milk, though it will be less rich. Don't use milk alone.
+1. **Cream:** 30% cream works. For a lighter version, use light cream, half and half, or half cream and half milk, though it will be less rich. Don't use milk alone.
 2. **Potatoes:** Use starchy potatoes: Sebago (Australia), Russet (US), King Edward or Maris Piper (UK). Dutch creams, red delight, golden delight, coliban, and red rascal also work. **Avoid waxy potatoes**, as the layers slip apart.
-3. **Cheese:** Gruyère is best for flavor and browning, but it's pricey. Everyday alternatives are colby, cheddar, havarti, tasty, Monterey Jack, or another melting cheese. For mozzarella, use about 2 cups (200 g) mozzarella plus 1 cup (100 g) finely grated parmesan for flavor. Grate it yourself, since pre-shredded cheese has anti-caking agents that stop it melting well.
+3. **Cheese:** Gruyère is best for flavor and browning, but substitutes like swiss, mozzarella and white cheddar will work. Everyday alternatives are colby, cheddar, havarti, tasty, Monterey Jack, or another melting cheese. For mozzarella, use about 2 cups (200 g) mozzarella plus 1 cup (100 g) finely grated parmesan for flavor. Grate it yourself, since pre-shredded cheese has anti-caking agents that stop it melting well.
 4. **Baking dish:** The author uses a 1.5 L / 6-cup oval dish (about 18 × 26 × 5 cm / 7 × 11 × 2") filled to the brim, and suggests a slightly larger one is ideal. A 26 cm / 11" skillet also works. A 20 cm / 8" square pan is too small. A larger dish just gives a shallower gratin.
 5. **Baking time:** This varies with dish shape, depth, and oven. About 1 hour 20 minutes covered is consistent for the author.
-6. **Make ahead:** Hold back about ½ cup of the cream mixture. Bake covered in foil, then cool with the foil on. Pour the reserved cream over, top with cheese, cover with cling wrap, and refrigerate. Take it out 1 hour before reheating, then reheat covered in foil at 180°C / 350°F for 20–30 minutes until hot. Remove the foil and bake until the cheese is golden. Microwaving first speeds things up. **Leftovers** keep 3–4 days in the fridge.
-7. **Source:** Adapted from Julia Child's Dauphinoise Potatoes. Hers uses diced butter between layers, only rubs garlic on the dish, and uses less cheese.
+6. **Make ahead:** Set aside ½ cup of the cream mixture. Bake covered in foil, then cool with the foil on. Then, gently pour the reserved cream over, top with cheese, cover with cling wrap, and refrigerate. Take it out 1 hour before reheating, then reheat covered in foil at 180°C / 350°F for 20–30 minutes until hot. Remove the foil and bake until the cheese is golden. Microwaving first speeds things up. **Leftovers** keep 3–4 days in the fridge.
 
 ### Nutrition (per serving, assuming 10 servings)
 
 About 167 calories, 14 g carbs, 6 g protein, 10 g fat (6 g saturated), 281 mg sodium.
 
 ---
-
-*Recipe credit: Nagi Maehashi / RecipeTin Eats. This is a condensed, personal-use copy; see the original page for the full post, photos, and video.*

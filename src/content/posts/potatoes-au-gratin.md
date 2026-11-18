@@ -38,15 +38,15 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 1. **Make the cream mixture.** Combine the melted butter, cream, and garlic in a jug.
 2. **Preheat** oven to 180°C / 350°F.
 3. **Slice the potatoes.** Peel and slice them ⅛ inch / 3 mm thick. A mandoline or slicer works well.
-   
-   \<div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
-
 4. **Layer 1.** Spread ⅓ of the potatoes in a baking dish (Note 4). Pour over ⅓ of the cream mixture, scatter with ⅓ of the salt, pepper, and thyme, then sprinkle with ¾ cup cheese.
 5. **Layers 2 and 3.** Repeat twice more, but **wait to add cheese on the top layer**.
 6. **Cover and bake.** Cover with a lid or foil and bake 1 hour 15 minutes, or until the potatoes in the middle are soft when tested with a knife. It may take up to 1½ hours (Note 5).
 7. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
 
 ---
+
+   
+   \<div class="affiliate-recommendation">   \<h3>Kitchen Tool Recommendation\</h3>   \<p>Make preparing your potatoes easier with this \<a href="[https://www.amazon.ca/dp/B083F5CRDZ?\_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref\_=as_li_ss_tl](https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8\&th=1\&linkCode=ll2\&tag=silkenvalleyl-20\&linkId=3f70e59f9bedad097b8848589a2047c8\&gaOptInStatus=true\&ref_=as_li_ss_tl)" target="\_blank" rel="sponsored nofollow noopener">recommended kitchen tool on Amazon\</a>.\</p>   \<p class="affiliate-disclosure">As an Amazon Associate, I earn from qualifying purchases.\</p> \</div>
 
 ## Notes
 

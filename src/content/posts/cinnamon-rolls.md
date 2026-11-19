@@ -68,6 +68,22 @@ Big, fluffy, soft cinnamon rolls with a brown sugar–cinnamon filling and cream
 
 ---
 
+
+<div class="affiliate-recommendation">
+  <h3>Kitchen Recommendation</h3>
+  <p>
+    <a
+      href="https://www.amazon.ca/KitchenAid-KSM150PSAC-Artisan-5-Quart-Almond/dp/B00007G309?crid=1IRPTZP18ZYG7&dib=eyJ2IjoiMSJ9.xAsdWmkYt3lJrPaR_4Btsl3jkNUvTJGsb0CSd0G-TTFTagVsIRvY0dhgYhrspUOxYoHVg1RK0VTstdpZZ2NhGk7nwf1SC4sSkS4ZKpJTgcT4UcAgCG92qGugNnUxV4GTXUGAE8mC0zT5tiBaykwo1BrUrNcgaIf3pOG8QSyLsCF4vDwTeuOM-NLsAfWtq0vz8tEf8_Hve1sVa9W96_ohF_HhBML7Gj57za6lVbwYALU.kJlDsFo8DAqgblWWzZihyA9VkDAtfxneE5qY5spG5ko&dib_tag=se&keywords=kitchen%2Baid%2Bmixer&qid=1795063368&s=kitchen&sprefix=kitchen%2Baid%2Bmixe%2Ckitchen%2C209&sr=1-3&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=064ca4ab882f2b800fed005ed4cdb792&gaOptInStatus=true&ref_=as_li_ss_tl"
+      class="affiliate-button"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      Kitchen Aid Mixer
+    </a>
+  </p>
+</div>
+
+
 ## Notes
 
 \*If using quick-rise/instant yeast, no proofing is needed. Active dry yeast should be dissolved in the warm milk until bubbly, and the dough may take longer to rise.

@@ -651,3 +651,43 @@ button:hover,
   transform: translateY(-2px);
 }
 
+/* Affiliate recommendations */
+
+.affiliate-recommendation {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.affiliate-recommendation h3 {
+  color: var(--accent-dark);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.affiliate-recommendation p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.affiliate-button {
+  display: inline-block;
+  color: var(--accent-dark);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.affiliate-button:hover {
+  background: var(--accent);
+  color: white;
+}
+
+

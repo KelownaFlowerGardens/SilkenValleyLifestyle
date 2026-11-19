@@ -71,23 +71,14 @@ Big, fluffy, soft cinnamon rolls with a brown sugar–cinnamon filling and cream
 
 <div class="affiliate-recommendation">
   <h3>Kitchen Recommendation</h3>
-  <p>
-    <a
+
+   <a
       href="https://www.amazon.ca/KitchenAid-KSM150PSAC-Artisan-5-Quart-Almond/dp/B00007G309?crid=1IRPTZP18ZYG7&dib=eyJ2IjoiMSJ9.xAsdWmkYt3lJrPaR_4Btsl3jkNUvTJGsb0CSd0G-TTFTagVsIRvY0dhgYhrspUOxYoHVg1RK0VTstdpZZ2NhGk7nwf1SC4sSkS4ZKpJTgcT4UcAgCG92qGugNnUxV4GTXUGAE8mC0zT5tiBaykwo1BrUrNcgaIf3pOG8QSyLsCF4vDwTeuOM-NLsAfWtq0vz8tEf8_Hve1sVa9W96_ohF_HhBML7Gj57za6lVbwYALU.kJlDsFo8DAqgblWWzZihyA9VkDAtfxneE5qY5spG5ko&dib_tag=se&keywords=kitchen%2Baid%2Bmixer&qid=1795063368&s=kitchen&sprefix=kitchen%2Baid%2Bmixe%2Ckitchen%2C209&sr=1-3&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=064ca4ab882f2b800fed005ed4cdb792&gaOptInStatus=true&ref_=as_li_ss_tl"
       class="affiliate-button"
       target="_blank"
       rel="sponsored nofollow noopener"
     >
-      Kitchen Aid Mixer
-    </a>
-  </p>
-   <a
-      href="https://www.amazon.ca/KitchenAid-K45DH-Dough-Replacement-KSM90/dp/B00005LD48?crid=1WFAPZGQXYXA0&dib=eyJ2IjoiMSJ9.X3aWWhhDLfRRGEzsvFFYXE4F9PlWs7F9pW4uCFOzVhjS-C2qdGoIzjmaVNsVG-XbThmPtj9jkg9MSp97nDtlqtMwhCJcnpZH37FSGmXkmpNtBzX7iEdTGOhr74jlX5lE8_7oilbH3dlvukJLaxKykREGG3ADB7oCUTqPnHB1-Q6TKwQzYtJMBfrHzMeOcGJafQS6xbikDDEseeQKnoHkVrxq4qOwCn2dhRyoEthXml4rbKDzrnwOG302-1xF5CH81l0jL9r44cMLBZalRotvdWZUSBgJLtlfyNjW9aW2W24.KdmviI1ydZE9nBx3PnBZutW6EVoNk2QWpEaXDlHhAOk&dib_tag=se&keywords=kitchen+aid+dough+hook&qid=1795122925&sprefix=kitchen+aid+dough+%2Caps%2C431&sr=8-6&linkCode=ll2&tag=silkenvalleyl-20&linkId=f7a53a6d2abb94f787a1c53304cd3025&gaOptInStatus=true&ref_=as_li_ss_tl"
-      class="affiliate-button"
-      target="_blank"
-      rel="sponsored nofollow noopener"
-    >
-      Kitchen Aid Dough Hook
+       Kitchen Aid Mixer
     </a>
   </p>
 </div>

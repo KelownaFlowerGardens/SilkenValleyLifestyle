@@ -88,14 +88,13 @@ Using a sharp knife, lightly score a decorative pattern across the pastry withou
 <div class="affiliate-recommendation">
   <h3>Recommendation</h3>
   <p>
-   
     <a
       href="https://www.amazon.ca/Reynolds-Kitchens-Unbleached-Parchment-Compatible/dp/B0GQZ533W8?crid=2NW5VXU0HWFAJ&dib=eyJ2IjoiMSJ9.YuFPtFud7wWSFCdedWmqezcYC31CegvDOhxucXvyexrndolCTUVmEMg0OrzuETVcmWALvPd8lvf5IpM-nI8yCieH6GV0OPGBVk_XsVKMCCT0TE6ZPz5t5GsOgLivQcUIdVj8NqVicKLnT52h8sUQdbbAknCKAU7GUL1aHDJDUWKYpT35-r9gZ7ksI--H-MWQ74Xe4KK4Je__N_KH2v2i54yPuTEkbhfpPh69PqvwZaY.ghDshzxYOojnchikmCUPpCRlOHL5Ls-bxWMd_VpdUnE&dib_tag=se&keywords=wax%2Bpaper&qid=1795109854&s=kitchen&sprefix=wax%2Bpaper%2B%2Ckitchen%2C204&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=92696634531ef07def145b3ac9d8a611&gaOptInStatus=true&ref_=as_li_ss_tl"
       target="_blank"
       rel="sponsored nofollow noopener"
     >
       Parchment Paper
-    </a>.
+    </a>
   </p>
 
 </div>

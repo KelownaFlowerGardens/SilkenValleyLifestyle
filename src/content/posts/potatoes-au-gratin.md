@@ -44,14 +44,17 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 7. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
 
 ---
-<a
-  href="https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref_=as_li_ss_tl"
-  class="affiliate-button"
-  target="_blank"
-  rel="sponsored nofollow noopener"
->
-  Le Creuset
-</a>
+<div class="affiliate-recommendation">
+  <h3>Recommendation</h3>
+  <p>
+
+    <a href="https://www.amazon.ca/dp/B083F5CRDZ?_encoding=UTF8&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=3f70e59f9bedad097b8848589a2047c8&gaOptInStatus=true&ref_=as_li_ss_tl"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+     Le Creuset
+    </a>.
+
 ---
 
 ## Notes

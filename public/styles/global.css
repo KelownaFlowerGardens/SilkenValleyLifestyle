@@ -603,7 +603,7 @@ button:hover,
   box-shadow: 0 5px 12px rgba(169, 79, 107, 0.2);
 }
 
-.affiliate-button:focus-visible {
+.post-content a.affiliate-button:focus-visible {
   outline: 3px solid var(--accent-light);
   outline-offset: 3px;
 }

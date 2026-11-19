@@ -79,6 +79,7 @@ Sauté until softened, about 6 minutes.
     Make vegetable preparation easier with this
     <a
       href="https://www.amazon.ca/Fullstar-Essential-Vegetable-Chopper-Mandoline/dp/B0GWG9T7K5?tag=silkenvalleyl-20"
+       class="affiliate-button"
       target="_blank"
       rel="sponsored nofollow noopener"
     >

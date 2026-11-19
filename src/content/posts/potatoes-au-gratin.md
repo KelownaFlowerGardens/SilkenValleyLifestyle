@@ -44,19 +44,21 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
 7. **Top with cheese and finish.** Remove the foil, top with the remaining cheese, and bake another 10–15 minutes until golden and bubbly. Let stand 5 minutes before serving.
 
 ---
-<div class="affiliate-recommendation">
-  <h3>Recommendation</h3>
-  <p>
 
-    <a href="https://www.amazon.ca/AmazonBasics-Enameled-Cast-Covered-Casserole/dp/B07B4YXWMS?pd_rd_w=wzzUH&content-id=amzn1.sym.0ab3e4ec-7472-49fc-8176-d67f5a2d5e35&pf_rd_p=0ab3e4ec-7472-49fc-8176-d67f5a2d5e35&pf_rd_r=EA88J3BGVNFV5PK82KSC&pd_rd_wg=Xf3sx&pd_rd_r=ac240e9e-836b-46b4-91a0-b08f6c1cbec5&pd_rd_i=B07B4YXWMS&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=32140e053500d701ad7c534a5f52b693&gaOptInStatus=true&ref_=as_li_ss_tl"
+<div class="affiliate-recommendation">
+  <h3>Kitchen Recommendation</h3>
+  <p>
+    <a
+      href="https://www.amazon.ca/AmazonBasics-Enameled-Cast-Covered-Casserole/dp/B07B4YXWMS?tag=silkenvalleyl-20"
+      class="affiliate-button"
       target="_blank"
       rel="sponsored nofollow noopener"
     >
-     Cast-Iron Skillet
-     </a>
+      Cast-Iron Skillet on Amazon
+    </a>
   </p>
-
 </div>
+
 
 
 ## Notes

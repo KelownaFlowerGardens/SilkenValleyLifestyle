@@ -50,7 +50,7 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
   target="_blank"
   rel="sponsored nofollow noopener"
 >
-  Le Creuset Oval Dutch Oven on Amazon
+  Le Creuset
 </a>
 ---
 

@@ -85,10 +85,10 @@ Sauté until softened, about 6 minutes.
     >
       Fullstar Vegetable Chopper on Amazon
     </a>.
-  </p>
-
+</p>
 </div>
 
+<section class="grid">
 
 ### 3. Cook the Beans and Kale
 

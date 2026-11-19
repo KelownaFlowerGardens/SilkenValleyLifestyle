@@ -25,7 +25,7 @@ const recipeCategories = [
 ];
 
 const isRecipe = post.data.category.some((category) =>
-  recipeCategories.includes(category)
+  recipeCategories.includes(category.toLowerCase())
 );
 
 const categoryLinks = {

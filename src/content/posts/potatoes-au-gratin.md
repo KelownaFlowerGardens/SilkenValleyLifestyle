@@ -53,8 +53,9 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
       rel="sponsored nofollow noopener"
     >
      Le Creuset
-    </a>.
+  </p>
 
+</div>
 ---
 
 ## Notes

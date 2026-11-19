@@ -19,7 +19,7 @@ draft: false
 | **Prep time** | 2 hours |
 | **Cook time** | 20 minutes |
 | **Total time** | 2 hours 20 minutes |
-| **Makes** | 9 large cinnamon rolls |
+| **Makes** | 10 cinnamon rolls |
 
 Big, fluffy, soft cinnamon rolls with a brown sugar–cinnamon filling and cream cheese frosting. Can be made overnight, made ahead, or frozen.
 
@@ -58,7 +58,7 @@ Big, fluffy, soft cinnamon rolls with a brown sugar–cinnamon filling and cream
 4. **First rise.** Place the dough in an oiled bowl, cover with plastic wrap and a warm towel, and let rise until doubled, 1–1½ hours. It's ready when a finger poked about an inch in doesn't bounce back right away.
 5. **Roll out.** On a generously floured surface, roll the dough into a 10 × 14-inch rectangle.
 6. **Fill.** Spread the softened butter over the dough, leaving a ¼-inch margin along the far short side. Mix the brown sugar and cinnamon, sprinkle over the butter, and gently rub it in.
-7. **Roll and cut.** Starting from the short side without the margin, roll the dough up tightly and pinch the seam closed. Place seam-side down and trim about ½ inch off each end. Gently push the ends inward to compact the log. Cut into nine 1-inch slices with unflavored dental floss or a serrated knife.
+7. **Roll and cut.** Starting from the short side without the margin, roll the dough up tightly and pinch the seam closed. Place seam-side down and trim about ½ inch off each end. Gently push the ends inward to compact the log. Cut 1-inch slices with unflavored dental floss or a serrated knife.
 8. **Rise Again.** Arrange the rolls in a parchment-lined 9×9-inch (or 11×7-inch) pan. Cover with plastic wrap to prevent drying and let rise from 1 hour to 1.5 hr depending on room temp, until puffy, doubled, and touching.
 9. **Preheat** the oven to 350°F while the rolls rise.
 10. **Bake** 20–25 minutes, until golden at the edges. Don't overbake, so the centers stay soft. Cool 10 minutes.

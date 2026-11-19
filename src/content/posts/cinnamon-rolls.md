@@ -13,8 +13,6 @@ draft: false
 
 # The Best Cinnamon Rolls You'll Ever Eat
 
-**Recipe by:** Monique Volz, Ambitious Kitchen
-**Source:** https://www.ambitiouskitchen.com/best-cinnamon-rolls/
 
 | | |
 |---|---|
@@ -61,10 +59,10 @@ Big, fluffy, soft cinnamon rolls with a brown sugar–cinnamon filling and cream
 5. **Roll out.** On a generously floured surface, roll the dough into a 10 × 14-inch rectangle.
 6. **Fill.** Spread the softened butter over the dough, leaving a ¼-inch margin along the far short side. Mix the brown sugar and cinnamon, sprinkle over the butter, and gently rub it in.
 7. **Roll and cut.** Starting from the short side without the margin, roll the dough up tightly and pinch the seam closed. Place seam-side down and trim about ½ inch off each end. Gently push the ends inward to compact the log. Cut into nine 1-inch slices with unflavored dental floss or a serrated knife.
-8. **Second rise.** Arrange the rolls in a parchment-lined 9×9-inch (or 11×7-inch) pan. Cover and let rise 45 minutes to 1 hour, until puffy, doubled, and touching.
+8. **Rise Again.** Arrange the rolls in a parchment-lined 9×9-inch (or 11×7-inch) pan. Cover with plastic wrap to prevent drying and let rise from 1 hour to 1.5 hr depending on room temp, until puffy, doubled, and touching.
 9. **Preheat** the oven to 350°F while the rolls rise.
 10. **Bake** 20–25 minutes, until golden at the edges. Don't overbake, so the centers stay soft. Cool 10 minutes.
-11. **Make the frosting.** Beat the cream cheese, powdered sugar, butter, and vanilla on low for 30 seconds, then on medium-high for 1–2 minutes until smooth and fluffy. Spread over the warm rolls and serve.
+11. **Make the frosting.** Beat the cream cheese, icing, fine or powdered sugar, butter, and vanilla on low for 30 seconds, then on medium-high for 1–2 minutes until smooth and fluffy. Spread over the warm rolls and serve.
 
 ---
 

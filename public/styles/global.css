@@ -574,7 +574,7 @@ button:hover,
 }
 /* AFFILIATE LINK BUTTON */
 
-.affiliate-button {
+.post-content a.affiliate-button {
   display: inline-block;
   background: var(--accent-dark);
   color: #ffffff !important;

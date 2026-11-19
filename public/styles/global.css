@@ -561,7 +561,7 @@ button:hover,
   margin-top: 0.5rem;
 }
 
-.recipe-article .affiliate-recommendation a:hover {
+.recipe-article .affiliate-recommendation a:not(.affiliate-button):hover {
   background: var(--accent);
   color: #ffffff;
 }

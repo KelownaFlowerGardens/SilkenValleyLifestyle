@@ -595,7 +595,7 @@ button:hover,
               box-shadow 0.25s ease;
 }
 
-.affiliate-button:hover {
+.post-content a.affiliate-button:hover {
   background: var(--accent);
   border-color: var(--accent);
   color: #ffffff !important;

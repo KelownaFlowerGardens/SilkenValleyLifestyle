@@ -2,8 +2,10 @@
 ---
 title: "Salmon Wellington with Creamy Spinach Filling"
 description: "Tender salmon wrapped in golden puff pastry with a creamy spinach, garlic, dill and cream cheese filling."
-pubDate: 2026-11-19
-category: dinner
+pubDate: 2026-11-18
+category:
+  - dinner
+  - recipes
 draft: false
 ---
 
@@ -13,8 +15,6 @@ Salmon Wellington is an elegant yet approachable dinner featuring a tender salmo
 
 This beautiful centrepiece is perfect for holiday dinners, entertaining guests or a special evening at home.
 
-**Recipe adapted from:** Magda Gonczaruk, Good Food Discoveries  
-**Original recipe:** https://goodfooddiscoveries.com/salmon-wellington/
 
 ## Recipe Details
 
@@ -31,7 +31,7 @@ This beautiful centrepiece is perfect for holiday dinners, entertaining guests o
 
 ### For the Salmon Wellington
 
-- 1–2 large sheets of puff pastry, thawed but still cold
+- 2 Pillsbury Doughboy Crescent Cannisters
 - 1 large salmon fillet (approximately 500 g / 17 oz)
 - Salt and freshly ground black pepper, to taste
 - 1 tablespoon cooking oil
@@ -47,12 +47,6 @@ This beautiful centrepiece is perfect for holiday dinners, entertaining guests o
 - 1 tablespoon fresh lemon juice
 - Salt and freshly ground black pepper, to taste
 
-### For the Pastry
-
-- 1 egg, beaten
-- 1 tablespoon black sesame seeds (optional)
-
----
 
 ## Instructions
 
@@ -61,6 +55,7 @@ This beautiful centrepiece is perfect for holiday dinners, entertaining guests o
 Preheat the oven to 180°C / 350°F. Line a baking sheet with parchment paper.
 
 Pat the salmon dry using paper towels. Season both sides generously with salt and freshly ground black pepper. Set aside while preparing the filling.
+Remove both Pillsbury Doughboy Crescent Cannisters from the freezer and let thaw.
 
 ### 2. Make the Creamy Spinach Filling
 
@@ -78,31 +73,26 @@ Remove from the heat and allow the filling to cool before assembling the Welling
 
 ### 3. Assemble the Wellington
 
-Lightly flour your work surface and roll out the puff pastry.
+Lightly flour your work surface and roll out the puff pastry on parchment paper without pressing on it.
 
-Position the salmon fillet in the centre of the pastry. Spread the cooled spinach and cream cheese mixture evenly over the top of the salmon.
+Position the salmon fillet in the centre of the sheet pan. Spread the cooled spinach and cream cheese mixture evenly over the top of the salmon.
 
-Fold the pastry around the salmon, bringing the edges together to form a neat parcel. Seal the seams carefully.
+Lay the pastry flat on the top and cover it around the salmon, bringing the edges together to form a neat parcel. Seal the seams carefully.
 
 If necessary, use a second sheet of pastry to cover the salmon completely, trimming away any excess.
 
 Transfer the Wellington to the prepared baking sheet with the seam facing down.
 
-### 4. Decorate the Pastry
-
-Brush the entire surface with beaten egg.
-
 Using a sharp knife, lightly score a decorative pattern across the pastry without cutting all the way through.
 
-Sprinkle with black sesame seeds, if desired.
 
-### 5. Bake Until Golden
+### 4. Bake Until Golden
 
 Bake in the preheated oven for approximately 30–35 minutes, or until the pastry is puffed, crisp and beautifully golden.
 
 Allow the Wellington to rest for 5–10 minutes before slicing. This helps the filling settle and makes serving easier.
 
-### 6. Serve
+### 5. Serve
 
 Slice into generous portions and serve warm.
 
@@ -123,7 +113,6 @@ Salmon Wellington pairs beautifully with roasted green beans, asparagus, seasona
 - Choose a centre-cut salmon fillet with an even thickness so it cooks consistently.
 - Pat the salmon dry before seasoning to help prevent excess moisture.
 - Allow the spinach filling to cool completely before wrapping the pastry.
-- Keep the puff pastry cold while assembling. If it becomes too soft, refrigerate it for approximately 10 minutes before continuing.
 - For a crispier pastry base, place the Wellington on a preheated baking sheet or pizza stone.
 
 ---

@@ -607,3 +607,27 @@ button:hover,
   outline: 3px solid var(--accent-light);
   outline-offset: 3px;
 }
+/* FIX: Amazon Affiliate Buttons */
+
+.post-content a.affiliate-button {
+  display: inline-block !important;
+  background-color: #c76b85 !important;
+  color: #ffffff !important;
+  padding: 12px 22px !important;
+  border: 1px solid #c76b85 !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  text-align: center;
+  margin: 12px 0;
+  box-shadow: 0 2px 5px rgba(169, 79, 107, 0.12);
+  transition: all 0.25s ease;
+}
+
+.post-content a.affiliate-button:hover {
+  background-color: #a94f6b !important;
+  border-color: #a94f6b !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(169, 79, 107, 0.2);
+}

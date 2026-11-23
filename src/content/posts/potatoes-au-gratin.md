@@ -7,7 +7,7 @@ draft: false
 ---
 ---
 
-# Potatoes au Gratin (Dauphinoise)
+# 
 
 |                      |                    |
 | -------------------- | ------------------ |

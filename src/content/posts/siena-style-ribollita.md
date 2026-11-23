@@ -9,7 +9,7 @@ category:
 draft: false
 ---
 
-# Ribollita
+# 
 
 There is nothing quite like a hearty bowl of soup on a cold winter day. This rustic Tuscan soup brings together tender beans, seasonal vegetables, and Parmesan, slowly simmered until rich and velvety. Pieces of rustic bread melt into the broth, creating a wonderfully thick, comforting texture that warms you from the inside out.
 

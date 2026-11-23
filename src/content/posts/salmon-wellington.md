@@ -9,7 +9,7 @@ category:
 draft: false
 ---
 
-# Salmon Wellington with Creamy Spinach Filling
+#
 
 Salmon Wellington is an elegant yet approachable dinner featuring a tender salmon fillet wrapped in flaky puff pastry with a creamy spinach and herb filling. Garlic, fresh dill and lemon add brightness, while cream cheese gives the filling a rich, velvety texture.
 

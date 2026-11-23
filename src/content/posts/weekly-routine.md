@@ -14,7 +14,7 @@ category: housekeeping
 </head>
 <body>
 <div class="page">
-<h1>Weekly Routine</h1>
+<h1></h1>
 <div class="rule"></div>
 
 <div class="day"><b>Sunday: Deep Clean</b><p>Start the week off with everything fresh, because you deserve the peace of mind to start your week off right.</p></div>

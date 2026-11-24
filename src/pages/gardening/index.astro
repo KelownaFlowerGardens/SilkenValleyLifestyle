@@ -1,43 +1,383 @@
 
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
   title="Gardening | Silken Valley Lifestyle"
+  description="Explore garden design, flowers, perennials, trees, shrubs, seasonal gardening, and practical garden care."
   heroTitle="Gardening"
   heroText="Garden inspiration, plant care, and beautiful outdoor living."
   heroCompact={true}
 >
-  <section class="hero">
+  <section class="hero garden-intro">
     <p class="eyebrow">Garden & Outdoor Living</p>
     <h1>Gardening & Landscape Inspiration</h1>
     <p>
-      Discover gardening techniques, seasonal planting ideas,
-      garden design inspiration, and practical advice for
-      creating beautiful outdoor spaces.
+      Discover the art and enjoyment of gardening through historic
+      garden traditions, landscape design, flowering plants,
+      seasonal inspiration, and practical horticultural knowledge.
+      Whether creating a new garden or caring for an established
+      landscape, find inspiration for making outdoor spaces beautiful
+      and welcoming.
     </p>
   </section>
 
-  <section class="grid">
-    <a class="card" href="/gardening/garden-design/">
-      <h3>Garden Design</h3>
-      <p>Historic gardens, landscape styles, and garden planning.</p>
-    </a>
+  <nav class="garden-nav" aria-label="Gardening page sections">
+    <a href="#garden-design">Garden Design</a>
+    <a href="#garden-history">Garden History</a>
+    <a href="#flowers">Flowers & Perennials</a>
+    <a href="#trees">Trees & Shrubs</a>
+    <a href="#seasons">Seasonal Gardening</a>
+    <a href="#garden-care">Garden Care</a>
+  </nav>
 
-    <a class="card" href="/gardening/flowers/">
-      <h3>Flowers & Perennials</h3>
-      <p>Flower varieties, planting combinations, and seasonal colour.</p>
-    </a>
+  <section class="garden-section" id="garden-design">
+    <p class="eyebrow">Planning Beautiful Outdoor Spaces</p>
+    <h2>The Art of Garden Design</h2>
+    <p>
+      Garden design brings together architecture, horticulture,
+      colour, texture, and the natural landscape. A thoughtfully
+      designed garden creates a sense of harmony while providing
+      spaces for relaxation, entertaining, and enjoying nature.
+    </p>
+    <p>
+      Explore traditional and contemporary garden styles, from
+      formal European landscapes and English cottage gardens to
+      Mediterranean courtyards, naturalistic planting, and
+      modern outdoor living spaces.
+    </p>
 
-    <a class="card" href="/gardening/trees-shrubs/">
-      <h3>Trees & Shrubs</h3>
-      <p>Choosing, planting, and maintaining trees and shrubs.</p>
-    </a>
+    <div class="garden-feature-grid">
+      <article class="garden-feature">
+        <h3>Formal Gardens</h3>
+        <p>
+          Discover symmetry, geometric layouts, clipped hedges,
+          parterres, fountains, and carefully arranged planting.
+        </p>
+      </article>
 
-    <a class="card" href="/gardening/garden-care/">
-      <h3>Garden Care</h3>
-      <p>Soil, watering, pruning, and seasonal maintenance.</p>
-    </a>
+      <article class="garden-feature">
+        <h3>Cottage Gardens</h3>
+        <p>
+          Explore abundant flowers, informal pathways, climbing
+          roses, traditional perennials, and romantic planting.
+        </p>
+      </article>
+
+      <article class="garden-feature">
+        <h3>Mediterranean Gardens</h3>
+        <p>
+          Learn about stonework, courtyards, aromatic herbs,
+          drought-conscious planting, and architectural evergreens.
+        </p>
+      </article>
+
+      <article class="garden-feature">
+        <h3>Naturalistic Gardens</h3>
+        <p>
+          Create relaxed landscapes with ornamental grasses,
+          flowering perennials, native plants, and natural forms.
+        </p>
+      </article>
+    </div>
+
+    <p class="garden-link">
+      <a href="/gardening/garden-design/">Explore Garden Design →</a>
+    </p>
   </section>
+
+  <section class="garden-section" id="garden-history">
+    <p class="eyebrow">Gardens Through the Ages</p>
+    <h2>The History & Inspiration of Gardens</h2>
+    <p>
+      Gardens have reflected the cultures, architecture, artistic
+      traditions, and lifestyles of civilizations throughout history.
+      From ancient Egyptian courtyards and Greek gardens to the
+      elaborate landscapes of Renaissance Italy and formal gardens
+      of Stuart and Georgian England, each period introduced
+      distinctive ideas about outdoor spaces.
+    </p>
+    <p>
+      Historical garden traditions continue to influence modern
+      landscape design. Their use of symmetry, water, sculpture,
+      planting arrangements, enclosed spaces, and garden rooms
+      provides inspiration for contemporary gardens.
+    </p>
+    <ul class="garden-list">
+      <li>Ancient Egyptian, Greek, Roman, and Persian gardens</li>
+      <li>Renaissance Italian and Mediterranean landscapes</li>
+      <li>Stuart and Georgian formal gardens</li>
+      <li>English cottage and Victorian gardens</li>
+      <li>Traditional European and modern landscape styles</li>
+    </ul>
+    <p class="garden-link">
+      <a href="/gardening/garden-design/">Discover Historical Garden Design →</a>
+    </p>
+  </section>
+
+  <section class="garden-section" id="flowers">
+    <p class="eyebrow">Colour, Fragrance & Planting</p>
+    <h2>Flowers & Perennials</h2>
+    <p>
+      Flowers bring colour, fragrance, movement, and seasonal
+      interest to the garden. Combining flowering shrubs,
+      herbaceous perennials, annuals, bulbs, and ornamental grasses
+      creates planting displays that evolve throughout the year.
+    </p>
+    <p>
+      Learn about individual flower varieties, flowering periods,
+      growing conditions, plant combinations, and the principles
+      of creating beautiful perennial borders.
+    </p>
+    <p class="garden-link">
+      <a href="/gardening/flowers/">Explore Flowers & Perennials →</a>
+    </p>
+  </section>
+
+  <section class="garden-section" id="trees">
+    <p class="eyebrow">Structure & Year-Round Interest</p>
+    <h2>Trees & Shrubs</h2>
+    <p>
+      Trees and shrubs provide the structure and framework of
+      a successful landscape. They offer shade, privacy, seasonal
+      flowers, foliage colour, interesting bark, and year-round
+      garden interest.
+    </p>
+    <p>
+      Explore ornamental trees, flowering shrubs, evergreen
+      selections, hedging plants, and the considerations involved
+      in choosing plants for different garden spaces.
+    </p>
+    <p class="garden-link">
+      <a href="/gardening/trees-shrubs/">Explore Trees & Shrubs →</a>
+    </p>
+  </section>
+
+  <section class="garden-section" id="seasons">
+    <p class="eyebrow">A Garden for Every Season</p>
+    <h2>Seasonal Gardening</h2>
+    <p>
+      Gardening changes with the seasons. Planning throughout
+      the year helps maintain healthy plants, encourage flowering,
+      and keep outdoor spaces attractive and productive.
+    </p>
+
+    <div class="garden-feature-grid">
+      <article class="garden-feature">
+        <h3>Spring</h3>
+        <p>
+          Prepare garden beds, divide perennials, plant bulbs,
+          prune appropriate shrubs, and begin seasonal planting.
+        </p>
+      </article>
+
+      <article class="garden-feature">
+        <h3>Summer</h3>
+        <p>
+          Maintain flowering borders, water thoughtfully,
+          deadhead flowers, and enjoy the garden in full bloom.
+        </p>
+      </article>
+
+      <article class="garden-feature">
+        <h3>Autumn</h3>
+        <p>
+          Plant suitable trees and shrubs, collect seeds,
+          prepare beds, and enjoy autumn foliage.
+        </p>
+      </article>
+
+      <article class="garden-feature">
+        <h3>Winter</h3>
+        <p>
+          Protect vulnerable plants, plan new garden projects,
+          prune suitable dormant plants, and appreciate winter structure.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="garden-section" id="garden-care">
+    <p class="eyebrow">Growing & Maintaining a Healthy Garden</p>
+    <h2>Garden Care & Practical Advice</h2>
+    <p>
+      A beautiful garden begins with healthy soil, appropriate
+      plant selection, and consistent care. Understanding the
+      growing requirements of individual plants helps create
+      stronger, healthier, and more resilient landscapes.
+    </p>
+    <ul class="garden-list">
+      <li>Soil preparation and improvement</li>
+      <li>Watering, drainage, and moisture management</li>
+      <li>Pruning and seasonal maintenance</li>
+      <li>Plant propagation and dividing perennials</li>
+      <li>Mulching, composting, and soil health</li>
+      <li>Garden planning and maintenance schedules</li>
+    </ul>
+    <p class="garden-link">
+      <a href="/gardening/garden-care/">Explore Garden Care →</a>
+    </p>
+  </section>
+
+  <section class="garden-closing">
+    <p class="eyebrow">Create Something Beautiful</p>
+    <h2>Inspiration Begins in the Garden</h2>
+    <p>
+      From historic garden traditions to practical planting
+      advice, gardening offers endless opportunities to learn,
+      create, and enjoy the natural world.
+    </p>
+  </section>
+
 </BaseLayout>
+
+<style>
+  .garden-intro {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .garden-intro > p:not(.eyebrow) {
+    color: var(--muted);
+    line-height: 1.85;
+  }
+
+  .garden-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .65rem;
+    margin: 0 auto 2.5rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .garden-nav a {
+    display: inline-block;
+    padding: .5rem .9rem;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--accent-dark);
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .garden-nav a:hover {
+    background: var(--accent);
+    color: #ffffff;
+  }
+
+  .garden-section {
+    margin: 0 0 2rem;
+    padding: 2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(90, 50, 65, .04);
+    scroll-margin-top: 1.5rem;
+  }
+
+  .garden-section h2,
+  .garden-closing h2 {
+    color: var(--accent-dark);
+    margin-top: .25rem;
+  }
+
+  .garden-section > p:not(.eyebrow) {
+    line-height: 1.85;
+  }
+
+  .garden-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .garden-feature {
+    padding: 1.2rem;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .garden-feature h3 {
+    margin-top: 0;
+    color: var(--accent-dark);
+  }
+
+  .garden-feature p {
+    color: var(--muted);
+    margin-bottom: 0;
+    line-height: 1.75;
+  }
+
+  .garden-list {
+    padding-left: 1.5rem;
+    line-height: 1.9;
+  }
+
+  .garden-link {
+    margin-top: 1.25rem;
+    text-align: center;
+  }
+
+  .garden-link a {
+    display: inline-block;
+    padding: .7rem 1.2rem;
+    background: var(--accent-dark);
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .garden-link a:hover {
+    background: var(--accent);
+    color: #ffffff;
+  }
+
+  .garden-closing {
+    margin: 2rem 0 1rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+
+  .garden-closing p:last-child {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--muted);
+    line-height: 1.85;
+  }
+
+  @media (max-width: 700px) {
+    .garden-section {
+      padding: 1.25rem;
+    }
+
+    .garden-feature-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .garden-nav {
+      gap: .5rem;
+      padding: 1rem;
+    }
+
+    .garden-nav a {
+      font-size: .85rem;
+    }
+
+    .garden-closing {
+      padding: 1.5rem;
+    }
+  }
+</style>

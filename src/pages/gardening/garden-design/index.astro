@@ -343,4 +343,47 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       font-size: 1.5rem;
     }
   }
+
+.garden-external {
+  margin: 2rem 0 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: var(--rose-wash);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.garden-external h2 {
+  color: var(--accent-dark);
+  margin-top: .25rem;
+}
+
+.garden-external p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.garden-external-link {
+  display: inline-block;
+  padding: .75rem 1.5rem;
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s ease;
+}
+
+.garden-external-link:hover {
+  background: var(--accent-dark);
+}
+
+@media (max-width: 700px) {
+  .garden-external {
+    padding: 1.5rem;
+  }
+}
+
 </style>

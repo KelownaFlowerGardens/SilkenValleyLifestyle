@@ -3,13 +3,17 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 
+
 const categories = [
   { href: '/recipes/', title: 'Recipes', text: 'Simple meals, seasonal cooking, and kitchen tips.' },
   { href: '/fitness/', title: 'Fitness', text: 'Movement routines, recovery, and healthy habits.' },
   { href: '/cat-care/', title: 'Cat Care', text: 'Care guides for pets and everyday wellbeing.' },
   { href: '/gardening/', title: 'Gardening', text: 'Plant care, garden planning, and outdoor projects.' },
   { href: '/housekeeping/', title: 'Good Housekeeping', text: 'Cleaning routines, organization, and home systems.' },
+  { href: '/home-decor/', title: 'Home Decor', text: 'Interior decorating, colour inspiration, furniture, and beautiful living spaces.' },
+  { href: '/beauty/', title: 'Beauty', text: 'Skincare, makeup, hair care, fragrance, and everyday beauty rituals.' },
 ];
+
 
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())

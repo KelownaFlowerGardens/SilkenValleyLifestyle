@@ -4,40 +4,1337 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Housekeeping | Silken Valley Lifestyle"
-  heroTitle="Good Housekeeping"
-  heroText="Practical ideas for an organized, comfortable, and welcoming home."
+  title="Laundry & Fabric Care | Silken Valley Lifestyle"
+  heroTitle="Laundry & Fabric Care"
+  heroText="A comprehensive guide to detergents, fabric care, washing techniques, garment preservation, and beautiful clothing maintenance."
   heroCompact={true}
 >
   <section class="hero">
-    <p class="eyebrow">Home & Organization</p>
-    <h1>Good Housekeeping & Home Management</h1>
+    <p class="eyebrow">The Art of Good Housekeeping</p>
+    <h1>The Complete Guide to Laundry & Fabric Care</h1>
     <p>
-      Explore practical cleaning routines, home organization,
-      household management, and ideas for maintaining a
-      beautiful and comfortable living environment.
+      Proper laundry care is about much more than simply washing
+      clothing. Understanding detergents, fabric conditioners,
+      disinfectants, water temperatures, fabric construction,
+      and garment-care instructions can help preserve the beauty,
+      comfort, colour, and longevity of clothing and household
+      textiles.
+    </p>
+    <p>
+      From delicate silk blouses and cashmere sweaters to crisp
+      dress shirts, fine linens, towels, and everyday garments,
+      discover how to care for different fabrics with confidence.
     </p>
   </section>
 
   <section class="grid">
-    <a class="card" href="/housekeeping/cleaning/">
-      <h3>Cleaning & Maintenance</h3>
-      <p>Cleaning routines, household care, and maintenance tips.</p>
+    <a class="card" href="#laundry-basics">
+      <h3>Laundry Fundamentals</h3>
+      <p>Sorting, preparing, loading, and washing clothing correctly.</p>
     </a>
 
-    <a class="card" href="/housekeeping/organization/">
-      <h3>Home Organization</h3>
-      <p>Decluttering, storage, and creating organized spaces.</p>
+    <a class="card" href="#detergent-types">
+      <h3>Types of Laundry Detergents</h3>
+      <p>Powder, liquid, concentrated, enzyme, delicate, and specialty detergents.</p>
     </a>
 
-    <a class="card" href="/housekeeping/laundry/">
-      <h3>Laundry & Fabrics</h3>
-      <p>Fabric care, laundry techniques, and household essentials.</p>
+    <a class="card" href="#fabric-softeners">
+      <h3>Fabric Softeners & Conditioners</h3>
+      <p>Liquid conditioners, dryer sheets, wool dryer balls, and alternatives.</p>
     </a>
 
-    <a class="card" href="/housekeeping/home-management/">
-      <h3>Home Management</h3>
-      <p>Household schedules, planning, and everyday systems.</p>
+    <a class="card" href="#disinfectants">
+      <h3>Laundry Disinfectants & Sanitizers</h3>
+      <p>Understanding laundry sanitizers, chlorine bleach, and other products.</p>
     </a>
+
+    <a class="card" href="#washing-temperatures">
+      <h3>Water Temperatures</h3>
+      <p>Choosing cold, cool, warm, and hot washing temperatures.</p>
+    </a>
+
+    <a class="card" href="#silk-care">
+      <h3>Silk & Delicate Fabrics</h3>
+      <p>Protecting silk blouses, scarves, dresses, and delicate garments.</p>
+    </a>
+
+    <a class="card" href="#cashmere-care">
+      <h3>Cashmere & Fine Wool</h3>
+      <p>Washing, drying, storing, and preserving luxury knitwear.</p>
+    </a>
+
+    <a class="card" href="#cotton-care">
+      <h3>Cotton & Fine Cotton</h3>
+      <p>Everyday cotton, Egyptian cotton, percale, sateen, and fine garments.</p>
+    </a>
+
+    <a class="card" href="#dress-shirt-care">
+      <h3>Dress Shirts & Tailored Clothing</h3>
+      <p>Washing, stain treatment, ironing, collars, cuffs, and garment care.</p>
+    </a>
+
+    <a class="card" href="#linen-care">
+      <h3>Linen & Natural Fibres</h3>
+      <p>Caring for linen clothing, tablecloths, bedding, and household textiles.</p>
+    </a>
+
+    <a class="card" href="#wool-care">
+      <h3>Wool & Other Animal Fibres</h3>
+      <p>Merino, lambswool, alpaca, mohair, and other natural fibres.</p>
+    </a>
+
+    <a class="card" href="#synthetic-care">
+      <h3>Synthetic & Performance Fabrics</h3>
+      <p>Polyester, nylon, elastane, athletic wear, and technical clothing.</p>
+    </a>
+
+    <a class="card" href="#denim-care">
+      <h3>Denim & Everyday Clothing</h3>
+      <p>Preserving colour, fit, and the appearance of jeans and casual wear.</p>
+    </a>
+
+    <a class="card" href="#towels-bedding">
+      <h3>Towels & Bedding</h3>
+      <p>Keeping towels absorbent and maintaining fresh, comfortable bedding.</p>
+    </a>
+
+    <a class="card" href="#stain-removal">
+      <h3>Stain Removal</h3>
+      <p>Approaches to treating common food, oil, grass, ink, and cosmetic stains.</p>
+    </a>
+
+    <a class="card" href="#ironing-pressing">
+      <h3>Ironing & Garment Finishing</h3>
+      <p>Steam, pressing, temperature settings, and professional-looking finishes.</p>
+    </a>
+
+    <a class="card" href="#drying-methods">
+      <h3>Drying & Garment Protection</h3>
+      <p>Air drying, tumble drying, drying racks, and preventing fabric damage.</p>
+    </a>
+
+    <a class="card" href="#laundry-storage">
+      <h3>Clothing Storage & Preservation</h3>
+      <p>Protecting seasonal clothing, delicate garments, and fine textiles.</p>
+    </a>
+
+    <a class="card" href="#laundry-equipment">
+      <h3>Washing Machines & Equipment</h3>
+      <p>Machine settings, washer maintenance, and laundry equipment.</p>
+    </a>
+
+    <a class="card" href="#laundry-mistakes">
+      <h3>Common Laundry Mistakes</h3>
+      <p>Preventing fading, shrinking, residue, stretching, and premature wear.</p>
+    </a>
+  </section>
+
+  <section id="laundry-basics" class="content-section">
+    <h2>1. Laundry Fundamentals</h2>
+
+    <p>
+      Good laundry care begins before clothing enters the washing
+      machine. Preparing garments correctly helps prevent colour
+      transfer, fabric damage, shrinkage, and unnecessary wear.
+    </p>
+
+    <h3>Sorting Laundry</h3>
+    <p>
+      Separate laundry according to colour, fabric type, soil level,
+      and washing requirements. A practical sorting system includes:
+    </p>
+    <ul>
+      <li>Whites and light-coloured garments.</li>
+      <li>Dark clothing, including black, navy, and charcoal.</li>
+      <li>Bright and deeply coloured garments.</li>
+      <li>Delicate fabrics such as silk, lace, and fine knits.</li>
+      <li>Towels and household linens.</li>
+      <li>Heavily soiled clothing and work garments.</li>
+      <li>Sportswear and technical performance fabrics.</li>
+    </ul>
+
+    <h3>Preparing Garments</h3>
+    <ul>
+      <li>Read garment-care labels before washing.</li>
+      <li>Empty pockets and remove loose objects.</li>
+      <li>Close zippers and fasten hooks to prevent snagging.</li>
+      <li>Turn dark garments and printed clothing inside out.</li>
+      <li>Separate items with delicate buttons, embroidery, or embellishments.</li>
+      <li>Use mesh laundry bags for suitable delicate garments.</li>
+      <li>Check stains and pretreat them when appropriate.</li>
+    </ul>
+
+    <h3>Loading the Washing Machine</h3>
+    <p>
+      Avoid overloading the machine. Clothing needs room to move
+      freely so that water and detergent can circulate properly.
+      An overloaded washer may leave detergent residue, produce
+      uneven cleaning, and increase fabric friction.
+    </p>
+  </section>
+
+  <section id="detergent-types" class="content-section">
+    <h2>2. Understanding Different Types of Laundry Detergents</h2>
+
+    <p>
+      Laundry detergents are formulated to remove soil, body oils,
+      food residues, and everyday stains. They contain combinations
+      of surfactants, builders, enzymes, water conditioners,
+      fragrances, and other ingredients.
+    </p>
+
+    <h3>Powder Laundry Detergent</h3>
+    <p>
+      Powder detergent is commonly used for everyday laundry and
+      can be particularly useful for certain general soil and
+      outdoor dirt. Some powder formulations contain oxygen-based
+      bleaching ingredients that help brighten suitable washable
+      fabrics.
+    </p>
+    <p>
+      Powder should be measured according to the manufacturer's
+      instructions and the water conditions. It may not dissolve
+      as readily in very cold water, particularly when overdosed
+      or used in an overloaded machine.
+    </p>
+
+    <h3>Liquid Laundry Detergent</h3>
+    <p>
+      Liquid detergents dissolve readily in water and are convenient
+      for many everyday washing requirements. They can be useful
+      for pretreating certain greasy or oily stains when the product
+      label permits direct application.
+    </p>
+    <p>
+      Measure carefully. Using too much liquid detergent can leave
+      residue on clothing and contribute to buildup inside the
+      washing machine.
+    </p>
+
+    <h3>Laundry Detergent Pods and Capsules</h3>
+    <p>
+      Pods and capsules contain premeasured detergent, offering
+      convenience and reducing the need to measure each wash.
+      They are generally placed directly into the empty washing
+      drum before adding laundry, according to product directions.
+    </p>
+    <p>
+      Do not cut, puncture, or dissolve capsules separately unless
+      the manufacturer specifically instructs you to do so.
+      Keep them securely stored away from children and pets.
+    </p>
+
+    <h3>High-Efficiency (HE) Detergent</h3>
+    <p>
+      High-efficiency washing machines use less water than many
+      traditional machines. HE detergents are formulated to produce
+      controlled sudsing and work effectively in these conditions.
+    </p>
+    <p>
+      Use detergent marked HE when required by your washing machine.
+      Excessive suds can interfere with washing and rinsing performance.
+    </p>
+
+    <h3>Concentrated Detergents</h3>
+    <p>
+      Concentrated detergents contain less water or filler relative
+      to their cleaning ingredients. They require smaller measured
+      quantities than many conventional formulations.
+    </p>
+    <p>
+      Always use the dosage recommended on the packaging rather
+      than estimating by eye.
+    </p>
+
+    <h3>Enzyme-Based Detergents</h3>
+    <p>
+      Enzymes help break down particular types of organic stains.
+      Different enzymes perform different functions:
+    </p>
+    <ul>
+      <li>Proteases help break down protein-based stains such as blood and egg.</li>
+      <li>Amylases help break down starch-based food stains.</li>
+      <li>Lipases help break down certain fats and oils.</li>
+      <li>Cellulases can help maintain the appearance of some cotton fabrics.</li>
+    </ul>
+    <p>
+      Enzyme detergents can be effective for everyday family laundry.
+      However, check fabric-care instructions before using them on
+      delicate or specialty garments. Some delicate fabrics and
+      specialty finishes require different products.
+    </p>
+
+    <h3>Detergents for Delicate Fabrics</h3>
+    <p>
+      Delicate detergents are formulated for garments requiring
+      gentler treatment. They are commonly used for suitable silk,
+      wool, cashmere, lace, and other fine fabrics.
+    </p>
+    <p>
+      Look for products specifically labelled as suitable for
+      the fibre being washed. A wool-specific detergent is not
+      automatically appropriate for every silk garment, and
+      care labels should always take priority.
+    </p>
+
+    <h3>Wool and Cashmere Wash</h3>
+    <p>
+      Wool and cashmere benefit from products formulated for
+      animal fibres. These detergents are generally designed
+      to clean gently while helping preserve the natural feel
+      of the fibres.
+    </p>
+    <p>
+      Avoid ordinary harsh detergents and products containing
+      unsuitable bleaching ingredients when caring for fine wool.
+    </p>
+
+    <h3>Colour-Care Detergents</h3>
+    <p>
+      Colour-care detergents are designed to clean coloured
+      clothing while helping reduce colour fading. They are
+      useful for dark garments, bright colours, and many
+      everyday coloured fabrics.
+    </p>
+
+    <h3>Fragrance-Free and Sensitive-Skin Detergents</h3>
+    <p>
+      Fragrance-free detergents are useful for people who prefer
+      to avoid added fragrance. Some formulations are also
+      designed to minimize certain ingredients that may irritate
+      sensitive skin.
+    </p>
+    <p>
+      Fragrance-free does not necessarily mean hypoallergenic.
+      Check the complete ingredient information and choose a
+      product appropriate for your household.
+    </p>
+
+    <h3>Specialty Laundry Detergents</h3>
+    <p>
+      Specialty detergents are available for particular laundry
+      requirements, including baby clothing, sportswear, dark
+      garments, outdoor clothing, and heavily soiled workwear.
+      Select products according to their intended use and
+      the garment manufacturer's instructions.
+    </p>
+  </section>
+
+  <section id="fabric-softeners" class="content-section">
+    <h2>3. Fabric Softeners & Fabric Conditioners</h2>
+
+    <p>
+      Fabric softeners and conditioners are used to improve the
+      feel of many washable fabrics, reduce static electricity,
+      and provide fragrance. They are generally added during
+      the rinse stage rather than the main wash.
+    </p>
+
+    <h3>Liquid Fabric Softener</h3>
+    <p>
+      Liquid fabric softeners are added to the designated
+      dispenser in the washing machine. They coat fibres with
+      conditioning ingredients that help reduce friction and
+      create a softer feel.
+    </p>
+    <p>
+      Use the recommended amount. Excessive softener can build
+      up on fabrics and reduce the performance of certain
+      textiles.
+    </p>
+
+    <h3>Concentrated Fabric Conditioner</h3>
+    <p>
+      Concentrated conditioners are designed to deliver
+      conditioning benefits in smaller quantities. Follow
+      the measuring instructions carefully, as using too
+      much can leave a coating on garments.
+    </p>
+
+    <h3>Fragranced Fabric Softeners</h3>
+    <p>
+      Fragranced softeners leave clothing with a noticeable
+      scent. Fragrance intensity varies between formulations.
+      For people sensitive to fragrance, an unscented option
+      may be preferable.
+    </p>
+
+    <h3>Dryer Sheets</h3>
+    <p>
+      Dryer sheets are placed in the tumble dryer and can
+      reduce static and soften many fabrics. Some also
+      provide fragrance.
+    </p>
+    <p>
+      Check the garment and dryer instructions before use.
+      Dryer sheets are not appropriate for every fabric or
+      technical textile.
+    </p>
+
+    <h3>Wool Dryer Balls</h3>
+    <p>
+      Wool dryer balls are reusable dryer accessories that
+      help separate items as they tumble. They can encourage
+      airflow and may help reduce drying time in some loads.
+      They do not provide the same conditioning treatment
+      as conventional fabric softeners.
+    </p>
+
+    <h3>When Not to Use Fabric Softener</h3>
+    <p>
+      Fabric softener is not suitable for every textile.
+      In particular, avoid it on:
+    </p>
+    <ul>
+      <li>Microfibre cleaning cloths, where absorbency can be reduced.</li>
+      <li>Many towels, because coatings can reduce water absorption.</li>
+      <li>Technical sportswear designed to wick moisture.</li>
+      <li>Some flame-resistant garments, unless the manufacturer permits it.</li>
+      <li>Some waterproof and water-repellent performance fabrics.</li>
+    </ul>
+    <p>
+      Always follow the garment manufacturer's recommendations.
+    </p>
+  </section>
+
+  <section id="disinfectants" class="content-section">
+    <h2>4. Laundry Disinfectants, Sanitizers & Bleaching Products</h2>
+
+    <p>
+      Cleaning, sanitizing, and disinfecting are not identical
+      processes. Ordinary laundry detergent removes soil and
+      many microorganisms through washing and rinsing, but it
+      should not automatically be considered a disinfectant.
+    </p>
+
+    <h3>Laundry Sanitizers</h3>
+    <p>
+      Laundry sanitizers are specialty products designed to
+      reduce specified microorganisms on suitable fabrics
+      when used according to their labelled directions.
+      Some are formulated for use in particular rinse cycles
+      or washing temperatures.
+    </p>
+    <p>
+      Check the product label for the fabrics, machine settings,
+      contact times, and intended uses. In Canada, look for
+      appropriate regulatory authorization and follow the
+      directions on the product.
+    </p>
+
+    <h3>Chlorine Bleach</h3>
+    <p>
+      Chlorine bleach is a powerful bleaching and disinfecting
+      product for suitable washable materials. It can whiten
+      certain fabrics and help remove some stains.
+    </p>
+    <p>
+      It is not appropriate for every garment. It can damage
+      coloured fabrics, silk, wool, elastane, and other
+      sensitive fibres.
+    </p>
+    <p>
+      Use only where the garment label and product instructions
+      permit. Never mix chlorine bleach with ammonia, acids,
+      vinegar, or other cleaning products.
+    </p>
+
+    <h3>Oxygen-Based Bleach</h3>
+    <p>
+      Oxygen bleach products commonly contain ingredients such
+      as sodium percarbonate. They release oxygen in water
+      and can help brighten suitable washable fabrics and
+      treat certain stains.
+    </p>
+    <p>
+      Oxygen bleach is different from chlorine bleach and
+      should not automatically be considered a disinfectant.
+      Follow product directions and check fabric compatibility.
+    </p>
+
+    <h3>Colour-Safe Bleaching Products</h3>
+    <p>
+      Some oxygen-based products are marketed for use on
+      colourfast garments. They can help address certain
+      stains while being less aggressive than chlorine
+      bleach on suitable materials.
+    </p>
+    <p>
+      Test colourfastness where recommended and avoid assuming
+      that every coloured or delicate fabric is compatible.
+    </p>
+
+    <h3>When to Consider Laundry Sanitizing</h3>
+    <p>
+      A suitable laundry sanitizer may be useful for certain
+      household situations, such as washing appropriate
+      washable items that require additional hygiene measures.
+      Examples may include some sports clothing, towels,
+      and household textiles.
+    </p>
+    <p>
+      Choose products according to the specific need and
+      follow the label. Routine laundry does not necessarily
+      require a separate disinfectant.
+    </p>
+
+    <h3>Important Chemical Safety</h3>
+    <ul>
+      <li>Never mix bleach with ammonia, vinegar, acids, or other cleaners.</li>
+      <li>Keep products in their original labelled containers.</li>
+      <li>Use products only for their labelled purpose.</li>
+      <li>Provide ventilation when using appropriate cleaning products.</li>
+      <li>Wear protective equipment when the label recommends it.</li>
+      <li>Store chemicals securely away from children and pets.</li>
+    </ul>
+  </section>
+
+  <section id="washing-temperatures" class="content-section">
+    <h2>5. Choosing the Correct Washing Temperature</h2>
+
+    <p>
+      Water temperature affects cleaning performance, colour
+      retention, fabric shrinkage, and energy use. The correct
+      temperature depends on the textile, detergent, level of
+      soiling, and garment-care instructions.
+    </p>
+
+    <h3>Cold Water</h3>
+    <p>
+      Cold washing is useful for many everyday garments,
+      dark colours, and delicate textiles. It can help reduce
+      colour fading and shrinkage and is often more energy
+      efficient.
+    </p>
+    <p>
+      Modern detergents are commonly formulated to work in
+      cold water. However, heavily soiled items and certain
+      hygiene requirements may need a different approach.
+    </p>
+
+    <h3>Cool Water</h3>
+    <p>
+      Cool water is a practical choice for many mixed-colour
+      loads and lightly soiled clothing. It can provide a
+      balance between gentle fabric treatment and everyday
+      cleaning.
+    </p>
+
+    <h3>Warm Water</h3>
+    <p>
+      Warm water may be appropriate for certain cotton garments,
+      bedding, towels, and moderately soiled laundry when
+      the care label permits it.
+    </p>
+
+    <h3>Hot Water</h3>
+    <p>
+      Hot water is appropriate only for suitable fabrics and
+      when the garment and product instructions allow it.
+      It can be useful for certain heavily soiled washable
+      items, but may shrink fabrics, fade colours, or damage
+      delicate fibres.
+    </p>
+
+    <h3>Temperature and Hygiene</h3>
+    <p>
+      Washing temperature alone does not guarantee disinfection.
+      For a specific hygiene requirement, follow the
+      instructions of an appropriately labelled laundry
+      sanitizer or disinfectant and the washing machine
+      manufacturer's recommendations.
+    </p>
+  </section>
+
+  <section id="silk-care" class="content-section">
+    <h2>6. Caring for Silk & Delicate Fabrics</h2>
+
+    <p>
+      Silk is a natural protein fibre prized for its smooth
+      texture, lustre, drape, and luxurious appearance.
+      It is used in blouses, dresses, scarves, lingerie,
+      ties, and fine bedding.
+    </p>
+
+    <h3>Understanding Silk</h3>
+    <p>
+      Silk can be sensitive to harsh detergents, strong
+      alkaline products, excessive heat, prolonged soaking,
+      and rough handling. Some silk garments are also
+      vulnerable to water spotting or changes in appearance.
+    </p>
+
+    <h3>Washing Silk</h3>
+    <ul>
+      <li>Check the care label first; some silk garments require dry cleaning.</li>
+      <li>Use a detergent specifically suitable for washable silk.</li>
+      <li>Use cool water and a gentle hand-washing or machine cycle only when permitted.</li>
+      <li>Wash similar colours together and avoid overcrowding.</li>
+      <li>Do not use chlorine bleach.</li>
+      <li>Avoid harsh stain removers and vigorous rubbing.</li>
+      <li>Do not wring or twist silk to remove water.</li>
+    </ul>
+
+    <h3>Drying Silk</h3>
+    <p>
+      After washing, gently press excess water out using a
+      clean towel. Reshape the garment and dry it flat or
+      according to the manufacturer's instructions.
+    </p>
+    <p>
+      Avoid direct sunlight, high heat, and tumble drying
+      unless the garment label specifically permits it.
+    </p>
+
+    <h3>Ironing Silk</h3>
+    <p>
+      Use a low-temperature silk setting where appropriate.
+      Iron garments inside out and preferably while slightly
+      damp or with a suitable pressing cloth. Avoid direct
+      high heat, which can damage the fibres and affect
+      the fabric's lustre.
+    </p>
+
+    <h3>Silk Scarves</h3>
+    <p>
+      Fine silk scarves deserve especially gentle treatment.
+      Avoid snagging them on jewellery, rough surfaces,
+      and sharp accessories. Store them clean, dry, and
+      loosely folded.
+    </p>
+
+    <h3>Silk Storage</h3>
+    <p>
+      Store silk garments in a cool, dry, clean environment
+      away from direct sunlight. Avoid hanging delicate
+      bias-cut or heavily embellished pieces if their
+      weight could distort their shape.
+    </p>
+  </section>
+
+  <section id="cashmere-care" class="content-section">
+    <h2>7. Caring for Cashmere & Fine Wool</h2>
+
+    <p>
+      Cashmere is a fine natural fibre obtained from the
+      undercoat of cashmere goats. It is valued for its
+      softness, warmth, lightweight feel, and luxurious
+      texture.
+    </p>
+
+    <h3>Why Cashmere Requires Special Care</h3>
+    <p>
+      Fine cashmere fibres can felt, shrink, stretch, or
+      lose their shape when exposed to unsuitable washing
+      conditions, agitation, or heat.
+    </p>
+
+    <h3>Washing Cashmere</h3>
+    <ul>
+      <li>Read the garment label before deciding whether to wash or dry clean.</li>
+      <li>Use a detergent specifically formulated for wool and cashmere.</li>
+      <li>Use cool water and gentle handling when hand washing is permitted.</li>
+      <li>Avoid vigorous rubbing, twisting, and wringing.</li>
+      <li>Rinse gently if the detergent instructions require it.</li>
+      <li>Never use chlorine bleach.</li>
+      <li>Avoid ordinary fabric softeners unless the garment manufacturer permits them.</li>
+    </ul>
+
+    <h3>Drying Cashmere</h3>
+    <p>
+      Gently remove excess water by pressing the garment
+      between clean towels. Reshape it carefully and dry
+      flat on a clean, dry surface.
+    </p>
+    <p>
+      Hanging wet cashmere can cause stretching because
+      the weight of the water pulls on the fibres. Avoid
+      tumble drying and direct heat.
+    </p>
+
+    <h3>Removing Pilling</h3>
+    <p>
+      Cashmere can develop small fibre balls known as pills,
+      especially in areas of friction such as under the arms
+      and along the sides of a garment.
+    </p>
+    <p>
+      Use a suitable cashmere comb or fabric de-pilling tool
+      gently. Do not pull pills off by hand, as this can
+      damage the fibres.
+    </p>
+
+    <h3>Storing Cashmere</h3>
+    <p>
+      Store clean cashmere folded rather than hanging.
+      Use breathable storage bags or containers and protect
+      garments from moths. Avoid storing cashmere while
+      damp or soiled.
+    </p>
+  </section>
+
+  <section id="cotton-care" class="content-section">
+    <h2>8. Cotton & Fine Cotton Fabrics</h2>
+
+    <p>
+      Cotton is a natural plant fibre used in everyday
+      clothing, shirts, bedding, towels, and household
+      textiles. It is generally durable and versatile,
+      although different weaves, finishes, and garment
+      constructions require different care.
+    </p>
+
+    <h3>Everyday Cotton</h3>
+    <p>
+      T-shirts, casual shirts, cotton trousers, and many
+      everyday garments can be machine washed according
+      to their care labels. Separate colours and avoid
+      excessive heat to help reduce shrinkage and fading.
+    </p>
+
+    <h3>Egyptian Cotton</h3>
+    <p>
+      Egyptian cotton is associated with long cotton fibres
+      used to produce fine textiles. Its softness and
+      durability depend on fibre quality, yarn construction,
+      weave, and manufacturing.
+    </p>
+    <p>
+      Wash Egyptian cotton bedding and garments according
+      to their labels. Avoid excessive detergent and
+      unnecessary high-temperature drying.
+    </p>
+
+    <h3>Percale Cotton</h3>
+    <p>
+      Percale is a closely woven fabric with a crisp,
+      matte finish. It is commonly used in bedding.
+      Wash according to the manufacturer's instructions
+      and avoid excessive fabric conditioner if you want
+      to maintain its crisp feel.
+    </p>
+
+    <h3>Cotton Sateen</h3>
+    <p>
+      Cotton sateen has a smoother, often lustrous surface
+      created by its weave. Use appropriate washing
+      temperatures and avoid harsh treatment that could
+      damage the surface.
+    </p>
+
+    <h3>Preventing Cotton Shrinkage</h3>
+    <p>
+      Excessive heat during washing and drying can cause
+      some cotton garments to shrink. Follow the care
+      label, avoid unnecessary hot washing, and use
+      moderate drying temperatures where permitted.
+    </p>
+  </section>
+
+  <section id="dress-shirt-care" class="content-section">
+    <h2>9. Dress Shirts & Tailored Clothing</h2>
+
+    <p>
+      Dress shirts are often made from fine cotton, cotton
+      blends, linen, or other woven fabrics. A well-cared-for
+      shirt should retain its shape, crisp collar, clean
+      cuffs, and smooth appearance.
+    </p>
+
+    <h3>Preparing Dress Shirts</h3>
+    <ul>
+      <li>Check the care label and fabric composition.</li>
+      <li>Remove collar stays before washing, if removable.</li>
+      <li>Unbutton the shirt, including cuffs.</li>
+      <li>Check collars and cuffs for body oils, cosmetics, and dirt.</li>
+      <li>Separate whites from coloured shirts.</li>
+    </ul>
+
+    <h3>Washing Dress Shirts</h3>
+    <p>
+      Many cotton dress shirts can be machine washed using
+      an appropriate gentle or normal cycle. Fine fabrics,
+      embellished shirts, and shirts with special finishes
+      may require more careful treatment.
+    </p>
+    <p>
+      Use a suitable detergent and avoid excessive amounts
+      of fabric conditioner, which may affect the crisp
+      feel of some shirt fabrics.
+    </p>
+
+    <h3>Collars & Cuffs</h3>
+    <p>
+      Collars and cuffs often collect perspiration, body
+      oils, skin products, and everyday soil. Apply a
+      suitable pre-treatment product according to its
+      directions before washing.
+    </p>
+    <p>
+      Work gently. Aggressive scrubbing can damage the
+      fabric and wear down the collar edges.
+    </p>
+
+    <h3>Whitening White Dress Shirts</h3>
+    <p>
+      White shirts can gradually become dull from body
+      oils, detergent residue, and repeated wear. Use
+      a suitable detergent and, where permitted, an
+      appropriate oxygen-based whitening product.
+    </p>
+    <p>
+      Do not assume chlorine bleach is suitable for every
+      white shirt. It can weaken fibres, damage finishes,
+      and cause yellowing in some circumstances.
+    </p>
+
+    <h3>Ironing Dress Shirts</h3>
+    <p>
+      For a neat finish, iron shirts while slightly damp
+      or use steam where the fabric permits. Follow the
+      iron's fabric settings.
+    </p>
+    <p>
+      A practical ironing sequence is:
+    </p>
+    <ol>
+      <li>Collar: work from the points toward the centre.</li>
+      <li>Cuffs: open and press carefully.</li>
+      <li>Sleeves: align the seams and press smoothly.</li>
+      <li>Shoulders: position the shirt over the narrow end of the ironing board.</li>
+      <li>Front panels: work around buttons carefully.</li>
+      <li>Back: finish with long, smooth strokes.</li>
+    </ol>
+
+    <h3>Storing Dress Shirts</h3>
+    <p>
+      Hang shirts on appropriately sized hangers after
+      they are completely dry. Fasten the top button
+      where useful to help maintain the collar shape.
+      Allow garments room to breathe in the closet.
+    </p>
+
+    <h3>Tailored Suits & Jackets</h3>
+    <p>
+      Suits, structured jackets, and tailored garments
+      often contain internal canvassing, shoulder padding,
+      linings, and specialty fabrics. These garments
+      should generally be maintained according to their
+      care labels, with professional cleaning where
+      required.
+    </p>
+    <p>
+      Between wears, air garments in a ventilated area
+      and use suitable garment brushes to remove surface
+      dust. Avoid unnecessary dry cleaning, which can
+      contribute to fabric wear.
+    </p>
+  </section>
+
+  <section id="linen-care" class="content-section">
+    <h2>10. Linen & Natural Plant Fibres</h2>
+
+    <p>
+      Linen is made from flax fibres and is valued for
+      its natural texture, breathability, and distinctive
+      appearance. It is commonly used in summer clothing,
+      table linens, bedding, and household textiles.
+    </p>
+
+    <h3>Washing Linen</h3>
+    <p>
+      Wash linen according to its care label using a
+      suitable detergent. Avoid overcrowding the machine
+      and use a cycle appropriate for the garment's
+      construction and colour.
+    </p>
+
+    <h3>Drying Linen</h3>
+    <p>
+      Linen can become stiff or excessively wrinkled
+      if dried too aggressively. Air drying or a
+      suitable low-temperature tumble-dry setting
+      can help preserve its appearance.
+    </p>
+
+    <h3>Ironing Linen</h3>
+    <p>
+      Linen is naturally prone to creasing. Ironing
+      while slightly damp can make wrinkles easier
+      to remove. Use the temperature recommended
+      for the fabric and test an inconspicuous area
+      where necessary.
+    </p>
+
+    <h3>Other Natural Plant Fibres</h3>
+    <p>
+      Hemp and other plant-based fibres may also be
+      used in household textiles and clothing.
+      Their washing requirements depend on the
+      weave, dye, finishing, and garment construction.
+    </p>
+  </section>
+
+  <section id="wool-care" class="content-section">
+    <h2>11. Wool & Other Animal Fibres</h2>
+
+    <p>
+      Natural animal fibres include wool, merino,
+      lambswool, alpaca, mohair, and cashmere.
+      They are valued for warmth, softness, and
+      their natural insulating properties.
+    </p>
+
+    <h3>Merino Wool</h3>
+    <p>
+      Merino wool is known for its fine fibres and
+      softness. Some merino garments are machine
+      washable on a wool cycle, while others require
+      hand washing or professional care.
+    </p>
+
+    <h3>Lambswool</h3>
+    <p>
+      Lambswool garments should be handled gently.
+      Use an appropriate wool detergent and avoid
+      agitation, high heat, and hanging wet garments.
+    </p>
+
+    <h3>Alpaca</h3>
+    <p>
+      Alpaca fibres are valued for their softness
+      and warmth. Care requirements vary by garment,
+      but gentle handling and flat drying are often
+      important for preserving shape.
+    </p>
+
+    <h3>Mohair</h3>
+    <p>
+      Mohair has a distinctive lustre and may be
+      used in sweaters, scarves, and other textiles.
+      Follow the garment label carefully, as
+      excessive friction can affect its appearance.
+    </p>
+
+    <h3>Preventing Moth Damage</h3>
+    <p>
+      Clean wool and animal-fibre garments before
+      long-term storage. Store them in clean,
+      dry, protective containers and inspect
+      periodically for signs of insect damage.
+    </p>
+  </section>
+
+  <section id="synthetic-care" class="content-section">
+    <h2>12. Synthetic & Performance Fabrics</h2>
+
+    <p>
+      Synthetic fibres are widely used in everyday
+      clothing, sportswear, outerwear, and technical
+      garments. Common examples include polyester,
+      nylon, acrylic, and elastane.
+    </p>
+
+    <h3>Polyester</h3>
+    <p>
+      Polyester is commonly used in shirts, trousers,
+      dresses, fleece, and household textiles.
+      Wash according to the garment label and
+      avoid excessive heat when drying or ironing.
+    </p>
+
+    <h3>Nylon</h3>
+    <p>
+      Nylon is used in hosiery, outerwear, sportswear,
+      and other durable textiles. Use appropriate
+      washing temperatures and avoid high dryer
+      temperatures that could damage the fibres.
+    </p>
+
+    <h3>Elastane and Spandex</h3>
+    <p>
+      Elastane provides stretch and is often blended
+      with other fibres. High heat and unsuitable
+      chemicals can damage its elasticity.
+      Use gentle washing and avoid excessive
+      tumble-drying heat.
+    </p>
+
+    <h3>Acrylic</h3>
+    <p>
+      Acrylic is commonly used in knitwear and
+      blankets. Follow the garment label and
+      avoid excessive heat, which can distort
+      the fabric.
+    </p>
+
+    <h3>Sportswear & Moisture-Wicking Fabrics</h3>
+    <p>
+      Performance garments are designed to manage
+      moisture, temperature, and movement. Wash
+      them according to manufacturer instructions,
+      often using a suitable sportswear detergent.
+    </p>
+    <p>
+      Avoid fabric softener when it can interfere
+      with moisture-wicking performance. Allow
+      garments to dry thoroughly before storing
+      them.
+    </p>
+
+    <h3>Waterproof & Water-Repellent Clothing</h3>
+    <p>
+      Technical jackets and outdoor clothing may
+      have specialist coatings or membranes.
+      Use detergents specifically approved for
+      the garment and follow the manufacturer's
+      instructions for washing and restoring
+      water repellency.
+    </p>
+  </section>
+
+  <section id="denim-care" class="content-section">
+    <h2>13. Denim & Everyday Clothing</h2>
+
+    <p>
+      Denim is a durable cotton-based fabric that
+      may be blended with elastane or other fibres.
+      Its colour and finish can change with repeated
+      washing, heat, and friction.
+    </p>
+
+    <h3>Washing Jeans</h3>
+    <ul>
+      <li>Wash dark denim inside out.</li>
+      <li>Separate new or deeply dyed garments from light clothing.</li>
+      <li>Use a suitable detergent and cool water where permitted.</li>
+      <li>Avoid unnecessary washing when airing is sufficient.</li>
+      <li>Do not overload the machine.</li>
+    </ul>
+
+    <h3>Drying Denim</h3>
+    <p>
+      Air drying can help preserve the colour and
+      fit of many denim garments. Reshape the jeans
+      while damp and hang or lay them according
+      to the manufacturer's recommendations.
+    </p>
+
+    <h3>Everyday Clothing</h3>
+    <p>
+      T-shirts, casual trousers, blouses, and everyday
+      garments benefit from sorting by colour and
+      fabric type. Turn printed garments inside out
+      and avoid excessive detergent, heat, and
+      unnecessary friction.
+    </p>
+  </section>
+
+  <section id="towels-bedding" class="content-section">
+    <h2>14. Towels & Bedding</h2>
+
+    <h3>Bath Towels</h3>
+    <p>
+      Towels should be washed according to their
+      care labels and allowed to dry completely
+      between uses. Avoid excessive detergent and
+      fabric softener, which can leave residue
+      and reduce absorbency.
+    </p>
+
+    <h3>White Towels</h3>
+    <p>
+      Suitable white cotton towels may be washed
+      with an appropriate detergent and, where
+      permitted, a compatible oxygen-based
+      whitening product.
+    </p>
+
+    <h3>Bed Sheets</h3>
+    <p>
+      Cotton, linen, bamboo-derived, and blended
+      bed sheets can have different washing
+      requirements. Follow the care label and
+      avoid excessive heat that may cause
+      shrinkage or premature wear.
+    </p>
+
+    <h3>Down & Feather Bedding</h3>
+    <p>
+      Down duvets and feather pillows require
+      careful cleaning and thorough drying.
+      Follow the manufacturer's instructions
+      and use a suitable professional cleaning
+      service when required.
+    </p>
+
+    <h3>Mattress Protectors</h3>
+    <p>
+      Mattress protectors may contain waterproof
+      membranes or specialist coatings. Use
+      appropriate washing temperatures and
+      drying methods to protect these materials.
+    </p>
+  </section>
+
+  <section id="stain-removal" class="content-section">
+    <h2>15. Understanding Stain Removal</h2>
+
+    <p>
+      Successful stain removal depends on identifying
+      the substance, the fabric, and the appropriate
+      treatment. Always check garment-care labels
+      and test suitable products before applying
+      them to a visible area.
+    </p>
+
+    <h3>Protein Stains</h3>
+    <p>
+      Blood, egg, milk, and some food stains contain
+      proteins. Avoid starting with hot water,
+      which can set some protein stains. Use an
+      appropriate stain treatment and follow
+      its directions.
+    </p>
+
+    <h3>Oil and Grease</h3>
+    <p>
+      Cooking oil, butter, cosmetics, and oily
+      products can leave greasy marks. A suitable
+      liquid laundry detergent or specialist
+      grease pre-treatment may help on washable
+      fabrics.
+    </p>
+
+    <h3>Grass Stains</h3>
+    <p>
+      Grass stains contain plant pigments and
+      other organic material. Treat with a
+      compatible stain remover or enzyme
+      detergent where suitable for the fabric.
+    </p>
+
+    <h3>Wine and Fruit Stains</h3>
+    <p>
+      Wine, berries, and fruit can leave coloured
+      stains. Blot excess liquid gently and use
+      an appropriate treatment for the garment.
+      Avoid rubbing delicate fabrics.
+    </p>
+
+    <h3>Ink Stains</h3>
+    <p>
+      Ink formulations vary considerably. Identify
+      the type of ink where possible and use a
+      stain treatment approved for the fabric.
+      Some solvents can damage dyes and finishes.
+    </p>
+
+    <h3>Makeup and Cosmetic Stains</h3>
+    <p>
+      Foundation, lipstick, mascara, and other
+      cosmetics may contain oils, pigments,
+      and waxes. Pretreat only with products
+      suitable for the garment and avoid
+      spreading the stain.
+    </p>
+
+    <h3>General Stain-Removal Principles</h3>
+    <ul>
+      <li>Act promptly where possible.</li>
+      <li>Blot rather than aggressively rub.</li>
+      <li>Identify the fabric before selecting a product.</li>
+      <li>Follow the stain remover's instructions.</li>
+      <li>Test colourfastness where appropriate.</li>
+      <li>Check the stain before tumble drying or ironing.</li>
+      <li>Seek professional care for valuable or delicate garments.</li>
+    </ul>
+  </section>
+
+  <section id="ironing-pressing" class="content-section">
+    <h2>16. Ironing, Steaming & Garment Finishing</h2>
+
+    <p>
+      Proper finishing can make a significant difference
+      to the appearance of clothing. Different fibres
+      require different heat settings and techniques.
+    </p>
+
+    <h3>Iron Temperature</h3>
+    <p>
+      Always check the garment label and iron settings.
+      Use lower temperatures for delicate synthetic
+      fabrics and silk, and higher settings only
+      where permitted for suitable cotton and linen.
+    </p>
+
+    <h3>Steam Ironing</h3>
+    <p>
+      Steam can help relax wrinkles in many fabrics.
+      Use the manufacturer's recommended water and
+      steam settings. Avoid applying steam directly
+      to fabrics that may water spot or be damaged
+      by moisture.
+    </p>
+
+    <h3>Garment Steamers</h3>
+    <p>
+      Garment steamers are useful for refreshing
+      many hanging garments and reducing wrinkles.
+      Maintain a safe distance where required
+      and check fabric compatibility.
+    </p>
+
+    <h3>Pressing Delicate Fabrics</h3>
+    <p>
+      Use a clean pressing cloth when recommended.
+      Avoid excessive pressure and never leave
+      a hot iron resting on a garment.
+    </p>
+  </section>
+
+  <section id="drying-methods" class="content-section">
+    <h2>17. Drying & Protecting Garments</h2>
+
+    <h3>Air Drying</h3>
+    <p>
+      Air drying can help reduce heat-related wear
+      and energy use. Choose a well-ventilated
+      location and avoid prolonged direct sunlight
+      on garments that may fade.
+    </p>
+
+    <h3>Flat Drying</h3>
+    <p>
+      Wool, cashmere, and many delicate knits
+      should be reshaped and dried flat when
+      instructed by their care labels. This
+      helps prevent stretching.
+    </p>
+
+    <h3>Tumble Drying</h3>
+    <p>
+      Use the appropriate dryer setting for
+      the fabric. Avoid excessive heat and
+      remove suitable garments promptly to
+      reduce unnecessary creasing.
+    </p>
+
+    <h3>Drying Delicate Garments</h3>
+    <p>
+      Silk, fine wool, cashmere, and delicate
+      garments often require air drying or
+      specialized care. Do not assume a
+      garment is suitable for the dryer
+      simply because it has been machine washed.
+    </p>
+  </section>
+
+  <section id="laundry-storage" class="content-section">
+    <h2>18. Clothing Storage & Preservation</h2>
+
+    <p>
+      Good storage helps protect clothing from
+      dust, moisture, fading, insects, and
+      unnecessary creasing.
+    </p>
+
+    <h3>Everyday Clothing</h3>
+    <p>
+      Ensure garments are clean and completely
+      dry before putting them away. Use suitable
+      hangers for structured garments and fold
+      knitwear to help preserve its shape.
+    </p>
+
+    <h3>Fine Garments</h3>
+    <p>
+      Store silk, cashmere, and other delicate
+      clothing in a clean, dry environment.
+      Avoid overcrowding closets and protect
+      garments from direct sunlight.
+    </p>
+
+    <h3>Seasonal Storage</h3>
+    <p>
+      Before storing winter coats, wool sweaters,
+      or summer clothing, clean them according
+      to their care labels. Use breathable
+      protective storage where appropriate
+      and inspect garments periodically.
+    </p>
+  </section>
+
+  <section id="laundry-equipment" class="content-section">
+    <h2>19. Washing Machines & Laundry Equipment</h2>
+
+    <h3>Washing Machine Cycles</h3>
+    <p>
+      Modern washing machines offer a variety
+      of cycles, including normal, delicate,
+      wool, quick wash, heavy duty, and
+      bedding programs. Select the cycle
+      appropriate for the load and garment
+      care instructions.
+    </p>
+
+    <h3>Washer Maintenance</h3>
+    <ul>
+      <li>Clean the detergent dispenser regularly.</li>
+      <li>Inspect and clean the door seal where applicable.</li>
+      <li>Clean the filter according to the manufacturer's instructions.</li>
+      <li>Use the recommended machine-cleaning cycle.</li>
+      <li>Leave the door open when appropriate to allow the drum to dry.</li>
+      <li>Use the correct detergent and recommended dosage.</li>
+    </ul>
+
+    <h3>Dryer Maintenance</h3>
+    <p>
+      Clean the lint filter after every load and
+      follow the manufacturer's instructions for
+      maintaining vents and other accessible
+      components. Proper maintenance helps
+      support safe and efficient operation.
+    </p>
+  </section>
+
+  <section id="laundry-mistakes" class="content-section">
+    <h2>20. Common Laundry Mistakes to Avoid</h2>
+
+    <ul>
+      <li>Using too much detergent.</li>
+      <li>Overloading the washing machine.</li>
+      <li>Ignoring garment-care labels.</li>
+      <li>Washing delicate fabrics with heavy garments.</li>
+      <li>Using unsuitable bleach on coloured or delicate fabrics.</li>
+      <li>Applying fabric softener to absorbent towels or technical fabrics.</li>
+      <li>Using excessive heat when washing, drying, or ironing.</li>
+      <li>Leaving damp laundry sitting in the washing machine.</li>
+      <li>Putting stained garments into a hot dryer before checking the stain.</li>
+      <li>Storing clothing before it is completely dry.</li>
+      <li>Mixing household cleaning chemicals.</li>
+    </ul>
+
+    <p>
+      A little preparation and an understanding of fabric
+      requirements can help prevent many common laundry
+      problems and extend the life of clothing.
+    </p>
+  </section>
+
+  <section class="content-section">
+    <h2>Explore More Housekeeping Resources</h2>
+    <p>
+      Continue exploring practical information and
+      inspiration for maintaining a beautiful,
+      comfortable, and well-organized home.
+    </p>
+    <p>
+      <a href="/housekeeping/">Good Housekeeping</a> |
+      <a href="/housekeeping/cleaning/">Cleaning & Maintenance</a> |
+      <a href="/housekeeping/organization/">Home Organization</a> |
+      <a href="/housekeeping/home-management/">Home Management</a> |
+      <a href="/resources/home-guides/">Home Guides</a>
+    </p>
   </section>
 </BaseLayout>

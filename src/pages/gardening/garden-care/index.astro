@@ -4,40 +4,801 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
-  title="Gardening | Silken Valley Lifestyle"
-  heroTitle="Gardening"
-  heroText="Garden inspiration, plant care, and beautiful outdoor living."
+  title="Garden Care | Silken Valley Lifestyle"
+  description="Practical gardening advice covering soil preparation, composting, watering, pruning, propagation, pest management, and seasonal garden maintenance."
+  heroTitle="Garden Care"
+  heroText="Practical knowledge and seasonal guidance for maintaining a healthy, beautiful garden."
   heroCompact={true}
 >
-  <section class="hero">
-    <p class="eyebrow">Garden & Outdoor Living</p>
-    <h1>Gardening & Landscape Inspiration</h1>
+  <section class="care-intro">
+    <p class="eyebrow">Garden Maintenance & Practical Advice</p>
+    <h1>Caring for Your Garden Throughout the Year</h1>
+
     <p>
-      Discover gardening techniques, seasonal planting ideas,
-      garden design inspiration, and practical advice for
-      creating beautiful outdoor spaces.
+      A beautiful garden requires thoughtful care, regular
+      attention, and an understanding of the natural
+      environment. Healthy soil, appropriate watering,
+      careful pruning, and seasonal maintenance all
+      contribute to a thriving outdoor space.
+    </p>
+
+    <p>
+      Whether tending a small courtyard, maintaining
+      established borders, or caring for a larger landscape,
+      understanding the fundamentals of garden care helps
+      plants flourish and keeps the garden looking its best
+      throughout the seasons.
     </p>
   </section>
 
-  <section class="grid">
-    <a class="card" href="/gardening/garden-design/">
-      <h3>Garden Design</h3>
-      <p>Historic gardens, landscape styles, and garden planning.</p>
-    </a>
+  <nav class="care-nav" aria-label="Garden care sections">
+    <a href="#soil">Soil & Compost</a>
+    <a href="#watering">Watering</a>
+    <a href="#mulching">Mulching</a>
+    <a href="#pruning">Pruning</a>
+    <a href="#propagation">Propagation</a>
+    <a href="#pests">Pests & Diseases</a>
+    <a href="#weeds">Weed Management</a>
+    <a href="#seasonal">Seasonal Care</a>
+    <a href="#okanagan">Okanagan Gardening</a>
+  </nav>
 
-    <a class="card" href="/gardening/flowers/">
-      <h3>Flowers & Perennials</h3>
-      <p>Flower varieties, planting combinations, and seasonal colour.</p>
-    </a>
+  <section class="care-section" id="soil">
+    <p class="eyebrow">The Foundation of a Healthy Garden</p>
+    <h2>Soil Preparation & Improvement</h2>
 
-    <a class="card" href="/gardening/trees-shrubs/">
-      <h3>Trees & Shrubs</h3>
-      <p>Choosing, planting, and maintaining trees and shrubs.</p>
-    </a>
+    <p>
+      Healthy soil is one of the most important elements
+      of successful gardening. It provides plants with
+      physical support, water, air, and essential nutrients.
+      Understanding the structure and condition of your soil
+      helps determine which improvements may be beneficial.
+    </p>
 
-    <a class="card" href="/gardening/garden-care/">
-      <h3>Garden Care</h3>
-      <p>Soil, watering, pruning, and seasonal maintenance.</p>
-    </a>
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Understanding Soil Types</h3>
+        <p>
+          Garden soils commonly contain different proportions
+          of sand, silt, and clay. Sandy soils drain quickly,
+          while clay soils retain more water. Loam combines
+          these particles in proportions that often provide
+          favourable growing conditions.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Improving Soil Structure</h3>
+        <p>
+          Organic matter can improve soil structure, encourage
+          beneficial organisms, and help regulate moisture.
+          Incorporate suitable compost into planting areas
+          when preparing or improving garden beds.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Soil Testing</h3>
+        <p>
+          A soil test can provide useful information about
+          pH, nutrient levels, and potential deficiencies.
+          Testing helps avoid unnecessary fertilizer
+          applications and guides appropriate amendments.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Soil pH</h3>
+        <p>
+          Soil pH influences the availability of nutrients
+          to plants. Some plants prefer acidic conditions,
+          while others grow best in neutral or slightly
+          alkaline soils. Select plants suited to your
+          existing soil whenever possible.
+        </p>
+      </article>
+    </div>
   </section>
+
+  <section class="care-section" id="compost">
+    <p class="eyebrow">Recycling Organic Garden Materials</p>
+    <h2>Composting & Organic Matter</h2>
+
+    <p>
+      Composting transforms suitable garden and kitchen
+      materials into a valuable soil amendment. It is a
+      practical way to recycle organic matter while
+      supporting a healthy garden ecosystem.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Green Materials</h3>
+        <p>
+          Green materials provide nitrogen and include
+          fresh grass clippings, vegetable scraps, fruit
+          peelings, and fresh plant trimmings.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Brown Materials</h3>
+        <p>
+          Brown materials provide carbon and include
+          dry leaves, straw, untreated shredded cardboard,
+          and small woody garden materials.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Maintaining a Compost Pile</h3>
+        <p>
+          Combine green and brown materials, maintain
+          suitable moisture, and turn the pile periodically
+          to encourage airflow and decomposition.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Using Finished Compost</h3>
+        <p>
+          Mature compost is dark, crumbly, and earthy
+          smelling. Add it to garden beds, use it as a
+          soil amendment, or apply a thin layer around
+          established plants.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="watering">
+    <p class="eyebrow">Moisture & Plant Health</p>
+    <h2>Watering the Garden</h2>
+
+    <p>
+      Water is essential for plant growth, nutrient
+      transport, and photosynthesis. The correct watering
+      routine depends on plant species, soil type, weather,
+      exposure, and the stage of plant establishment.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Deep Watering</h3>
+        <p>
+          Thorough watering encourages roots to grow
+          deeper into the soil. Water slowly enough to
+          allow moisture to penetrate the root zone
+          rather than running off the surface.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Drip Irrigation</h3>
+        <p>
+          Drip irrigation delivers water close to plant
+          roots. It can reduce evaporation and help
+          provide consistent moisture to flower borders,
+          vegetable gardens, and shrub beds.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Watering at the Right Time</h3>
+        <p>
+          Early morning is generally a good time to water.
+          It allows moisture to reach the roots before
+          the heat of the day and reduces prolonged
+          overnight leaf wetness.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Recognizing Water Stress</h3>
+        <p>
+          Wilting, leaf curling, dry soil, and premature
+          leaf drop may indicate insufficient moisture.
+          Yellowing leaves and persistently wet soil
+          can indicate overwatering or poor drainage.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="mulching">
+    <p class="eyebrow">Protecting the Soil</p>
+    <h2>Mulching & Ground Cover</h2>
+
+    <p>
+      Mulch is applied to the soil surface to conserve
+      moisture, moderate soil temperatures, suppress
+      weeds, and improve the appearance of garden beds.
+      Organic mulches gradually decompose and contribute
+      organic matter to the soil.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Organic Mulch</h3>
+        <p>
+          Shredded bark, wood chips, compost, leaf mould,
+          and straw are common organic mulches. Choose
+          materials appropriate for the planting area
+          and the plants being grown.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Decorative Stone</h3>
+        <p>
+          Gravel and decorative stone can provide a
+          long-lasting surface covering, particularly
+          in dry garden designs. Stone does not improve
+          soil organic matter and may increase soil
+          temperatures in exposed areas.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Applying Mulch</h3>
+        <p>
+          Apply an even layer over the soil surface.
+          Keep mulch away from the stems of perennials
+          and the trunks of trees and shrubs to avoid
+          excessive moisture against plant tissue.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Living Ground Covers</h3>
+        <p>
+          Low-growing plants can cover bare soil,
+          soften pathways, reduce exposed ground,
+          and provide an attractive alternative to
+          traditional mulch in suitable locations.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="pruning">
+    <p class="eyebrow">Shape, Structure & Plant Health</p>
+    <h2>Pruning Trees, Shrubs & Perennials</h2>
+
+    <p>
+      Pruning helps maintain plant health, encourage
+      suitable growth, remove damaged material, and
+      preserve the intended shape of trees and shrubs.
+      Different plants require different pruning
+      techniques and timing.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Pruning Deciduous Trees</h3>
+        <p>
+          Remove dead, damaged, and crossing branches
+          where appropriate. Young trees benefit from
+          developing a strong structure, while established
+          trees generally require careful, limited pruning.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Pruning Flowering Shrubs</h3>
+        <p>
+          Understand whether a shrub flowers on old
+          wood or new growth. Spring-flowering shrubs
+          often benefit from pruning after flowering,
+          while many summer-flowering shrubs can be
+          pruned during dormancy or early spring.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Rose Pruning</h3>
+        <p>
+          Remove dead or damaged canes and shape plants
+          according to their rose type. Modern bush roses,
+          climbing roses, and old garden roses each have
+          different pruning requirements.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Perennial Maintenance</h3>
+        <p>
+          Remove spent flowers to encourage continued
+          flowering in suitable varieties. Cut back
+          foliage according to plant requirements and
+          leave selected seed heads for winter interest
+          and wildlife.
+        </p>
+      </article>
+    </div>
+
+    <p class="care-note">
+      Always use clean, sharp pruning tools. Avoid
+      unnecessary topping of trees and excessive removal
+      of healthy branches.
+    </p>
+  </section>
+
+  <section class="care-section" id="propagation">
+    <p class="eyebrow">Growing New Plants</p>
+    <h2>Plant Propagation</h2>
+
+    <p>
+      Propagation allows gardeners to increase their
+      plant collections, replace older plants, and
+      share favourite varieties. Different methods
+      are suited to different plant groups.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Growing from Seed</h3>
+        <p>
+          Seeds are an economical way to grow annuals,
+          vegetables, and many perennials. Successful
+          germination depends on suitable temperature,
+          moisture, light, and sowing depth.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Stem Cuttings</h3>
+        <p>
+          Cuttings can produce new plants from sections
+          of healthy stems. Depending on the species,
+          cuttings may be taken from softwood, semi-ripe,
+          or hardwood growth.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Division</h3>
+        <p>
+          Many herbaceous perennials can be divided
+          into smaller sections. This helps rejuvenate
+          overcrowded clumps and creates additional
+          plants for the garden.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Layering</h3>
+        <p>
+          Layering encourages roots to develop on a
+          stem while it remains attached to the parent
+          plant. Once established, the rooted section
+          can be separated and planted independently.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Bulbs & Offsets</h3>
+        <p>
+          Many bulbs naturally produce offsets or
+          smaller bulbs around the original plant.
+          These can often be separated and replanted
+          when dormant.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Transplanting Young Plants</h3>
+        <p>
+          Handle young plants carefully, protect their
+          roots from drying out, and water thoroughly
+          after transplanting to help them establish.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="pests">
+    <p class="eyebrow">Protecting Garden Health</p>
+    <h2>Pest & Disease Management</h2>
+
+    <p>
+      Healthy gardens depend on maintaining a balance
+      between plants, beneficial organisms, and the
+      surrounding environment. Regular observation
+      helps identify potential problems before they
+      become severe.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Identifying Garden Pests</h3>
+        <p>
+          Aphids, spider mites, caterpillars, slugs,
+          and other pests can damage leaves, flowers,
+          stems, and roots. Examine plants regularly
+          for feeding damage and unusual growth.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Beneficial Insects</h3>
+        <p>
+          Lady beetles, lacewings, hoverflies, and
+          other beneficial insects help control
+          certain garden pests. Flowering plants
+          provide food and habitat for these helpful
+          garden visitors.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Common Plant Diseases</h3>
+        <p>
+          Fungal diseases, powdery mildew, leaf spots,
+          and root problems can affect garden plants.
+          Appropriate spacing, airflow, good drainage,
+          and suitable watering practices help reduce
+          many disease problems.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Integrated Pest Management</h3>
+        <p>
+          Monitor plants, identify the actual problem,
+          encourage natural predators, and use physical
+          or cultural controls first. If a pesticide
+          is necessary, select an appropriate product
+          and follow its label directions carefully.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="weeds">
+    <p class="eyebrow">Maintaining Healthy Garden Beds</p>
+    <h2>Weed Management</h2>
+
+    <p>
+      Weeds compete with garden plants for water,
+      nutrients, sunlight, and growing space.
+      Regular maintenance helps prevent weeds
+      from becoming established and spreading.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Hand Weeding</h3>
+        <p>
+          Remove weeds while they are young and before
+          they produce seeds. Where possible, remove
+          the roots of perennial weeds to prevent
+          regrowth.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Mulch & Ground Cover</h3>
+        <p>
+          Covering bare soil with suitable mulch or
+          established ground-cover plants can reduce
+          the space available for weed germination.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Preventing Weed Spread</h3>
+        <p>
+          Remove seed heads before they mature and
+          clean garden tools when moving between
+          areas where invasive weeds may be present.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Garden Bed Maintenance</h3>
+        <p>
+          Regularly inspect borders, pathways, and
+          planting areas. Consistent small maintenance
+          tasks are generally easier than allowing
+          weeds to become established.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="seasonal">
+    <p class="eyebrow">A Year of Gardening</p>
+    <h2>Seasonal Garden Maintenance</h2>
+
+    <p>
+      Each season brings different gardening tasks.
+      A seasonal routine helps keep plants healthy,
+      maintain garden structure, and prepare the
+      landscape for changing weather conditions.
+    </p>
+
+    <div class="season-grid">
+      <article class="season-card">
+        <h3>Spring</h3>
+        <ul>
+          <li>Clear winter debris from garden beds.</li>
+          <li>Prepare soil and add suitable compost.</li>
+          <li>Divide appropriate herbaceous perennials.</li>
+          <li>Plant suitable trees, shrubs, and flowers.</li>
+          <li>Inspect irrigation systems.</li>
+          <li>Apply mulch where needed.</li>
+        </ul>
+      </article>
+
+      <article class="season-card">
+        <h3>Summer</h3>
+        <ul>
+          <li>Monitor soil moisture and water deeply.</li>
+          <li>Deadhead flowering plants where appropriate.</li>
+          <li>Harvest vegetables and herbs regularly.</li>
+          <li>Monitor for pests and plant diseases.</li>
+          <li>Remove weeds before they set seed.</li>
+          <li>Maintain pathways and garden edges.</li>
+        </ul>
+      </article>
+
+      <article class="season-card">
+        <h3>Autumn</h3>
+        <ul>
+          <li>Plant suitable spring-flowering bulbs.</li>
+          <li>Plant trees and shrubs where conditions permit.</li>
+          <li>Collect leaves for composting or leaf mould.</li>
+          <li>Remove diseased plant material.</li>
+          <li>Protect vulnerable plants as necessary.</li>
+          <li>Prepare irrigation systems for winter.</li>
+        </ul>
+      </article>
+
+      <article class="season-card">
+        <h3>Winter</h3>
+        <ul>
+          <li>Inspect trees and shrubs for storm damage.</li>
+          <li>Protect vulnerable plants from harsh weather.</li>
+          <li>Clean and maintain garden tools.</li>
+          <li>Review the previous growing season.</li>
+          <li>Plan new garden beds and planting combinations.</li>
+          <li>Order seeds and prepare for spring.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-section" id="okanagan">
+    <p class="eyebrow">Gardening in a Dry Summer Climate</p>
+    <h2>Garden Care in the Okanagan</h2>
+
+    <p>
+      Gardening in the Okanagan requires an understanding
+      of hot, dry summers, seasonal rainfall, local soil
+      conditions, and winter temperature fluctuations.
+      Good garden management helps conserve water while
+      maintaining healthy and attractive planting areas.
+    </p>
+
+    <div class="care-grid">
+      <article class="care-card">
+        <h3>Water Conservation</h3>
+        <p>
+          Use drip irrigation, water deeply when needed,
+          group plants according to their water requirements,
+          and apply suitable mulch to reduce evaporation.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Choosing Suitable Plants</h3>
+        <p>
+          Select plants suited to local hardiness,
+          sunlight, soil conditions, and available
+          irrigation. Once established, many adapted
+          plants require less supplemental water.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Soil Improvement</h3>
+        <p>
+          Organic matter can improve soil structure
+          and water retention. Use compost and other
+          appropriate amendments according to soil
+          conditions and plant requirements.
+        </p>
+      </article>
+
+      <article class="care-card">
+        <h3>Summer Garden Maintenance</h3>
+        <p>
+          Monitor newly planted trees and shrubs,
+          inspect irrigation coverage, remove weeds,
+          and pay attention to signs of heat or
+          moisture stress.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="care-closing">
+    <p class="eyebrow">A Garden to Enjoy for Years to Come</p>
+    <h2>The Rewards of Good Garden Care</h2>
+    <p>
+      A well-maintained garden is the result of many
+      thoughtful decisions made throughout the year.
+      By caring for the soil, understanding plant needs,
+      conserving water, and maintaining a seasonal
+      routine, gardeners can create outdoor spaces
+      that remain healthy, welcoming, and beautiful.
+    </p>
+  </section>
+
 </BaseLayout>
+
+<style>
+  .care-intro {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .care-intro > p:not(.eyebrow) {
+    color: var(--muted);
+    line-height: 1.85;
+  }
+
+  .care-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .65rem;
+    margin: 0 auto 2.5rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+  }
+
+  .care-nav a {
+    display: inline-block;
+    padding: .5rem .9rem;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--accent-dark);
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .care-nav a:hover {
+    background: var(--accent);
+    color: #ffffff;
+  }
+
+  .care-section {
+    margin: 0 0 2rem;
+    padding: 2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(90, 50, 65, .04);
+    scroll-margin-top: 1.5rem;
+  }
+
+  .care-section h2,
+  .care-closing h2 {
+    color: var(--accent-dark);
+    margin-top: .25rem;
+  }
+
+  .care-section > p:not(.eyebrow) {
+    line-height: 1.85;
+  }
+
+  .care-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .care-card {
+    padding: 1.2rem;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .care-card h3 {
+    margin-top: 0;
+    color: var(--accent-dark);
+  }
+
+  .care-card p {
+    color: var(--muted);
+    margin-bottom: 0;
+    line-height: 1.75;
+  }
+
+  .care-note {
+    margin-top: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--rose-wash);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    line-height: 1.75;
+  }
+
+  .season-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .season-card {
+    padding: 1.4rem;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .season-card h3 {
+    margin-top: 0;
+    color: var(--accent-dark);
+  }
+
+  .season-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+    line-height: 1.8;
+    color: var(--muted);
+  }
+
+  .season-card li {
+    margin-bottom: .4rem;
+  }
+
+  .care-closing {
+    margin: 2rem 0 1rem;
+    padding: 2rem;
+    text-align: center;
+    background: var(--rose-wash);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+
+  .care-closing p:last-child {
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--muted);
+    line-height: 1.85;
+  }
+
+  @media (max-width: 700px) {
+    .care-section {
+      padding: 1.25rem;
+    }
+
+    .care-grid,
+    .season-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .care-nav {
+      gap: .5rem;
+      padding: 1rem;
+    }
+
+    .care-nav a {
+      font-size: .85rem;
+    }
+
+    .care-closing {
+      padding: 1.5rem;
+    }
+  }
+</style>

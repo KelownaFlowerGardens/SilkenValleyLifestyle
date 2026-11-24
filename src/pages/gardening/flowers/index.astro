@@ -302,6 +302,27 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       with trees and larger landscape features.
     </p>
 
+<section class="garden-external">
+  <p class="eyebrow">Explore Further</p>
+  <h2>Discover More About Roses</h2>
+
+  <p>
+    If you would like to explore roses further, discover
+    additional inspiration, rose varieties, and beautiful
+    garden ideas at Kelowna Flower Gardens.
+  </p>
+
+  <a
+    class="garden-external-link"
+    href="https://www.kelownaflowergardens.com/Roses"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Visit Kelowna Flower Gardens – Roses
+  </a>
+</section>
+
+
     <div class="flower-grid">
       <article class="flower-card">
         <h3>Hybrid Tea Roses</h3>
@@ -691,4 +712,47 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       padding: 1.5rem;
     }
   }
+
+.garden-external {
+  margin: 2rem 0 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: var(--rose-wash);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.garden-external h2 {
+  color: var(--accent-dark);
+  margin-top: .25rem;
+}
+
+.garden-external p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.garden-external-link {
+  display: inline-block;
+  padding: .75rem 1.5rem;
+  background: var(--accent);
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .2s ease;
+}
+
+.garden-external-link:hover {
+  background: var(--accent-dark);
+}
+
+@media (max-width: 700px) {
+  .garden-external {
+    padding: 1.5rem;
+  }
+}
+
 </style>

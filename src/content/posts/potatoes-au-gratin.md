@@ -54,7 +54,7 @@ Layers of thinly sliced potato baked in cream, butter, garlic, thyme, and cheese
       target="_blank"
       rel="sponsored nofollow noopener"
     >
-      Cast-Iron Skillet on Amazon
+      Cast-Iron Skillet 
     </a>
   </p>
 </div>

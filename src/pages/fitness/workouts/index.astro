@@ -1,55 +1,179 @@
 
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout
   title="Workouts | Silken Valley Lifestyle"
+  description="Explore strength training, cardio, home workouts, and low-impact exercise routines for an active lifestyle."
   heroTitle="Workouts"
-  heroText="Exercise routines, strength training, and inspiration for an active lifestyle."
+  heroText="Movement, strength, and vitality for a healthier and more active lifestyle."
   heroCompact={true}
 >
   <section class="hero">
     <p class="eyebrow">Fitness & Active Living</p>
     <h1>Workouts & Exercise Routines</h1>
     <p>
-      Discover practical workout ideas, exercise routines,
-      strength-building activities, and ways to incorporate
-      regular movement into your everyday life.
+      Discover practical workout ideas and exercise routines
+      designed to support strength, endurance, flexibility,
+      and everyday wellbeing. From energizing cardio sessions
+      to convenient home workouts, find inspiration to make
+      movement a regular part of your lifestyle.
     </p>
   </section>
 
-  <section class="grid">
-    <a class="card" href="/fitness/workouts/strength-training/">
-      <h3>Strength Training</h3>
-      <p>Build strength through resistance exercises and structured routines.</p>
+  <section class="workout-grid">
+    <a class="workout-card" href="/fitness/workouts/strength-training/">
+      <span class="workout-number">01</span>
+      <h2>Strength Training</h2>
+      <p>
+        Build strength and improve muscular endurance through
+        resistance exercises, weights, and structured routines.
+      </p>
+      <span class="workout-link">Explore Strength Training →</span>
     </a>
 
-    <a class="card" href="/fitness/workouts/cardio/">
-      <h3>Cardio Workouts</h3>
-      <p>Improve cardiovascular fitness and endurance.</p>
+    <a class="workout-card" href="/fitness/workouts/cardio/">
+      <span class="workout-number">02</span>
+      <h2>Cardio Workouts</h2>
+      <p>
+        Improve cardiovascular fitness and stamina through
+        walking, jogging, running, cycling, and other aerobic activities.
+      </p>
+      <span class="workout-link">Explore Cardio Workouts →</span>
     </a>
 
-    <a class="card" href="/fitness/workouts/home/">
-      <h3>Home Workouts</h3>
-      <p>Convenient exercise routines you can do at home.</p>
+    <a class="workout-card" href="/fitness/workouts/home/">
+      <span class="workout-number">03</span>
+      <h2>Home Workouts</h2>
+      <p>
+        Enjoy convenient exercise routines that can be
+        performed at home, with or without equipment.
+      </p>
+      <span class="workout-link">Explore Home Workouts →</span>
     </a>
 
-    <a class="card" href="/fitness/workouts/low-impact/">
-      <h3>Low-Impact Exercise</h3>
-      <p>Gentle movement and exercise with reduced joint impact.</p>
+    <a class="workout-card" href="/fitness/workouts/low-impact/">
+      <span class="workout-number">04</span>
+      <h2>Low-Impact Exercise</h2>
+      <p>
+        Discover gentler movement options that develop
+        fitness while reducing repetitive impact on the joints.
+      </p>
+      <span class="workout-link">Explore Low-Impact Exercise →</span>
     </a>
   </section>
 
-  <section class="latest">
+  <section class="latest workout-note">
+    <p class="eyebrow">A Balanced Approach</p>
     <h2>Building a Consistent Fitness Routine</h2>
     <p>
-      A balanced fitness routine combines regular movement,
-      appropriate exercise intensity, rest, and recovery.
-      Explore different activities and develop habits that
-      support long-term health and physical wellbeing.
+      A balanced fitness routine combines cardiovascular
+      activity, strength development, flexibility, rest,
+      and recovery. Start at a comfortable level, progress
+      gradually, and choose activities that you enjoy.
+      Consistency is often more valuable than intensity.
     </p>
   </section>
 
-  <p><a href="/fitness/">← Return to Fitness</a></p>
+  <p class="workout-back">
+    <a href="/fitness/">← Return to Fitness</a>
+  </p>
 </BaseLayout>
+
+<style>
+  .workout-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin: 35px 0;
+  }
+
+  .workout-card {
+    display: block;
+    padding: 30px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    text-decoration: none;
+    color: var(--text);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .workout-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  }
+
+  .workout-number {
+    display: inline-block;
+    color: var(--accent-dark);
+    font-size: 0.85rem;
+    letter-spacing: 0.14em;
+    margin-bottom: 15px;
+  }
+
+  .workout-card h2 {
+    font-family: Georgia, serif;
+    font-size: 1.65rem;
+    font-weight: 500;
+    margin: 0 0 13px;
+    color: var(--text);
+  }
+
+  .workout-card p {
+    color: var(--muted);
+    line-height: 1.75;
+    margin: 0 0 20px;
+  }
+
+  .workout-link {
+    display: inline-block;
+    color: var(--accent-dark);
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+
+  .workout-note {
+    margin-top: 40px;
+    padding: 30px;
+    background: var(--rose-wash);
+    border-radius: 18px;
+  }
+
+  .workout-note h2 {
+    font-family: Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 10px 0 15px;
+  }
+
+  .workout-note p:last-child {
+    line-height: 1.8;
+    color: var(--muted);
+  }
+
+  .workout-back {
+    margin-top: 30px;
+  }
+
+  .workout-back a {
+    color: var(--accent-dark);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .workout-back a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 700px) {
+    .workout-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .workout-card {
+      padding: 24px;
+    }
+  }
+</style>

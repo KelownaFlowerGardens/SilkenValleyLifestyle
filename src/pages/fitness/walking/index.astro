@@ -430,4 +430,71 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       gap: 5px;
     }
   }
+
+.walking-equipment {
+  margin: 40px 0;
+  padding: 30px;
+  background: var(--rose-wash);
+  border-radius: 18px;
+}
+
+.walking-equipment > .eyebrow {
+  color: var(--accent-dark);
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.walking-equipment h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.walking-equipment > p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.walking-product {
+  margin-top: 22px;
+  padding: 25px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.walking-product h3 {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.walking-product p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.walking-product-button {
+  display: inline-block;
+  padding: 13px 25px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background 0.25s ease,
+              transform 0.25s ease;
+}
+
+.walking-product-button:hover {
+  background: var(--accent-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 </style>

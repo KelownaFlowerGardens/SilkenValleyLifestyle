@@ -80,12 +80,89 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     </p>
   </section>
 
-  <section class="latest">
-    <h2>Stay Connected</h2>
-    <p>
-      Thank you for visiting Silken Valley Lifestyle.
-      We appreciate your interest and look forward to connecting
-      with you.
-    </p>
-  </section>
+
+<section class="latest stay-connected">
+  <h2>Stay Connected</h2>
+  <p>
+    Thank you for visiting Silken Valley Lifestyle.
+    We appreciate your interest and invite you to explore
+    our websites and follow along on Instagram.
+  </p>
+
+  <div class="social-links">
+    <a
+      href="https://www.kelownaflowergardens.com/Home"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social-button"
+    >
+      Kelowna Flower Gardens
+    </a>
+
+    <a
+      href="https://www.instagram.com/kelownaflowergardens/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social-button"
+    >
+      Instagram – Kelowna Flower Gardens
+    </a>
+
+    <a
+      href="https://www.instagram.com/fragrances.house.rose/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social-button"
+    >
+      Instagram – House Rose de Eau de Parfum
+    </a>
+  </div>
+</section>
+
+
+/* Stay Connected Social Buttons */
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.social-button {
+  display: inline-block;
+  padding: 12px 22px;
+  background: var(--accent);
+  color: #ffffff;
+  border: 1px solid var(--accent);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.social-button:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 600px) {
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+
 </BaseLayout>

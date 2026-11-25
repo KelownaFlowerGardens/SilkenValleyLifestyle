@@ -166,4 +166,60 @@ target="_blank"
       <p>Understanding behaviour and encouraging good habits.</p>
     </a>
   </section>
+
+<style>
+  .affiliate-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 26px;
+    margin-top: 12px;
+    background: var(--accent);
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    transition: background 0.25s ease,
+                border-color 0.25s ease,
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+  }
+
+  .affiliate-button:hover {
+    background: var(--accent-dark);
+    border-color: var(--accent-dark);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
+  }
+
+  .affiliate-button:focus-visible {
+    outline: 3px solid var(--accent-light);
+    outline-offset: 3px;
+  }
+
+  .affiliate-card .affiliate-button {
+    margin-top: 10px;
+  }
+
+  .affiliate-recommendation .affiliate-button {
+    margin-left: 8px;
+  }
+
+  @media (max-width: 700px) {
+    .affiliate-button {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .affiliate-recommendation .affiliate-button {
+      margin-left: 0;
+    }
+  }
+</style>
+
 </BaseLayout>

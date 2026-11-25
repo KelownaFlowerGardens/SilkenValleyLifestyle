@@ -178,26 +178,39 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
     </div>
   </section>
 
-<div class="fitness-affiliate">
-  <h3>Retrospec Solana Thick Yoga Mat</h3>
 
+<section class="stretch-equipment">
+  <p class="eyebrow">Recommended Equipment</p>
+  <h2>Create a Comfortable Stretching Space</h2>
   <p>
-    Enjoy a comfortable and supportive surface for yoga,
-    stretching, and flexibility exercises. The thick
-    cushioning provides extra comfort during floor
-    exercises, gentle stretching routines, and everyday
-    movement. A practical addition to any home fitness space.
+    A comfortable exercise mat can make stretching,
+    yoga, and floor-based mobility exercises more
+    enjoyable. Add a practical surface to your home
+    fitness space for everyday movement and flexibility.
   </p>
 
-  <a
-    class="fitness-affiliate-button"
-    href="https://www.amazon.ca/Retrospec-Solana-Thick-Nylon-Strap/dp/B092XTMNCC?crid=2UW8CIYJ9CPTJ&dib=eyJ2IjoiMSJ9.5DtF2_A1HxAgocOpy5G0ipPBRlxCZRX9fngRyqIXfZT2q7UCY1Tp0x-jfGKwRMNIgYOJqUomtIJLYZoBYDqbNe9X85zG20JwtpJu9aOE-QWKF7cKMl2XXqMLa8LkMSBQWBb2tprzThACS8yg738kZbx-VBu2MLCyddgFXhhAhN5HywL54yaDBII-tqkbHoqLanFY13QyeYcq9QC5ONWx9XsogEzFDH1bbSNfNqHwtSEUByQFZNX6AdeioNdf68U-BQ_hf0hWVois6F8g2a-HcgBAiNcnyfmrdXMnLnc6pIM.eIY1Hh9T6vu4bXuxLrcUHx-7A0H14hsF3owV7AoKfS4&dib_tag=se&keywords=yoga%2Bmat&qid=1795632699&sprefix=yoga%2Bmat%2Caps%2C220&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=silkenvalleyl-20&linkId=062c6d76c9dec8861e9a0645498c6c5c&gaOptInStatus=true&ref_=as_li_ss_tl"
-    target="_blank"
-    rel="sponsored nofollow noopener"
-  >
-    Shop the Retrospec Yoga Mat
-  </a>
-</div>
+  <div class="stretch-product">
+    <h3>Thick Yoga Mat</h3>
+
+    <p>
+      Enjoy a comfortable and supportive surface for yoga,
+      stretching, and flexibility exercises. The thick
+      cushioning provides extra comfort during floor
+      exercises, gentle stretching routines, and everyday
+      movement. A practical addition to any home fitness space.
+    </p>
+
+    <a
+      class="stretch-product-button"
+      href="https://www.amazon.ca/Retrospec-Solana-Thick-Nylon-Strap/dp/B092XTMNCC?crid=2UW8CIYJ9CPTJ&dib=eyJ2IjoiMSJ9.5DtF2_A1HxAgocOpy5G0ipPBRlxCZRX9fngRyqIXfZT2q7UCY1Tp0x-jfGKwRMNIgYOJqUomtIJLYZoBYDqbNe9X85zG20JwtpJu9aOE-QWKF7cKMl2XXqMLa8LkMSBQWBb2tprzThACS8yg738kZbx-VBu2MLCyddgFXhhAhN5HywL54yaDBII-tqkbHoqLanFY13QyeYcq9QC5ONWx9XsogEzFDH1bbSNfNqHwtSEUByQFZNX6AdeioNdf68U-BQ_hf0hWVois6F8g2a-HcgBAiNcnyfmrdXMnLnc6pIM.eIY1Hh9T6vu4bXuxLrcUHx-7A0H14hsF3owV7AoKfS4&dib_tag=se&keywords=yoga%2Bmat&qid=1795632699&sprefix=yoga%2Bmat%2Caps%2C220&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&gaOptInStatus=true&linkCode=ll2&tag=silkenvalleyl-20&linkId=624fcf85aa8e1a236a28c52f1e818777&gaOptInStatus=true&ref_=as_li_ss_tl"
+      target="_blank"
+      rel="sponsored nofollow noopener"
+    >
+      Shop Yoga Mat
+    </a>
+  </div>
+</section>
+
   <section class="stretch-note">
     <h2>Stretch Comfortably & Consistently</h2>
     <p>
@@ -407,4 +420,71 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
       gap: 5px;
     }
   }
+
+.stretch-equipment {
+  margin: 40px 0;
+  padding: 30px;
+  background: var(--rose-wash);
+  border-radius: 18px;
+}
+
+.stretch-equipment > .eyebrow {
+  color: var(--accent-dark);
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.stretch-equipment h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.stretch-equipment > p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.stretch-product {
+  margin-top: 22px;
+  padding: 25px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.stretch-product h3 {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.stretch-product p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.stretch-product-button {
+  display: inline-block;
+  padding: 13px 25px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background 0.25s ease,
+              transform 0.25s ease;
+}
+
+.stretch-product-button:hover {
+  background: var(--accent-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 </style>

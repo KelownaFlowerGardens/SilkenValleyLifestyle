@@ -444,5 +444,72 @@ import BaseLayout from '../../../../layouts/BaseLayout.astro';
       gap: 5px;
     }
   }
+
+.low-impact-equipment {
+  margin: 40px 0;
+  padding: 30px;
+  background: var(--rose-wash);
+  border-radius: 18px;
+}
+
+.low-impact-equipment > .eyebrow {
+  color: var(--accent-dark);
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.low-impact-equipment h2 {
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.low-impact-equipment > p:not(.eyebrow) {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.low-impact-product {
+  margin-top: 22px;
+  padding: 25px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.low-impact-product h3 {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.low-impact-product p {
+  color: var(--muted);
+  line-height: 1.8;
+  margin-bottom: 22px;
+}
+
+.low-impact-product-button {
+  display: inline-block;
+  padding: 13px 25px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background 0.25s ease,
+              transform 0.25s ease;
+}
+
+.low-impact-product-button:hover {
+  background: var(--accent-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 </style>
 

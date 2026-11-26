@@ -1,5 +1,5 @@
 ---
-title: "Crock Pot Sirloin Tip Roast"
+title: "Sirloin Tip Roast"
 description: "A comforting slow-cooker beef roast with potatoes, carrots, and savoury au jus."
 pubDate: 2026-11-26
 category:
@@ -8,10 +8,9 @@ category:
 draft: false
 ---
 
-# Sirloin Tip Roast
 
 A hearty, hands-off dinner with tender sirloin tip roast, baby potatoes, carrots, and a savoury broth. 
-## Recipe Details
+## Recipe 
 
 - **Prep time:** 10 minutes
 - **Cook time:** 5-6 hours on High

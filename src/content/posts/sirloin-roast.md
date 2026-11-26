@@ -20,7 +20,7 @@ A hearty, hands-off dinner with tender sirloin tip roast, baby potatoes, carrots
 
 ## Ingredients
 
-- 3 lb (about 1.4 kg) sirloin tip roast, fully thawed, with twine removed
+- 3 lb sirloin tip roast, fully thawed, with twine removed
 - 1 lb russet potatoes
 - 2 cups diced carrots
 - 2 small yellow onion, sliced into rings
